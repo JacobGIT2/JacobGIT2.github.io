@@ -28,4 +28,5 @@ const display_page="display.html?num=";
 // 不能带/不然出错
 function jump(num){
     window.location.href=display_page+num;
+    // get方法访问display.html
 }

@@ -4,7 +4,10 @@ const api_url="http://127.0.0.1:5000/";
 
 window.onload=()=>{
     let fruits=document.getElementById("fruit-display");
-    let num=location.search | 1;//默认为1
+    let num=location.search.slice(5);//商品编号
+    if(!num && num!==0)
+        num=1;//默认为1
+    // 通过location.search获取get字符串内容
 
     fetch(api_url+"display/?num="+num).then(
         res=>res.json()
