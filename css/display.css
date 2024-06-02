@@ -1,0 +1,50 @@
+img{
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+}
+@media (min-width:600px) {
+    #fruit-display{
+        margin-top: 90px;
+        display: flex;
+        justify-content: center;
+    }
+    img{
+        width: 600px;
+        height: 450px;
+    }
+}
+
+input{
+    appearance: none ;
+    outline: 0;
+    padding: 0 4px;
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 30px;
+    width: 30%;
+}
+.descriptions{
+    padding: 50px;
+}
+label{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    height: 30px;
+    padding: 20px
+}
+
+.but-file{
+    margin: 30px 5px;
+    outline: 0;
+    border: none;
+    border-radius: 5px;
+    background: orange;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
