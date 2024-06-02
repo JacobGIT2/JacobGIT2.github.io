@@ -1,125 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ch">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>果真-实现水果自由</title>
-    <style>
-        /* 标题 */
-        .title{
-            margin: auto;
-            padding: 5%;
-
-            border-radius: 5px;
-            border: 1px solid transparent;
-            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-
-            background: url("jpg/fruit-background.jpg");
-            background-repeat:no-repeat;
-            background-size: 100% ;
-        }
-        .title{
-            margin: auto;
-            color: white;
-            text-align: center;
-            padding: 0;
-        }
-        .title h1{
-            font-size: 70px;
-            margin: 2% auto 1%;
-        }
-        /* 新品上市 */
-        .new-arrivals a{
-            display: inline-block;
-            padding: 5px;
-            color: white;
-            font-size: 30px;
-            text-decoration: none;
-            text-align: center;
-            border-bottom: 1px solid white;
-        }
-        @media screen and (max-width:600px) {
-            /* 手机用户为主 */
-            .title h1{
-                font-size: 15px;
-            }
-            .new-arrivals a{
-                font-size: 15px;
-            }
-        }
-
-        /* 展示水果 */
-        #fruits{
-            display: flex;
-            flex-wrap: wrap;
-            align-items: first baseline;
-            justify-content: space-around;
-            align-content: space-between;
-
-            margin-top: 20px;
-        }
-        .fruit-choice{
-            /* 每一种水果对应的框 */
-            width: 25%;
-            border: 1px solid transparent;
-            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-            
-            margin: 5px; /*不然换行的时候上下两行会贴在一起*/
-        }
-        .fruit-choice img{
-            width: 100%;
-        }
-        .fruit-choice span{
-            /* 价格 */
-            color: rgba(178, 201, 67, 1);
-        }
-        .subtitle, .fruit-name, .price{
-            color: rgb(68,68,68);
-            text-align: center;
-        }
-        .but-buy{
-            width: 50%;
-            height: 35px;
-            margin: auto;
-
-            border: none;
-            border-radius: 5px;
-            background: rgba(178, 201, 67, 1);
-            color: white;
-
-            text-align: center;
-            line-height: 35px;
-        }
-        @media screen and (max-width:600px) {
-            /* 手机用户 */
-            .fruit-choice{
-                width: 45%;
-                /* 暂定手机版一行两个水果 */
-                border: 1px solid transparent;
-                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-                
-            }
-            /* .fruit-name{
-                font-weight: 500;
-            } */
-            .subtitle{
-                font-size: 20px;
-            }
-            .but-buy{
-                width: 70%;
-                height: 25px;
-                line-height: 25px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="main.js"></script>
 </head>
 <body>
+    
     <div class="title">
         <h1>果真-实现水果自由</h1>
-        <div class="new-arrivals">
-            <a href="#fruits">新品果盒</a>
-        </div>
+        <header>
+            <!-- 电脑导航栏 -->
+            <ul>
+                <li><a href="">购物车</a></li>
+                <li><a href="">送货地点</a></li>
+            </ul>
+        </header>
     </div>
+    
     <h1 class="subtitle">-&nbsp;果品&nbsp;-</h1>
     <div id="fruits">
         <!-- 可以考虑拿JS自动生成 -->
@@ -128,21 +28,28 @@
             <img src="jpg/橙子.jpeg" alt="">
             <h4 class="fruit-name">山东橙子</h4>
             <p class="price">价格 <span>￥20</span></p>
-            <div class="but-buy">购买</div>
+            <div class="but-buy" onclick="jump(0);">购买</div>
             <!-- 加入onclick事件！ -->
         </div>
         <div class="fruit-choice">
             <img src="jpg/苹果.jpeg" alt="">
             <h4 class="fruit-name">红富士苹果</h4>
             <p class="price">价格 <span>￥20</span></p>
-            <div class="but-buy">购买</div>
+            <div class="but-buy" onclick="jump(1);">购买</div>
         </div>
         <div class="fruit-choice">
             <img src="jpg/菠萝.jpeg" alt="">
             <h4 class="fruit-name">台湾凤梨</h4>
             <p class="price">价格 <span>￥35</span></p>
-            <div class="but-buy">购买</div>
+            <div class="but-buy" onclick="jump(2);">购买</div>
         </div>
     </div>
+    <footer>
+        <!-- 手机导航栏 -->
+        <ul>
+            <li><a href="">购物车</a></li>
+            <li><a href="">送货地点</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
