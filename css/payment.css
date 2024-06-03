@@ -1,0 +1,22 @@
+p, h1, h2, h3, h4{
+    text-align: center;
+}
+.subtitle{
+    margin: 50px auto;
+}
+.but-pay{
+    margin: auto;
+    outline: 0;
+    border: none;
+    border-radius: 5px;
+    background: orange;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    width: 90%;
+    text-align: center;
+}
+.product{
+    display: flex;
+    justify-content: space-around;
+}
