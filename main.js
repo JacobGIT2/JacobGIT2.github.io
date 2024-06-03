@@ -1,7 +1,8 @@
 // 1.从后端API获得商品条目
 // 2.统计购物-localstorage
 
-const api_url="http://124.71.201.17:8084/api/";
+// const api_url="http://124.71.201.17:8084/api/";
+const api_url="http://127.0.0.1:5000/";
 
 window.onload=()=>{
     let fruits=document.getElementById("fruits");
