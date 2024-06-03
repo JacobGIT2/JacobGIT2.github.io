@@ -29,4 +29,4 @@ def display_product():
     return jsonify(target)
 
 
-app.run(port="127.0.0.1:9300")
+app.run(port=9300)  # 按需求修改
