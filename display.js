@@ -1,6 +1,6 @@
 // 展示商品页面
 // 从后端获取商品名
-const api_url="http://127.0.0.1:5000/";
+const api_url="http://124.71.201.17:8084/api/";
 let product, num=location.search.slice(5);//商品编号
 
 window.onload=()=>{

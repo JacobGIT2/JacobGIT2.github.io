@@ -1,4 +1,11 @@
 /* 通用样式：标题 footer 价格 */
+
+/* 去除边距，不然会难看 */
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
 /* 标题 */
 .title{
     margin: auto;
@@ -76,4 +83,7 @@ footer{
 span{
     /* 价格 */
     color: rgba(178, 201, 67, 1);
+}
+.sep{
+    height: 200px;
 }
