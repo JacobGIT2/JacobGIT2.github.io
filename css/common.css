@@ -1,0 +1,89 @@
+/* 通用样式：标题 footer 价格 */
+
+/* 去除边距，不然会难看 */
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+/* 标题 */
+.title{
+    margin: auto;
+    padding: 5%;
+
+    border-radius: 5px;
+    border: 1px solid transparent;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    background: url("../jpg/fruit-background.jpg");
+    background-repeat:no-repeat;
+    background-size: 100% ;
+}
+/* 电脑导航栏 手机版放在底下 */
+ul{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    display: inline-block;
+    padding: 8px 20px;
+}
+li>a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+}
+.title{
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding: 0;
+}
+.title h1{
+    font-size: 60px;
+    margin: 2% auto 1%;
+}
+footer{
+    display: none;
+}
+@media screen and (max-width:600px) {
+    /* 手机用户为主 */
+    .title h1{
+        font-size: 30px;
+    }
+    footer{
+        /* 底部导航栏 */
+        display: block;
+        width: 100%;
+
+        position: fixed;
+        bottom: 0;
+
+        background: url("../jpg/fruit-background.jpg");
+        background-repeat:no-repeat;
+        background-size: 100% ;
+    }
+    header{
+        display: none;
+    }
+    li>a{
+        height: 40px;
+        line-height: 40px;
+    }
+}
+
+span{
+    /* 价格 */
+    color: rgba(178, 201, 67, 1);
+}
+.sep{
+    height: 200px;
+}
