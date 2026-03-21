@@ -1,0 +1,457 @@
+/* === Reset & Base === */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #333;
+  background: #fff;
+}
+
+a {
+  color: #2c5282;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* === Container === */
+.container {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* === Navbar === */
+.navbar {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  border-bottom: 1px solid #e2e8f0;
+  z-index: 100;
+  padding: 12px 0;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1a202c;
+}
+
+.nav-title:hover {
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+.nav-links a {
+  color: #4a5568;
+  font-size: 0.9rem;
+}
+
+.nav-links a:hover {
+  color: #2c5282;
+  text-decoration: none;
+}
+
+.nav-toggle-checkbox {
+  display: none;
+}
+
+.nav-toggle-label {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.nav-toggle-label span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: #333;
+  transition: 0.3s;
+}
+
+/* === Sections === */
+.section {
+  padding: 48px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.section:last-child {
+  border-bottom: none;
+}
+
+.section-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #1a202c;
+  margin-bottom: 24px;
+}
+
+/* === Hero / About === */
+.hero {
+  padding: 56px 0 48px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.hero-inner {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.hero-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.hero-info h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 4px;
+}
+
+.hero-info .tagline {
+  color: #718096;
+  font-size: 1rem;
+  margin-bottom: 12px;
+}
+
+.hero-info .bio {
+  margin-bottom: 16px;
+  color: #4a5568;
+}
+
+.hero-links {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.hero-links a {
+  font-size: 0.9rem;
+  padding: 6px 14px;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  color: #4a5568;
+  transition: border-color 0.2s;
+}
+
+.hero-links a:hover {
+  border-color: #2c5282;
+  color: #2c5282;
+  text-decoration: none;
+}
+
+/* === News === */
+.news-list {
+  list-style: none;
+}
+
+.news-list li {
+  padding: 6px 0;
+  display: flex;
+  gap: 16px;
+}
+
+.news-date {
+  color: #718096;
+  font-size: 0.9rem;
+  min-width: 90px;
+  flex-shrink: 0;
+}
+
+/* === Cards (projects, blog) === */
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card {
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 20px;
+  transition: border-color 0.2s;
+}
+
+.card:hover {
+  border-color: #cbd5e0;
+}
+
+.card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+
+.card h3 a {
+  color: #1a202c;
+}
+
+.card h3 a:hover {
+  color: #2c5282;
+  text-decoration: none;
+}
+
+.card p {
+  color: #4a5568;
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tag {
+  display: inline-block;
+  background: #edf2f7;
+  color: #4a5568;
+  font-size: 0.78rem;
+  padding: 2px 10px;
+  border-radius: 12px;
+}
+
+/* === Publications === */
+.pub-list {
+  list-style: none;
+}
+
+.pub-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid #f7fafc;
+}
+
+.pub-list li:last-child {
+  border-bottom: none;
+}
+
+.pub-title {
+  font-weight: 600;
+  color: #1a202c;
+}
+
+.pub-venue {
+  color: #718096;
+  font-size: 0.9rem;
+}
+
+.pub-links a {
+  font-size: 0.85rem;
+  margin-right: 12px;
+}
+
+/* === Teaching & Awards === */
+.award-list, .course-list {
+  list-style: none;
+}
+
+.award-list li {
+  padding: 4px 0;
+}
+
+.course-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.course-list li {
+  background: #edf2f7;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  color: #4a5568;
+}
+
+/* === Page Content === */
+.page-content {
+  padding: 48px 0;
+}
+
+.page-content h1 {
+  font-size: 1.6rem;
+  margin-bottom: 32px;
+  color: #1a202c;
+}
+
+/* === Post / Project Detail === */
+.detail-header {
+  margin-bottom: 32px;
+}
+
+.detail-header h1 {
+  font-size: 1.6rem;
+  color: #1a202c;
+  margin-bottom: 8px;
+}
+
+.detail-meta {
+  color: #718096;
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+}
+
+.detail-content {
+  line-height: 1.8;
+}
+
+.detail-content h2 {
+  font-size: 1.25rem;
+  margin: 32px 0 12px;
+  color: #1a202c;
+}
+
+.detail-content h3 {
+  font-size: 1.1rem;
+  margin: 24px 0 8px;
+  color: #1a202c;
+}
+
+.detail-content p {
+  margin-bottom: 16px;
+}
+
+.detail-content ul, .detail-content ol {
+  margin-bottom: 16px;
+  padding-left: 24px;
+}
+
+.detail-content li {
+  margin-bottom: 4px;
+}
+
+.detail-content code {
+  background: #f7fafc;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+.detail-content pre {
+  background: #f7fafc;
+  padding: 16px;
+  border-radius: 6px;
+  overflow-x: auto;
+  margin-bottom: 16px;
+}
+
+.detail-content pre code {
+  padding: 0;
+  background: none;
+}
+
+.detail-content img {
+  border-radius: 6px;
+  margin: 16px 0;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 32px;
+  font-size: 0.9rem;
+  color: #718096;
+}
+
+.back-link:hover {
+  color: #2c5282;
+}
+
+.view-all {
+  display: inline-block;
+  margin-top: 16px;
+  font-size: 0.9rem;
+}
+
+/* === Footer === */
+.site-footer {
+  padding: 32px 0;
+  text-align: center;
+  color: #a0aec0;
+  font-size: 0.85rem;
+  border-top: 1px solid #f0f0f0;
+}
+
+/* === Placeholder === */
+.placeholder-text {
+  color: #a0aec0;
+  font-style: italic;
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+  .nav-toggle-label {
+    display: flex;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    gap: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-bottom: 1px solid #e2e8f0;
+    padding: 8px 24px;
+  }
+
+  .nav-toggle-checkbox:checked ~ .nav-links {
+    display: flex;
+  }
+
+  .nav-links li {
+    padding: 8px 0;
+  }
+
+  .hero-inner {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-links {
+    justify-content: center;
+  }
+
+  .hero-photo {
+    width: 130px;
+    height: 130px;
+  }
+}

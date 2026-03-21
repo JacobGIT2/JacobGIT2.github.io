@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="container page-content">
+  <div class="detail-header">
+    <h1>{{ page.title }}</h1>
+    <div class="detail-meta">
+      {% if page.github %}<a href="{{ page.github }}">GitHub</a> &middot; {% endif %}
+      {{ page.date | date: "%B %Y" }}
+    </div>
+    {% if page.tags.size > 0 %}
+    <div class="tags">
+      {% for tag in page.tags %}
+      <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+  <div class="detail-content">
+    {{ content }}
+  </div>
+  <a href="{{ '/projects/' | relative_url }}" class="back-link">&larr; Back to Projects</a>
+</div>

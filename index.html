@@ -1,0 +1,131 @@
+---
+layout: default
+---
+
+<!-- About -->
+<section class="hero" id="about">
+  <div class="container">
+    <div class="hero-inner">
+      <img src="{{ '/assets/img/placeholder.svg' | relative_url }}" alt="Jacob Gong" class="hero-photo">
+      <div class="hero-info">
+        <h1>Jacob Gong</h1>
+        <p class="tagline">CS Researcher at Columbia University</p>
+        <p class="bio">
+          I am a Computer Science student at Columbia University, working as a Research Assistant at the
+          <a href="https://www.creativemachineslab.com/">Creative Machine Lab</a>.
+          My research interests span robotics, computer vision, and GPU simulation,
+          with a focus on soft robot co-design, world models, and 3D reconstruction.
+        </p>
+        <div class="hero-links">
+          <a href="mailto:yuwenggong2c@gmail.com">Email</a>
+          <a href="https://github.com/JacobGIT2">GitHub</a>
+          <a href="https://www.linkedin.com/in/yuwen-gong-1b8a33290/">LinkedIn</a>
+          <a href="{{ '/CV.pdf' | relative_url }}">CV (PDF)</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- News -->
+<section class="section" id="news">
+  <div class="container">
+    <h2 class="section-title">News</h2>
+    <ul class="news-list">
+      {% for item in site.data.news %}
+      <li>
+        <span class="news-date">{{ item.date }}</span>
+        <span>{{ item.text }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<!-- Projects -->
+<section class="section" id="projects">
+  <div class="container">
+    <h2 class="section-title">Projects</h2>
+    <div class="card-list">
+      {% assign sorted_projects = site.projects | sort: 'date' | reverse %}
+      {% for project in sorted_projects limit:4 %}
+      <div class="card">
+        <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+        <p>{{ project.excerpt_text }}</p>
+        {% if project.tags.size > 0 %}
+        <div class="tags">
+          {% for tag in project.tags %}
+          <span class="tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+    <a href="{{ '/projects/' | relative_url }}" class="view-all">View all projects &rarr;</a>
+  </div>
+</section>
+
+<!-- Publications -->
+<section class="section" id="publications">
+  <div class="container">
+    <h2 class="section-title">Publications</h2>
+    {% if site.data.publications.size > 0 %}
+    <ul class="pub-list">
+      {% for pub in site.data.publications %}
+      <li>
+        <span class="pub-title">{{ pub.title }}</span><br>
+        {{ pub.authors }}<br>
+        <span class="pub-venue">{{ pub.venue }}, {{ pub.year }}</span>
+        <div class="pub-links">
+          {% if pub.url %}<a href="{{ pub.url }}">Paper</a>{% endif %}
+          {% if pub.pdf %}<a href="{{ pub.pdf }}">PDF</a>{% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p class="placeholder-text">Coming soon.</p>
+    {% endif %}
+  </div>
+</section>
+
+<!-- Blog -->
+<section class="section" id="blog">
+  <div class="container">
+    <h2 class="section-title">Recent Posts</h2>
+    {% if site.posts.size > 0 %}
+    <div class="card-list">
+      {% for post in site.posts limit:3 %}
+      <div class="card">
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <div class="detail-meta">{{ post.date | date: "%B %-d, %Y" }}</div>
+        <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+      </div>
+      {% endfor %}
+    </div>
+    <a href="{{ '/blog/' | relative_url }}" class="view-all">View all posts &rarr;</a>
+    {% else %}
+    <p class="placeholder-text">No posts yet. Check back soon!</p>
+    {% endif %}
+  </div>
+</section>
+
+<!-- Teaching & Awards -->
+<section class="section" id="awards">
+  <div class="container">
+    <h2 class="section-title">Awards &amp; Coursework</h2>
+    <h3 style="font-size: 1rem; color: #4a5568; margin-bottom: 12px;">Awards</h3>
+    <ul class="award-list">
+      {% for award in site.data.teaching.awards %}
+      <li><strong>{{ award.title }}</strong> — {{ award.institution }}</li>
+      {% endfor %}
+    </ul>
+    <h3 style="font-size: 1rem; color: #4a5568; margin-top: 24px; margin-bottom: 4px;">Selected Coursework</h3>
+    <ul class="course-list">
+      {% for course in site.data.teaching.coursework %}
+      <li>{{ course }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<div class="container page-content">
+  <div class="detail-header">
+    <h1>{{ page.title }}</h1>
+    <div class="detail-meta">{{ page.date | date: "%B %-d, %Y" }}</div>
+    {% if page.tags.size > 0 %}
+    <div class="tags">
+      {% for tag in page.tags %}
+      <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+  <div class="detail-content">
+    {{ content }}
+  </div>
+  <a href="{{ '/blog/' | relative_url }}" class="back-link">&larr; Back to Blog</a>
+</div>

@@ -1,0 +1,21 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+<div class="container page-content">
+  <h1>Blog</h1>
+  {% if site.posts.size > 0 %}
+  <div class="card-list">
+    {% for post in site.posts %}
+    <div class="card">
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <div class="detail-meta">{{ post.date | date: "%B %-d, %Y" }}</div>
+      <p>{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+    </div>
+    {% endfor %}
+  </div>
+  {% else %}
+  <p class="placeholder-text">No posts yet. Check back soon!</p>
+  {% endif %}
+</div>

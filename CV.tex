@@ -1,0 +1,173 @@
+%------------------------
+% Latex CV Template for COS Northeastern University Faculty
+% Author: Zoe Kearney
+
+% Formatting: https://www.overleaf.com/latex/templates/coles-resume-template/qhpynjcvjpcj
+
+% Follows: Template Dossier Documents, Office of the Provost, Northeastern; July 1, 2025 version (https://provost.northeastern.edu/faculty-affairs/). 
+
+%Disclaimer: This template is intended to complement Northeastern University’s dossier guidelines for tenure and promotion cases, as well as discipline-specific CV standards.
+
+% License: LaTeX Project Public License 1.3c
+%------------------------
+
+% Document class and font size
+\documentclass[a4paper,9pt]{extarticle}
+
+% Packages
+\usepackage[utf8]{inputenc} % For input encoding
+\usepackage{geometry} % For page margins
+\geometry{a4paper, margin=1in} % Set paper size and margins
+\usepackage{titlesec} % For section title formatting
+\usepackage{enumitem} % For itemized list formatting
+\usepackage{hyperref} % For hyperlinks
+\usepackage{lipsum} % For filler text
+\usepackage{changepage} %For Indenting
+\usepackage{enumitem} %For shortten line space
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{hyperref}
+
+% Formatting
+\setlist{noitemsep} % Removes item separation
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule] % Section title format
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip} % Section title spacing
+\newenvironment{subs} %Indenting
+  {\adjustwidth{2em}{0pt}}
+  {\endadjustwidth}
+
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+% Begin document
+\begin{document}
+
+% Disable page numbers
+\pagestyle{empty}
+
+% Header
+\begin{center}
+    \textbf{\Large Jacob Gong }\\[3pt]
+    Address: NYC \hspace{1.5em} 
+    \faEnvelope\ \href{mailto:yuwenggong2c@gmail.com}{yuwenggong2c@gmail.com} \hspace{1.5em} 
+    \faPhone\ 646-512-1792 \\[4pt]
+    
+    \faGlobe\ \href{https://jacobgit2.github.io/}{Personal Page} \hspace{3em} 
+    \faGithub\ \href{https://github.com/JacobGIT2}{GitHub} \hspace{3em} 
+    \faLinkedin\ \href{https://www.linkedin.com/in/yuwen-gong-1b8a33290/}{LinkedIn}
+\end{center}
+
+%------------------------
+% Education and Employment Section
+\section*{EDUCATION}
+    \textbf{\Large Columbia University} \hfill \textit{Aug 2025 - Present}\\
+    \textit{BA in Computer Science} \\
+    \vspace{2pt}
+    \noindent
+    \begin{tabular}{@{$\circ$\hspace{0.5em}} l}
+        GPA: 4.26/4.33 \\
+        Coursework: Advanced Programming, Project in MECH ENG\\
+    \end{tabular}
+
+    \noindent
+    \newline
+    \textbf{\Large City University of Hong Kong} \hfill \textit{Aug 2023 - June 2025}\\
+    \textit{BS in Computer Science} \\
+    \vspace{2pt}
+    \noindent
+    \begin{tabular}{@{$\circ$\hspace{0.5em}} l}
+        iGPA: 3.90/4.0 (top 7\%) \\
+        Coursework: Computational Probability Modeling, Advanced Algorithms, Software Design, Machine Learning \\
+        \textbf{Dean's List}: All Semesters
+    \end{tabular}
+    
+\section*{RESEARCH \& JOB EXPERIENCE}
+    \textbf{\Large Research Assistant} \\
+    \textbf{Creative Machine Lab} @Columbia University \hfill \textit{Aug 2025 - present}\\
+    \vspace{2pt}
+    \noindent
+    \begin{tabular}{@{$\circ$\hspace{0.5em}} l}
+        Track: Robotics, Computer Vision, GPU Simulation \\
+        Skills: \textbf{Model Implementation \& Optimization}, Supervised Fine Tuning, Reinforcement Learning, Data Synthesis,\\
+        \hspace{2.8em} Mass-Spring Physics, NEAT/CPPN, Taichi Lang, NVIDIA Warp, Reverse-Mode AD\\
+        Results:
+        \parbox[t]{0.8\textwidth}
+        {Add vision modality into \href{https://arxiv.org/pdf/2412.05507}{a robot self model pipeline}; \\
+        Exploiting fine-grained segmentation in preliminary vision stage; \\
+        Built two GPU-accelerated frameworks for joint morphology--control co-optimization of voxel-based soft robots (see Projects)}
+    \end{tabular}
+    
+    \noindent
+    \newline
+    \textbf{Distributed and Mobile Sensing Computing Group} @City University of HK \hfill \textit{Jan 2025 - Aug 2025}\\
+    \vspace{2pt}
+    \noindent
+    \begin{tabular}{@{$\circ$\hspace{0.5em}} l}
+        Track: Edge AI \\
+        Skills:  Robust Server Implementation, Policy Design\\
+        Results: Design \& Develop mixed inference middleware for edge inference (lowered 98.82\% memory usage \& 7.32\% latency)
+    \end{tabular}
+
+%------------------------
+% Publications Section
+\section*{PROJECTS}
+    \textbf{\Large Voxel-Based Soft Robot Co-Design} \\
+    \href{https://jacobgit2.github.io/}{see personal page}\\
+    \vspace{2pt}
+    \noindent
+    \begin{tabular}{@{$\circ$\hspace{0.5em}} l}
+        Track: Robotics, GPU Simulation, Evolutionary Optimization \\
+        Skills: Mass-Spring Physics, NEAT, CPPN, Taichi Lang, NVIDIA Warp, Reverse-Mode AD (wp.Tape) \\
+        Results \& Findings:
+        \parbox[t]{0.85\textwidth}
+        {Built two GPU-accelerated frameworks for \textbf{joint morphology--control co-optimization} of voxel-based soft robots;
+        \textbf{Diff-CoDesign} (Taichi): NEAT-evolved CPPNs decode 10$^3$ voxel morphologies with 5 material types;
+        batch-evaluated 200 robots/generation across 35$\times$1000-generation runs (7M total evaluations, mean fitness 1.33);
+        \textbf{VoxelCoDesign} (Warp): re-engineered physics with a \textbf{zero-atomic-operation, two-pass gather architecture},
+        enabling deterministic gradients via wp.Tape for hybrid evolutionary + gradient-based co-design;
+        Achieved 10.8$\times$ topology build speedup and validated gradient backprop through full physics pipeline;
+        Compared against \textbf{voxJax} (JAX, implicit atomics, 30$\times$ softer stiffness) and
+        \textbf{PhysTwin} (Warp, explicit atomics, single-robot system ID):
+        our atomic-free design trades compilation simplicity for \textbf{determinism and portability}}
+    \end{tabular}
+    \textbf{\Large DriftWorld}\\
+    \href{https://github.com/JacobGIT2/DriftWorld.git}{World Model Framework for Robot Manipulation} \\
+    \vspace{2pt}
+    \noindent
+    \begin{tabular}{@{$\circ$\hspace{0.5em}} l}
+        Track: Generative Models, Robotics, World Models \\
+        Skills: Diffusion Models, Flow Matching, VAE, \textbf{Drifting Models (novel architecture)}, DiT, SD-VAE, DINOv2 \\
+        Results \& Findings:
+        \parbox[t]{0.85\textwidth}
+        {Built a modular world model framework predicting \textbf{next visual state from (image, action)} for robot manipulation;
+        Implemented and benchmarked \textbf{4 generative architectures} (VAE, DDPM, Flow Matching, Drifting Models)
+        on CALVIN with a shared DiT-S/2 backbone operating in SD-VAE latent space;
+        Trained RL policy in imagination using the world model, demonstrating a
+        \textbf{complete world-model-to-policy pipeline} with zero-shot sim transfer;
+        Drifting Models achieve \textbf{1-step inference} (50$\times$ faster rollouts than diffusion), enabling real-time planning}
+    \end{tabular}
+    \textbf{\Large Task-agnostic Robot Modeling} \\
+    \href{https://github.com/JacobGIT2/TraceAnything/blob/main/Task_agnostic_Robot_Modeling_experiment_record__2025_Fall_.pdf}{Task-agnostic Robot Modeling experiment record(2025 Fall)} \\
+    \vspace{2pt} 
+    \noindent
+    \begin{tabular}{@{$\circ$\hspace{0.5em}} l}
+        Track: Computer Vision, Robotics, 3D Reconstruction \\
+        Skills: Vision Foundation Models (DINO v2), 3D Geometry (VGGT), URDF Modeling, Video Segmentation \\
+        Results \& Findings:
+        \parbox[t]{0.85\textwidth}
+        {Developed a pipeline to \textbf{reconstruct robot URDFs from 2D video}, replacing the need for expensive 3D sensors;
+        Proposed an \textbf{"early-stage mask fusion"} strategy, feeding DEVA-masked images into VGGT to resolve 2D artifacts;
+        Fine-tuned \textbf{DINO v2} on PartNet-Mobility for semantic link-level segmentation and kinematic signature extraction;
+        Conducted \textbf{failure analysis on 4D trajectory fields}, identifying depth jitter as a bottleneck for motion clustering}
+    \end{tabular}
+\section*{SKILLS}
+\begin{tabularx}{\textwidth}{@{$\circ$\hspace{0.5em}} >{\bfseries}l X}
+    Languages: & Python, C++, PyTorch, Taichi Lang, Linux (Ubuntu) \\
+    Comp. Vision: & 3D/4D Reconstruction (VGGT, DUSt3R), Video Object Segmentation (DEVA, SAM), 4D Trajectory Fields \\
+    Deep Learning: & Vision Foundation Models (DINO v2), Diffusion/Flow Matching, World Models, SFT, Transformer (DiT) \\
+    Robotics: & Kinematic Modeling (URDF, SDF, MJCF), Physics Engines (Taichi, NVIDIA Warp, MuJoCo), Model-Based RL \\
+    Robustness: & Failure Case Diagnosis (Depth Jitter), Noise/Artifact Mitigation (Early-stage Mask Fusion)
+\end{tabularx}
+% End document
+\end{document}
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
