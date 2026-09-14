@@ -455,3 +455,40 @@ img {
     height: 130px;
   }
 }
+
+/* === Project media === */
+.detail-content video {
+  display: block;
+  width: 100%;
+  border-radius: 6px;
+  margin: 16px 0 8px;
+  background: #f7fafc;
+}
+
+.detail-content .fig-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: start;
+}
+
+@media (max-width: 640px) {
+  .detail-content .fig-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.detail-content .fig-cap {
+  font-size: 0.9rem;
+  color: #4a5568;
+  line-height: 1.5;
+  margin: 0 0 20px;
+}
+
+.detail-content .status-banner {
+  background: #fffaf0;
+  border-left: 4px solid #ed8936;
+  padding: 10px 14px;
+  border-radius: 4px;
+  font-size: 0.95rem;
+}
