@@ -1,7 +1,0 @@
-{
-  "status": "pass_by_byte_identical_subset_of_independently_decoded_parent",
-  "selected_assets": 423,
-  "parent_audit_sha256": "070adaea5c015fee5e18ae2a08d310368db9716a90bb6a6496a92e7c12aee158",
-  "all_selected_asset_hashes_checked": true,
-  "new_decoding_claimed": false
-}

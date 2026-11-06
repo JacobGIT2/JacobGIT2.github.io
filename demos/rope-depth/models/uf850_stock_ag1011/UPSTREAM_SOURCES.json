@@ -1,0 +1,128 @@
+{
+  "schema": "public-uf850-visual-model.v1",
+  "repository": "https://github.com/xArm-Developer/xarm_ros",
+  "commit": "cf51617d98bc55a88d9aa735acfa43a0bbb8e425",
+  "upstream_model": "UF850 + stock AG1011 / G1 gripper",
+  "urdf": "uf850_stock_ag1011.urdf",
+  "urdf_sha256": "d5696692f880779f2d4a45c4685e63f8047ff43c1cdc57fa6ea8cefdb58b929d",
+  "urdf_is_derived_visual_FK_subset": true,
+  "visual_mesh_count": 14,
+  "arm_visual_meshes": 7,
+  "gripper_visual_meshes": 7,
+  "link_count": 16,
+  "joint_count": 15,
+  "units": "metre/radian",
+  "assets": [
+    {
+      "path": "official_cf51617d98bc/LICENSE",
+      "source_repository_path": "LICENSE",
+      "source_url": "https://raw.githubusercontent.com/xArm-Developer/xarm_ros/cf51617d98bc55a88d9aa735acfa43a0bbb8e425/LICENSE",
+      "sha256": "685e81e0cd30124e24e834ea2bf39bfead4efc9907d021bc9d1ae0f2dcea1431",
+      "bytes": 1538
+    },
+    {
+      "path": "official_cf51617d98bc/xarm_description/meshes/uf850/visual/link_base.stl",
+      "source_repository_path": "xarm_description/meshes/uf850/visual/link_base.stl",
+      "source_url": "https://raw.githubusercontent.com/xArm-Developer/xarm_ros/cf51617d98bc55a88d9aa735acfa43a0bbb8e425/xarm_description/meshes/uf850/visual/link_base.stl",
+      "sha256": "45c7cfc31975142401706ffd93c1a2ad3570fbe19694558c5ce75713ab07b5c7",
+      "bytes": 541184
+    },
+    {
+      "path": "official_cf51617d98bc/xarm_description/meshes/uf850/visual/link1.stl",
+      "source_repository_path": "xarm_description/meshes/uf850/visual/link1.stl",
+      "source_url": "https://raw.githubusercontent.com/xArm-Developer/xarm_ros/cf51617d98bc55a88d9aa735acfa43a0bbb8e425/xarm_description/meshes/uf850/visual/link1.stl",
+      "sha256": "4069840361c2693b5b1147da366d5ba8a49ff7ab2c52fed68e07e04e07786e3f",
+      "bytes": 249384
+    },
+    {
+      "path": "official_cf51617d98bc/xarm_description/meshes/uf850/visual/link2.stl",
+      "source_repository_path": "xarm_description/meshes/uf850/visual/link2.stl",
+      "source_url": "https://raw.githubusercontent.com/xArm-Developer/xarm_ros/cf51617d98bc55a88d9aa735acfa43a0bbb8e425/xarm_description/meshes/uf850/visual/link2.stl",
+      "sha256": "ae2be91a991177f22dd5a12ad6533d982a9fc4f5af4749d70e2b817a312d1ed2",
+      "bytes": 245684
+    },
+    {
+      "path": "official_cf51617d98bc/xarm_description/meshes/uf850/visual/link3.stl",
+      "source_repository_path": "xarm_description/meshes/uf850/visual/link3.stl",
+      "source_url": "https://raw.githubusercontent.com/xArm-Developer/xarm_ros/cf51617d98bc55a88d9aa735acfa43a0bbb8e425/xarm_description/meshes/uf850/visual/link3.stl",
+      "sha256": "c5a1165e86839874e12abf7acfc0b4d5f18607408c326e7d1d1c7c7fb92217c8",
+      "bytes": 270684
+    },
+    {
+      "path": "official_cf51617d98bc/xarm_description/meshes/uf850/visual/link4.stl",
+      "source_repository_path": "xarm_description/meshes/uf850/visual/link4.stl",
+      "source_url": "https://raw.githubusercontent.com/xArm-Developer/xarm_ros/cf51617d98bc55a88d9aa735acfa43a0bbb8e425/xarm_description/meshes/uf850/visual/link4.stl",
+      "sha256": "c816f4c9fae6b038ba7f6e8c7b9804769146e71199cdfe7a1a87179a56973a61",
+      "bytes": 237184
+    },
+    {
+      "path": "official_cf51617d98bc/xarm_description/meshes/uf850/visual/link5.stl",
+      "source_repository_path": "xarm_description/meshes/uf850/visual/link5.stl",
+      "source_url": "https://raw.githubusercontent.com/xArm-Developer/xarm_ros/cf51617d98bc55a88d9aa735acfa43a0bbb8e425/xarm_description/meshes/uf850/visual/link5.stl",
+      "sha256": "cb701fe65fd2f9fa45bbc4080ccd749bc4320ee2b8e7af0fe3e69891abb0a554",
+      "bytes": 147084
+    },
+    {
+      "path": "official_cf51617d98bc/xarm_description/meshes/uf850/visual/link6.stl",
+      "source_repository_path": "xarm_description/meshes/uf850/visual/link6.stl",
+      "source_url": "https://raw.githubusercontent.com/xArm-Developer/xarm_ros/cf51617d98bc55a88d9aa735acfa43a0bbb8e425/xarm_description/meshes/uf850/visual/link6.stl",
+      "sha256": "d031adf90d7254b358ea922f8dfe3308cebec0852ba056e122a34353cc8ea9e3",
+      "bytes": 722484
+    },
+    {
+      "path": "official_cf51617d98bc/xarm_description/meshes/gripper/xarm/base_link.stl",
+      "source_repository_path": "xarm_description/meshes/gripper/xarm/base_link.stl",
+      "source_url": "https://raw.githubusercontent.com/xArm-Developer/xarm_ros/cf51617d98bc55a88d9aa735acfa43a0bbb8e425/xarm_description/meshes/gripper/xarm/base_link.stl",
+      "sha256": "cdaa4cff22f7c9cff05c6a8ed32f94fd2b11a69d37dd97a159ccee2d8dd32f13",
+      "bytes": 1211434
+    },
+    {
+      "path": "official_cf51617d98bc/xarm_description/meshes/gripper/xarm/left_outer_knuckle.stl",
+      "source_repository_path": "xarm_description/meshes/gripper/xarm/left_outer_knuckle.stl",
+      "source_url": "https://raw.githubusercontent.com/xArm-Developer/xarm_ros/cf51617d98bc55a88d9aa735acfa43a0bbb8e425/xarm_description/meshes/gripper/xarm/left_outer_knuckle.stl",
+      "sha256": "501665812b08d67e764390db781e839adc6896a9540301d60adf606f57648921",
+      "bytes": 22284
+    },
+    {
+      "path": "official_cf51617d98bc/xarm_description/meshes/gripper/xarm/left_finger.stl",
+      "source_repository_path": "xarm_description/meshes/gripper/xarm/left_finger.stl",
+      "source_url": "https://raw.githubusercontent.com/xArm-Developer/xarm_ros/cf51617d98bc55a88d9aa735acfa43a0bbb8e425/xarm_description/meshes/gripper/xarm/left_finger.stl",
+      "sha256": "a44756eb72f9c214cb37e61dc209cd7073fdff3e4271a7423476ef6fd090d2d4",
+      "bytes": 242684
+    },
+    {
+      "path": "official_cf51617d98bc/xarm_description/meshes/gripper/xarm/left_inner_knuckle.stl",
+      "source_repository_path": "xarm_description/meshes/gripper/xarm/left_inner_knuckle.stl",
+      "source_url": "https://raw.githubusercontent.com/xArm-Developer/xarm_ros/cf51617d98bc55a88d9aa735acfa43a0bbb8e425/xarm_description/meshes/gripper/xarm/left_inner_knuckle.stl",
+      "sha256": "e8e48692ad26837bb3d6a97582c89784d09948fc09bfe4e5a59017859ff04dac",
+      "bytes": 366284
+    },
+    {
+      "path": "official_cf51617d98bc/xarm_description/meshes/gripper/xarm/right_outer_knuckle.stl",
+      "source_repository_path": "xarm_description/meshes/gripper/xarm/right_outer_knuckle.stl",
+      "source_url": "https://raw.githubusercontent.com/xArm-Developer/xarm_ros/cf51617d98bc55a88d9aa735acfa43a0bbb8e425/xarm_description/meshes/gripper/xarm/right_outer_knuckle.stl",
+      "sha256": "75ca1107d0a42a0f03802a9a49cab48419b31851ee8935f8f1ca06be1c1c91e8",
+      "bytes": 22284
+    },
+    {
+      "path": "official_cf51617d98bc/xarm_description/meshes/gripper/xarm/right_finger.stl",
+      "source_repository_path": "xarm_description/meshes/gripper/xarm/right_finger.stl",
+      "source_url": "https://raw.githubusercontent.com/xArm-Developer/xarm_ros/cf51617d98bc55a88d9aa735acfa43a0bbb8e425/xarm_description/meshes/gripper/xarm/right_finger.stl",
+      "sha256": "c5dee87c7f37baf554b8456ebfe0b3e8ed0b22b8938bd1add6505c2ad6d32c7d",
+      "bytes": 242684
+    },
+    {
+      "path": "official_cf51617d98bc/xarm_description/meshes/gripper/xarm/right_inner_knuckle.stl",
+      "source_repository_path": "xarm_description/meshes/gripper/xarm/right_inner_knuckle.stl",
+      "source_url": "https://raw.githubusercontent.com/xArm-Developer/xarm_ros/cf51617d98bc55a88d9aa735acfa43a0bbb8e425/xarm_description/meshes/gripper/xarm/right_inner_knuckle.stl",
+      "sha256": "b41dd2c2c550281bf78d7cc6fa117b14786700e5c453560a0cb5fd6dfa0ffb3e",
+      "bytes": 366284
+    }
+  ],
+  "limitations": [
+    "Nominal official geometry and kinematics, not individual robot calibration.",
+    "Contains all arm/gripper visual parts and their kinematic chain; inertias, collision geometry and control plugins are omitted.",
+    "Not a complete dynamics, collision-planning or hardware-control model; placeholder limits must not be used as hardware safety limits.",
+    "Fixed gripper pose in this demo uses operator-reported UI89 and nominal drive joint0.761rad; no physical gap metrology."
+  ]
+}

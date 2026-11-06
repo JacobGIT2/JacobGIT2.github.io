@@ -107,7 +107,7 @@
   "frames": [
     {
       "source_index": 711,
-      "image_timestamp_ns": 1793919265575165287,
+      "image_timestamp_ns": "1793919265575165287",
       "time_s": 0.0,
       "original_time_s": 39.973271,
       "levels": {
@@ -134,7 +134,7 @@
     },
     {
       "source_index": 712,
-      "image_timestamp_ns": 1793919265641916287,
+      "image_timestamp_ns": "1793919265641916287",
       "time_s": 0.040022,
       "original_time_s": 40.040022,
       "levels": {
@@ -161,7 +161,7 @@
     },
     {
       "source_index": 713,
-      "image_timestamp_ns": 1793919265708928287,
+      "image_timestamp_ns": "1793919265708928287",
       "time_s": 0.107034,
       "original_time_s": 40.107034,
       "levels": {
@@ -188,7 +188,7 @@
     },
     {
       "source_index": 714,
-      "image_timestamp_ns": 1793919265742394287,
+      "image_timestamp_ns": "1793919265742394287",
       "time_s": 0.1405,
       "original_time_s": 40.1405,
       "levels": {
@@ -215,7 +215,7 @@
     },
     {
       "source_index": 715,
-      "image_timestamp_ns": 1793919265775653287,
+      "image_timestamp_ns": "1793919265775653287",
       "time_s": 0.173759,
       "original_time_s": 40.173759,
       "levels": {
@@ -242,7 +242,7 @@
     },
     {
       "source_index": 716,
-      "image_timestamp_ns": 1793919265809289287,
+      "image_timestamp_ns": "1793919265809289287",
       "time_s": 0.207395,
       "original_time_s": 40.207395,
       "levels": {
@@ -269,7 +269,7 @@
     },
     {
       "source_index": 717,
-      "image_timestamp_ns": 1793919265842665287,
+      "image_timestamp_ns": "1793919265842665287",
       "time_s": 0.240771,
       "original_time_s": 40.240771,
       "levels": {
@@ -296,7 +296,7 @@
     },
     {
       "source_index": 718,
-      "image_timestamp_ns": 1793919265910304287,
+      "image_timestamp_ns": "1793919265910304287",
       "time_s": 0.30841,
       "original_time_s": 40.30841,
       "levels": {
@@ -323,7 +323,7 @@
     },
     {
       "source_index": 719,
-      "image_timestamp_ns": 1793919265942917287,
+      "image_timestamp_ns": "1793919265942917287",
       "time_s": 0.341023,
       "original_time_s": 40.341023,
       "levels": {
@@ -350,7 +350,7 @@
     },
     {
       "source_index": 720,
-      "image_timestamp_ns": 1793919265976542287,
+      "image_timestamp_ns": "1793919265976542287",
       "time_s": 0.374648,
       "original_time_s": 40.374648,
       "levels": {
@@ -377,7 +377,7 @@
     },
     {
       "source_index": 721,
-      "image_timestamp_ns": 1793919266009914287,
+      "image_timestamp_ns": "1793919266009914287",
       "time_s": 0.40802,
       "original_time_s": 40.40802,
       "levels": {
@@ -404,7 +404,7 @@
     },
     {
       "source_index": 722,
-      "image_timestamp_ns": 1793919266110302287,
+      "image_timestamp_ns": "1793919266110302287",
       "time_s": 0.508408,
       "original_time_s": 40.508408,
       "levels": {
@@ -431,7 +431,7 @@
     },
     {
       "source_index": 723,
-      "image_timestamp_ns": 1793919266143799287,
+      "image_timestamp_ns": "1793919266143799287",
       "time_s": 0.541905,
       "original_time_s": 40.541905,
       "levels": {
@@ -458,7 +458,7 @@
     },
     {
       "source_index": 724,
-      "image_timestamp_ns": 1793919266177172287,
+      "image_timestamp_ns": "1793919266177172287",
       "time_s": 0.575278,
       "original_time_s": 40.575278,
       "levels": {
@@ -485,7 +485,7 @@
     },
     {
       "source_index": 725,
-      "image_timestamp_ns": 1793919266311057287,
+      "image_timestamp_ns": "1793919266311057287",
       "time_s": 0.709163,
       "original_time_s": 40.709163,
       "levels": {
@@ -512,7 +512,7 @@
     },
     {
       "source_index": 726,
-      "image_timestamp_ns": 1793919266444803287,
+      "image_timestamp_ns": "1793919266444803287",
       "time_s": 0.842909,
       "original_time_s": 40.842909,
       "levels": {
@@ -539,7 +539,7 @@
     },
     {
       "source_index": 727,
-      "image_timestamp_ns": 1793919266478296287,
+      "image_timestamp_ns": "1793919266478296287",
       "time_s": 0.876402,
       "original_time_s": 40.876402,
       "levels": {
@@ -566,7 +566,7 @@
     },
     {
       "source_index": 728,
-      "image_timestamp_ns": 1793919266511668287,
+      "image_timestamp_ns": "1793919266511668287",
       "time_s": 0.909774,
       "original_time_s": 40.909774,
       "levels": {
@@ -593,7 +593,7 @@
     },
     {
       "source_index": 729,
-      "image_timestamp_ns": 1793919266545177287,
+      "image_timestamp_ns": "1793919266545177287",
       "time_s": 0.943283,
       "original_time_s": 40.943283,
       "levels": {
@@ -620,7 +620,7 @@
     },
     {
       "source_index": 730,
-      "image_timestamp_ns": 1793919266612058287,
+      "image_timestamp_ns": "1793919266612058287",
       "time_s": 1.010164,
       "original_time_s": 41.010164,
       "levels": {
@@ -647,7 +647,7 @@
     },
     {
       "source_index": 731,
-      "image_timestamp_ns": 1793919266645551287,
+      "image_timestamp_ns": "1793919266645551287",
       "time_s": 1.043657,
       "original_time_s": 41.043657,
       "levels": {
@@ -674,7 +674,7 @@
     },
     {
       "source_index": 732,
-      "image_timestamp_ns": 1793919266745920287,
+      "image_timestamp_ns": "1793919266745920287",
       "time_s": 1.144026,
       "original_time_s": 41.144026,
       "levels": {
@@ -701,7 +701,7 @@
     },
     {
       "source_index": 733,
-      "image_timestamp_ns": 1793919266779187287,
+      "image_timestamp_ns": "1793919266779187287",
       "time_s": 1.177293,
       "original_time_s": 41.177293,
       "levels": {
@@ -728,7 +728,7 @@
     },
     {
       "source_index": 734,
-      "image_timestamp_ns": 1793919266812807287,
+      "image_timestamp_ns": "1793919266812807287",
       "time_s": 1.210913,
       "original_time_s": 41.210913,
       "levels": {
@@ -755,7 +755,7 @@
     },
     {
       "source_index": 735,
-      "image_timestamp_ns": 1793919266879686287,
+      "image_timestamp_ns": "1793919266879686287",
       "time_s": 1.277792,
       "original_time_s": 41.277792,
       "levels": {
@@ -782,7 +782,7 @@
     },
     {
       "source_index": 736,
-      "image_timestamp_ns": 1793919266913175287,
+      "image_timestamp_ns": "1793919266913175287",
       "time_s": 1.311281,
       "original_time_s": 41.311281,
       "levels": {
@@ -809,7 +809,7 @@
     },
     {
       "source_index": 737,
-      "image_timestamp_ns": 1793919266946435287,
+      "image_timestamp_ns": "1793919266946435287",
       "time_s": 1.344541,
       "original_time_s": 41.344541,
       "levels": {
@@ -836,7 +836,7 @@
     },
     {
       "source_index": 738,
-      "image_timestamp_ns": 1793919266980051287,
+      "image_timestamp_ns": "1793919266980051287",
       "time_s": 1.378157,
       "original_time_s": 41.378157,
       "levels": {
@@ -863,7 +863,7 @@
     },
     {
       "source_index": 739,
-      "image_timestamp_ns": 1793919267046932287,
+      "image_timestamp_ns": "1793919267046932287",
       "time_s": 1.445038,
       "original_time_s": 41.445038,
       "levels": {
@@ -890,7 +890,7 @@
     },
     {
       "source_index": 740,
-      "image_timestamp_ns": 1793919267080422287,
+      "image_timestamp_ns": "1793919267080422287",
       "time_s": 1.478528,
       "original_time_s": 41.478528,
       "levels": {
@@ -917,7 +917,7 @@
     },
     {
       "source_index": 741,
-      "image_timestamp_ns": 1793919267113807287,
+      "image_timestamp_ns": "1793919267113807287",
       "time_s": 1.511913,
       "original_time_s": 41.511913,
       "levels": {
@@ -944,7 +944,7 @@
     },
     {
       "source_index": 742,
-      "image_timestamp_ns": 1793919267147305287,
+      "image_timestamp_ns": "1793919267147305287",
       "time_s": 1.545411,
       "original_time_s": 41.545411,
       "levels": {
@@ -971,7 +971,7 @@
     },
     {
       "source_index": 743,
-      "image_timestamp_ns": 1793919267214196287,
+      "image_timestamp_ns": "1793919267214196287",
       "time_s": 1.612302,
       "original_time_s": 41.612302,
       "levels": {
@@ -998,7 +998,7 @@
     },
     {
       "source_index": 744,
-      "image_timestamp_ns": 1793919267248315287,
+      "image_timestamp_ns": "1793919267248315287",
       "time_s": 1.646421,
       "original_time_s": 41.646421,
       "levels": {
@@ -1025,7 +1025,7 @@
     },
     {
       "source_index": 745,
-      "image_timestamp_ns": 1793919267280938287,
+      "image_timestamp_ns": "1793919267280938287",
       "time_s": 1.679044,
       "original_time_s": 41.679044,
       "levels": {
@@ -1052,7 +1052,7 @@
     },
     {
       "source_index": 746,
-      "image_timestamp_ns": 1793919267314580287,
+      "image_timestamp_ns": "1793919267314580287",
       "time_s": 1.712686,
       "original_time_s": 41.712686,
       "levels": {
@@ -1079,7 +1079,7 @@
     },
     {
       "source_index": 747,
-      "image_timestamp_ns": 1793919267448334287,
+      "image_timestamp_ns": "1793919267448334287",
       "time_s": 1.84644,
       "original_time_s": 41.84644,
       "levels": {
@@ -1106,7 +1106,7 @@
     },
     {
       "source_index": 748,
-      "image_timestamp_ns": 1793919267481820287,
+      "image_timestamp_ns": "1793919267481820287",
       "time_s": 1.879926,
       "original_time_s": 41.879926,
       "levels": {
@@ -1133,7 +1133,7 @@
     },
     {
       "source_index": 749,
-      "image_timestamp_ns": 1793919267516401287,
+      "image_timestamp_ns": "1793919267516401287",
       "time_s": 1.914507,
       "original_time_s": 41.914507,
       "levels": {
@@ -1160,7 +1160,7 @@
     },
     {
       "source_index": 750,
-      "image_timestamp_ns": 1793919267582190287,
+      "image_timestamp_ns": "1793919267582190287",
       "time_s": 1.980296,
       "original_time_s": 41.980296,
       "levels": {
@@ -1187,7 +1187,7 @@
     },
     {
       "source_index": 751,
-      "image_timestamp_ns": 1793919267615440287,
+      "image_timestamp_ns": "1793919267615440287",
       "time_s": 2.013546,
       "original_time_s": 42.013546,
       "levels": {
@@ -1214,7 +1214,7 @@
     },
     {
       "source_index": 752,
-      "image_timestamp_ns": 1793919267649077287,
+      "image_timestamp_ns": "1793919267649077287",
       "time_s": 2.047183,
       "original_time_s": 42.047183,
       "levels": {
@@ -1241,7 +1241,7 @@
     },
     {
       "source_index": 753,
-      "image_timestamp_ns": 1793919267682444287,
+      "image_timestamp_ns": "1793919267682444287",
       "time_s": 2.08055,
       "original_time_s": 42.08055,
       "levels": {
@@ -1268,7 +1268,7 @@
     },
     {
       "source_index": 754,
-      "image_timestamp_ns": 1793919267715954287,
+      "image_timestamp_ns": "1793919267715954287",
       "time_s": 2.11406,
       "original_time_s": 42.11406,
       "levels": {
@@ -1295,7 +1295,7 @@
     },
     {
       "source_index": 755,
-      "image_timestamp_ns": 1793919267749456287,
+      "image_timestamp_ns": "1793919267749456287",
       "time_s": 2.147562,
       "original_time_s": 42.147562,
       "levels": {
@@ -1322,7 +1322,7 @@
     },
     {
       "source_index": 756,
-      "image_timestamp_ns": 1793919267782698287,
+      "image_timestamp_ns": "1793919267782698287",
       "time_s": 2.180804,
       "original_time_s": 42.180804,
       "levels": {
@@ -1349,7 +1349,7 @@
     },
     {
       "source_index": 757,
-      "image_timestamp_ns": 1793919267816325287,
+      "image_timestamp_ns": "1793919267816325287",
       "time_s": 2.214431,
       "original_time_s": 42.214431,
       "levels": {
@@ -1376,7 +1376,7 @@
     },
     {
       "source_index": 758,
-      "image_timestamp_ns": 1793919267849702287,
+      "image_timestamp_ns": "1793919267849702287",
       "time_s": 2.247808,
       "original_time_s": 42.247808,
       "levels": {
@@ -1403,7 +1403,7 @@
     },
     {
       "source_index": 759,
-      "image_timestamp_ns": 1793919267883201287,
+      "image_timestamp_ns": "1793919267883201287",
       "time_s": 2.281307,
       "original_time_s": 42.281307,
       "levels": {
@@ -1430,7 +1430,7 @@
     },
     {
       "source_index": 760,
-      "image_timestamp_ns": 1793919268050460287,
+      "image_timestamp_ns": "1793919268050460287",
       "time_s": 2.448566,
       "original_time_s": 42.448566,
       "levels": {
@@ -1457,7 +1457,7 @@
     },
     {
       "source_index": 761,
-      "image_timestamp_ns": 1793919268084107287,
+      "image_timestamp_ns": "1793919268084107287",
       "time_s": 2.482213,
       "original_time_s": 42.482213,
       "levels": {
@@ -1484,7 +1484,7 @@
     },
     {
       "source_index": 762,
-      "image_timestamp_ns": 1793919268117214287,
+      "image_timestamp_ns": "1793919268117214287",
       "time_s": 2.51532,
       "original_time_s": 42.51532,
       "levels": {
@@ -1511,7 +1511,7 @@
     },
     {
       "source_index": 763,
-      "image_timestamp_ns": 1793919268150821287,
+      "image_timestamp_ns": "1793919268150821287",
       "time_s": 2.548927,
       "original_time_s": 42.548927,
       "levels": {
@@ -1538,7 +1538,7 @@
     },
     {
       "source_index": 764,
-      "image_timestamp_ns": 1793919268184213287,
+      "image_timestamp_ns": "1793919268184213287",
       "time_s": 2.582319,
       "original_time_s": 42.582319,
       "levels": {
@@ -1565,7 +1565,7 @@
     },
     {
       "source_index": 765,
-      "image_timestamp_ns": 1793919268217712287,
+      "image_timestamp_ns": "1793919268217712287",
       "time_s": 2.615818,
       "original_time_s": 42.615818,
       "levels": {
@@ -1592,7 +1592,7 @@
     },
     {
       "source_index": 766,
-      "image_timestamp_ns": 1793919268251089287,
+      "image_timestamp_ns": "1793919268251089287",
       "time_s": 2.649195,
       "original_time_s": 42.649195,
       "levels": {
@@ -1619,7 +1619,7 @@
     },
     {
       "source_index": 767,
-      "image_timestamp_ns": 1793919268284583287,
+      "image_timestamp_ns": "1793919268284583287",
       "time_s": 2.682689,
       "original_time_s": 42.682689,
       "levels": {
@@ -1646,7 +1646,7 @@
     },
     {
       "source_index": 768,
-      "image_timestamp_ns": 1793919268318079287,
+      "image_timestamp_ns": "1793919268318079287",
       "time_s": 2.716185,
       "original_time_s": 42.716185,
       "levels": {
@@ -1673,7 +1673,7 @@
     },
     {
       "source_index": 769,
-      "image_timestamp_ns": 1793919268384957287,
+      "image_timestamp_ns": "1793919268384957287",
       "time_s": 2.783063,
       "original_time_s": 42.783063,
       "levels": {
@@ -1700,7 +1700,7 @@
     },
     {
       "source_index": 770,
-      "image_timestamp_ns": 1793919268485342287,
+      "image_timestamp_ns": "1793919268485342287",
       "time_s": 2.883448,
       "original_time_s": 42.883448,
       "levels": {
@@ -1727,7 +1727,7 @@
     },
     {
       "source_index": 771,
-      "image_timestamp_ns": 1793919268518714287,
+      "image_timestamp_ns": "1793919268518714287",
       "time_s": 2.91682,
       "original_time_s": 42.91682,
       "levels": {
@@ -1754,7 +1754,7 @@
     },
     {
       "source_index": 772,
-      "image_timestamp_ns": 1793919268552240287,
+      "image_timestamp_ns": "1793919268552240287",
       "time_s": 2.950346,
       "original_time_s": 42.950346,
       "levels": {
@@ -1781,7 +1781,7 @@
     },
     {
       "source_index": 773,
-      "image_timestamp_ns": 1793919268585611287,
+      "image_timestamp_ns": "1793919268585611287",
       "time_s": 2.983717,
       "original_time_s": 42.983717,
       "levels": {
@@ -1808,7 +1808,7 @@
     },
     {
       "source_index": 774,
-      "image_timestamp_ns": 1793919268619087287,
+      "image_timestamp_ns": "1793919268619087287",
       "time_s": 3.017193,
       "original_time_s": 43.017193,
       "levels": {
@@ -1835,7 +1835,7 @@
     },
     {
       "source_index": 775,
-      "image_timestamp_ns": 1793919268719479287,
+      "image_timestamp_ns": "1793919268719479287",
       "time_s": 3.117585,
       "original_time_s": 43.117585,
       "levels": {
@@ -1862,7 +1862,7 @@
     },
     {
       "source_index": 776,
-      "image_timestamp_ns": 1793919268786389287,
+      "image_timestamp_ns": "1793919268786389287",
       "time_s": 3.184495,
       "original_time_s": 43.184495,
       "levels": {
@@ -1889,7 +1889,7 @@
     },
     {
       "source_index": 777,
-      "image_timestamp_ns": 1793919268819850287,
+      "image_timestamp_ns": "1793919268819850287",
       "time_s": 3.217956,
       "original_time_s": 43.217956,
       "levels": {
@@ -1916,7 +1916,7 @@
     },
     {
       "source_index": 778,
-      "image_timestamp_ns": 1793919268920104287,
+      "image_timestamp_ns": "1793919268920104287",
       "time_s": 3.31821,
       "original_time_s": 43.31821,
       "levels": {
@@ -1943,7 +1943,7 @@
     },
     {
       "source_index": 779,
-      "image_timestamp_ns": 1793919268953590287,
+      "image_timestamp_ns": "1793919268953590287",
       "time_s": 3.351696,
       "original_time_s": 43.351696,
       "levels": {
@@ -1970,7 +1970,7 @@
     },
     {
       "source_index": 780,
-      "image_timestamp_ns": 1793919269053972287,
+      "image_timestamp_ns": "1793919269053972287",
       "time_s": 3.452078,
       "original_time_s": 43.452078,
       "levels": {
@@ -1997,7 +1997,7 @@
     },
     {
       "source_index": 781,
-      "image_timestamp_ns": 1793919269120873287,
+      "image_timestamp_ns": "1793919269120873287",
       "time_s": 3.518979,
       "original_time_s": 43.518979,
       "levels": {
@@ -2024,7 +2024,7 @@
     },
     {
       "source_index": 782,
-      "image_timestamp_ns": 1793919269154373287,
+      "image_timestamp_ns": "1793919269154373287",
       "time_s": 3.552479,
       "original_time_s": 43.552479,
       "levels": {
@@ -2051,7 +2051,7 @@
     },
     {
       "source_index": 783,
-      "image_timestamp_ns": 1793919269187721287,
+      "image_timestamp_ns": "1793919269187721287",
       "time_s": 3.585827,
       "original_time_s": 43.585827,
       "levels": {
@@ -2078,7 +2078,7 @@
     },
     {
       "source_index": 784,
-      "image_timestamp_ns": 1793919269221227287,
+      "image_timestamp_ns": "1793919269221227287",
       "time_s": 3.619333,
       "original_time_s": 43.619333,
       "levels": {
@@ -2105,7 +2105,7 @@
     },
     {
       "source_index": 785,
-      "image_timestamp_ns": 1793919269254593287,
+      "image_timestamp_ns": "1793919269254593287",
       "time_s": 3.652699,
       "original_time_s": 43.652699,
       "levels": {
@@ -2132,7 +2132,7 @@
     },
     {
       "source_index": 786,
-      "image_timestamp_ns": 1793919269288114287,
+      "image_timestamp_ns": "1793919269288114287",
       "time_s": 3.68622,
       "original_time_s": 43.68622,
       "levels": {
@@ -2159,7 +2159,7 @@
     },
     {
       "source_index": 787,
-      "image_timestamp_ns": 1793919269321601287,
+      "image_timestamp_ns": "1793919269321601287",
       "time_s": 3.719707,
       "original_time_s": 43.719707,
       "levels": {
@@ -2186,7 +2186,7 @@
     },
     {
       "source_index": 788,
-      "image_timestamp_ns": 1793919269354977287,
+      "image_timestamp_ns": "1793919269354977287",
       "time_s": 3.753083,
       "original_time_s": 43.753083,
       "levels": {
@@ -2213,7 +2213,7 @@
     },
     {
       "source_index": 789,
-      "image_timestamp_ns": 1793919269388481287,
+      "image_timestamp_ns": "1793919269388481287",
       "time_s": 3.786587,
       "original_time_s": 43.786587,
       "levels": {
@@ -2240,7 +2240,7 @@
     },
     {
       "source_index": 790,
-      "image_timestamp_ns": 1793919269421862287,
+      "image_timestamp_ns": "1793919269421862287",
       "time_s": 3.819968,
       "original_time_s": 43.819968,
       "levels": {
@@ -2267,7 +2267,7 @@
     },
     {
       "source_index": 791,
-      "image_timestamp_ns": 1793919269455349287,
+      "image_timestamp_ns": "1793919269455349287",
       "time_s": 3.853455,
       "original_time_s": 43.853455,
       "levels": {
@@ -2294,7 +2294,7 @@
     },
     {
       "source_index": 792,
-      "image_timestamp_ns": 1793919269488861287,
+      "image_timestamp_ns": "1793919269488861287",
       "time_s": 3.886967,
       "original_time_s": 43.886967,
       "levels": {
@@ -2321,7 +2321,7 @@
     },
     {
       "source_index": 793,
-      "image_timestamp_ns": 1793919269522108287,
+      "image_timestamp_ns": "1793919269522108287",
       "time_s": 3.920214,
       "original_time_s": 43.920214,
       "levels": {
@@ -2348,7 +2348,7 @@
     },
     {
       "source_index": 794,
-      "image_timestamp_ns": 1793919269589106287,
+      "image_timestamp_ns": "1793919269589106287",
       "time_s": 3.987212,
       "original_time_s": 43.987212,
       "levels": {
@@ -2375,7 +2375,7 @@
     },
     {
       "source_index": 795,
-      "image_timestamp_ns": 1793919269689483287,
+      "image_timestamp_ns": "1793919269689483287",
       "time_s": 4.087589,
       "original_time_s": 44.087589,
       "levels": {
@@ -2402,7 +2402,7 @@
     },
     {
       "source_index": 796,
-      "image_timestamp_ns": 1793919269722976287,
+      "image_timestamp_ns": "1793919269722976287",
       "time_s": 4.121082,
       "original_time_s": 44.121082,
       "levels": {
@@ -2429,7 +2429,7 @@
     },
     {
       "source_index": 797,
-      "image_timestamp_ns": 1793919269756359287,
+      "image_timestamp_ns": "1793919269756359287",
       "time_s": 4.154465,
       "original_time_s": 44.154465,
       "levels": {
@@ -2456,7 +2456,7 @@
     },
     {
       "source_index": 798,
-      "image_timestamp_ns": 1793919269856759287,
+      "image_timestamp_ns": "1793919269856759287",
       "time_s": 4.254865,
       "original_time_s": 44.254865,
       "levels": {
@@ -2483,7 +2483,7 @@
     },
     {
       "source_index": 799,
-      "image_timestamp_ns": 1793919269923609287,
+      "image_timestamp_ns": "1793919269923609287",
       "time_s": 4.321715,
       "original_time_s": 44.321715,
       "levels": {
@@ -2510,7 +2510,7 @@
     },
     {
       "source_index": 800,
-      "image_timestamp_ns": 1793919270057482287,
+      "image_timestamp_ns": "1793919270057482287",
       "time_s": 4.455588,
       "original_time_s": 44.455588,
       "levels": {
@@ -2537,7 +2537,7 @@
     },
     {
       "source_index": 801,
-      "image_timestamp_ns": 1793919270157882287,
+      "image_timestamp_ns": "1793919270157882287",
       "time_s": 4.555988,
       "original_time_s": 44.555988,
       "levels": {
@@ -2564,7 +2564,7 @@
     },
     {
       "source_index": 802,
-      "image_timestamp_ns": 1793919270191135287,
+      "image_timestamp_ns": "1793919270191135287",
       "time_s": 4.589241,
       "original_time_s": 44.589241,
       "levels": {
@@ -2591,7 +2591,7 @@
     },
     {
       "source_index": 803,
-      "image_timestamp_ns": 1793919270224749287,
+      "image_timestamp_ns": "1793919270224749287",
       "time_s": 4.622855,
       "original_time_s": 44.622855,
       "levels": {
@@ -2618,7 +2618,7 @@
     },
     {
       "source_index": 804,
-      "image_timestamp_ns": 1793919270258112287,
+      "image_timestamp_ns": "1793919270258112287",
       "time_s": 4.656218,
       "original_time_s": 44.656218,
       "levels": {
@@ -2645,7 +2645,7 @@
     },
     {
       "source_index": 805,
-      "image_timestamp_ns": 1793919270325142287,
+      "image_timestamp_ns": "1793919270325142287",
       "time_s": 4.723248,
       "original_time_s": 44.723248,
       "levels": {
@@ -2672,7 +2672,7 @@
     },
     {
       "source_index": 806,
-      "image_timestamp_ns": 1793919270358359287,
+      "image_timestamp_ns": "1793919270358359287",
       "time_s": 4.756465,
       "original_time_s": 44.756465,
       "levels": {
@@ -2699,7 +2699,7 @@
     },
     {
       "source_index": 807,
-      "image_timestamp_ns": 1793919270391994287,
+      "image_timestamp_ns": "1793919270391994287",
       "time_s": 4.7901,
       "original_time_s": 44.7901,
       "levels": {
@@ -2726,7 +2726,7 @@
     },
     {
       "source_index": 808,
-      "image_timestamp_ns": 1793919270425372287,
+      "image_timestamp_ns": "1793919270425372287",
       "time_s": 4.823478,
       "original_time_s": 44.823478,
       "levels": {
@@ -2753,7 +2753,7 @@
     },
     {
       "source_index": 809,
-      "image_timestamp_ns": 1793919270458866287,
+      "image_timestamp_ns": "1793919270458866287",
       "time_s": 4.856972,
       "original_time_s": 44.856972,
       "levels": {
@@ -2780,7 +2780,7 @@
     },
     {
       "source_index": 810,
-      "image_timestamp_ns": 1793919270525762287,
+      "image_timestamp_ns": "1793919270525762287",
       "time_s": 4.923868,
       "original_time_s": 44.923868,
       "levels": {
@@ -2807,7 +2807,7 @@
     },
     {
       "source_index": 811,
-      "image_timestamp_ns": 1793919270559250287,
+      "image_timestamp_ns": "1793919270559250287",
       "time_s": 4.957356,
       "original_time_s": 44.957356,
       "levels": {
@@ -2834,7 +2834,7 @@
     },
     {
       "source_index": 812,
-      "image_timestamp_ns": 1793919270626123287,
+      "image_timestamp_ns": "1793919270626123287",
       "time_s": 5.024229,
       "original_time_s": 45.024229,
       "levels": {
@@ -2861,7 +2861,7 @@
     },
     {
       "source_index": 813,
-      "image_timestamp_ns": 1793919270695160287,
+      "image_timestamp_ns": "1793919270695160287",
       "time_s": 5.093266,
       "original_time_s": 45.093266,
       "levels": {
@@ -2888,7 +2888,7 @@
     },
     {
       "source_index": 814,
-      "image_timestamp_ns": 1793919270726498287,
+      "image_timestamp_ns": "1793919270726498287",
       "time_s": 5.124604,
       "original_time_s": 45.124604,
       "levels": {
@@ -2915,7 +2915,7 @@
     },
     {
       "source_index": 815,
-      "image_timestamp_ns": 1793919270759890287,
+      "image_timestamp_ns": "1793919270759890287",
       "time_s": 5.157996,
       "original_time_s": 45.157996,
       "levels": {
@@ -2942,7 +2942,7 @@
     },
     {
       "source_index": 816,
-      "image_timestamp_ns": 1793919270793372287,
+      "image_timestamp_ns": "1793919270793372287",
       "time_s": 5.191478,
       "original_time_s": 45.191478,
       "levels": {
@@ -2969,7 +2969,7 @@
     },
     {
       "source_index": 817,
-      "image_timestamp_ns": 1793919270860244287,
+      "image_timestamp_ns": "1793919270860244287",
       "time_s": 5.25835,
       "original_time_s": 45.25835,
       "levels": {
@@ -2996,7 +2996,7 @@
     },
     {
       "source_index": 818,
-      "image_timestamp_ns": 1793919270893762287,
+      "image_timestamp_ns": "1793919270893762287",
       "time_s": 5.291868,
       "original_time_s": 45.291868,
       "levels": {
@@ -3023,7 +3023,7 @@
     },
     {
       "source_index": 819,
-      "image_timestamp_ns": 1793919270927131287,
+      "image_timestamp_ns": "1793919270927131287",
       "time_s": 5.325237,
       "original_time_s": 45.325237,
       "levels": {
@@ -3050,7 +3050,7 @@
     },
     {
       "source_index": 820,
-      "image_timestamp_ns": 1793919270960626287,
+      "image_timestamp_ns": "1793919270960626287",
       "time_s": 5.358732,
       "original_time_s": 45.358732,
       "levels": {
@@ -3077,7 +3077,7 @@
     },
     {
       "source_index": 821,
-      "image_timestamp_ns": 1793919270994120287,
+      "image_timestamp_ns": "1793919270994120287",
       "time_s": 5.392226,
       "original_time_s": 45.392226,
       "levels": {
@@ -3104,7 +3104,7 @@
     },
     {
       "source_index": 822,
-      "image_timestamp_ns": 1793919271027381287,
+      "image_timestamp_ns": "1793919271027381287",
       "time_s": 5.425487,
       "original_time_s": 45.425487,
       "levels": {
@@ -3131,7 +3131,7 @@
     },
     {
       "source_index": 823,
-      "image_timestamp_ns": 1793919271061016287,
+      "image_timestamp_ns": "1793919271061016287",
       "time_s": 5.459122,
       "original_time_s": 45.459122,
       "levels": {
@@ -3158,7 +3158,7 @@
     },
     {
       "source_index": 824,
-      "image_timestamp_ns": 1793919271127880287,
+      "image_timestamp_ns": "1793919271127880287",
       "time_s": 5.525986,
       "original_time_s": 45.525986,
       "levels": {
@@ -3185,7 +3185,7 @@
     },
     {
       "source_index": 825,
-      "image_timestamp_ns": 1793919271161385287,
+      "image_timestamp_ns": "1793919271161385287",
       "time_s": 5.559491,
       "original_time_s": 45.559491,
       "levels": {
@@ -3212,7 +3212,7 @@
     },
     {
       "source_index": 826,
-      "image_timestamp_ns": 1793919271261515287,
+      "image_timestamp_ns": "1793919271261515287",
       "time_s": 5.659621,
       "original_time_s": 45.659621,
       "levels": {
@@ -3239,7 +3239,7 @@
     },
     {
       "source_index": 827,
-      "image_timestamp_ns": 1793919271295132287,
+      "image_timestamp_ns": "1793919271295132287",
       "time_s": 5.693238,
       "original_time_s": 45.693238,
       "levels": {
@@ -3266,7 +3266,7 @@
     },
     {
       "source_index": 828,
-      "image_timestamp_ns": 1793919271328629287,
+      "image_timestamp_ns": "1793919271328629287",
       "time_s": 5.726735,
       "original_time_s": 45.726735,
       "levels": {
@@ -3293,7 +3293,7 @@
     },
     {
       "source_index": 829,
-      "image_timestamp_ns": 1793919271495781287,
+      "image_timestamp_ns": "1793919271495781287",
       "time_s": 5.893887,
       "original_time_s": 45.893887,
       "levels": {
@@ -3320,7 +3320,7 @@
     },
     {
       "source_index": 830,
-      "image_timestamp_ns": 1793919271529133287,
+      "image_timestamp_ns": "1793919271529133287",
       "time_s": 5.927239,
       "original_time_s": 45.927239,
       "levels": {
@@ -3347,7 +3347,7 @@
     },
     {
       "source_index": 831,
-      "image_timestamp_ns": 1793919271596135287,
+      "image_timestamp_ns": "1793919271596135287",
       "time_s": 5.994241,
       "original_time_s": 45.994241,
       "levels": {
@@ -3374,7 +3374,7 @@
     },
     {
       "source_index": 832,
-      "image_timestamp_ns": 1793919271629640287,
+      "image_timestamp_ns": "1793919271629640287",
       "time_s": 6.027746,
       "original_time_s": 46.027746,
       "levels": {
@@ -3401,7 +3401,7 @@
     },
     {
       "source_index": 833,
-      "image_timestamp_ns": 1793919271696516287,
+      "image_timestamp_ns": "1793919271696516287",
       "time_s": 6.094622,
       "original_time_s": 46.094622,
       "levels": {
@@ -3428,7 +3428,7 @@
     },
     {
       "source_index": 834,
-      "image_timestamp_ns": 1793919271730028287,
+      "image_timestamp_ns": "1793919271730028287",
       "time_s": 6.128134,
       "original_time_s": 46.128134,
       "levels": {
@@ -3455,7 +3455,7 @@
     },
     {
       "source_index": 835,
-      "image_timestamp_ns": 1793919271763392287,
+      "image_timestamp_ns": "1793919271763392287",
       "time_s": 6.161498,
       "original_time_s": 46.161498,
       "levels": {
@@ -3482,7 +3482,7 @@
     },
     {
       "source_index": 836,
-      "image_timestamp_ns": 1793919271796899287,
+      "image_timestamp_ns": "1793919271796899287",
       "time_s": 6.195005,
       "original_time_s": 46.195005,
       "levels": {
@@ -3509,7 +3509,7 @@
     },
     {
       "source_index": 837,
-      "image_timestamp_ns": 1793919271863771287,
+      "image_timestamp_ns": "1793919271863771287",
       "time_s": 6.261877,
       "original_time_s": 46.261877,
       "levels": {
@@ -3536,7 +3536,7 @@
     },
     {
       "source_index": 838,
-      "image_timestamp_ns": 1793919271930642287,
+      "image_timestamp_ns": "1793919271930642287",
       "time_s": 6.328748,
       "original_time_s": 46.328748,
       "levels": {
@@ -3563,7 +3563,7 @@
     },
     {
       "source_index": 839,
-      "image_timestamp_ns": 1793919271997644287,
+      "image_timestamp_ns": "1793919271997644287",
       "time_s": 6.39575,
       "original_time_s": 46.39575,
       "levels": {
@@ -3590,7 +3590,7 @@
     },
     {
       "source_index": 840,
-      "image_timestamp_ns": 1793919272097767287,
+      "image_timestamp_ns": "1793919272097767287",
       "time_s": 6.495873,
       "original_time_s": 46.495873,
       "levels": {
@@ -3617,7 +3617,7 @@
     },
     {
       "source_index": 841,
-      "image_timestamp_ns": 1793919272131389287,
+      "image_timestamp_ns": "1793919272131389287",
       "time_s": 6.529495,
       "original_time_s": 46.529495,
       "levels": {
@@ -3644,7 +3644,7 @@
     },
     {
       "source_index": 842,
-      "image_timestamp_ns": 1793919272164897287,
+      "image_timestamp_ns": "1793919272164897287",
       "time_s": 6.563003,
       "original_time_s": 46.563003,
       "levels": {
@@ -3671,7 +3671,7 @@
     },
     {
       "source_index": 843,
-      "image_timestamp_ns": 1793919272198151287,
+      "image_timestamp_ns": "1793919272198151287",
       "time_s": 6.596257,
       "original_time_s": 46.596257,
       "levels": {
@@ -3698,7 +3698,7 @@
     },
     {
       "source_index": 844,
-      "image_timestamp_ns": 1793919272231772287,
+      "image_timestamp_ns": "1793919272231772287",
       "time_s": 6.629878,
       "original_time_s": 46.629878,
       "levels": {
@@ -3725,7 +3725,7 @@
     },
     {
       "source_index": 845,
-      "image_timestamp_ns": 1793919272332141287,
+      "image_timestamp_ns": "1793919272332141287",
       "time_s": 6.730247,
       "original_time_s": 46.730247,
       "levels": {
@@ -3752,7 +3752,7 @@
     },
     {
       "source_index": 846,
-      "image_timestamp_ns": 1793919272365398287,
+      "image_timestamp_ns": "1793919272365398287",
       "time_s": 6.763504,
       "original_time_s": 46.763504,
       "levels": {
@@ -3779,7 +3779,7 @@
     },
     {
       "source_index": 847,
-      "image_timestamp_ns": 1793919272399039287,
+      "image_timestamp_ns": "1793919272399039287",
       "time_s": 6.797145,
       "original_time_s": 46.797145,
       "levels": {
@@ -3806,7 +3806,7 @@
     },
     {
       "source_index": 848,
-      "image_timestamp_ns": 1793919272432394287,
+      "image_timestamp_ns": "1793919272432394287",
       "time_s": 6.8305,
       "original_time_s": 46.8305,
       "levels": {
@@ -3833,7 +3833,7 @@
     },
     {
       "source_index": 849,
-      "image_timestamp_ns": 1793919272465918287,
+      "image_timestamp_ns": "1793919272465918287",
       "time_s": 6.864024,
       "original_time_s": 46.864024,
       "levels": {
@@ -3860,7 +3860,7 @@
     },
     {
       "source_index": 850,
-      "image_timestamp_ns": 1793919272499405287,
+      "image_timestamp_ns": "1793919272499405287",
       "time_s": 6.897511,
       "original_time_s": 46.897511,
       "levels": {
@@ -3887,7 +3887,7 @@
     },
     {
       "source_index": 851,
-      "image_timestamp_ns": 1793919272566156287,
+      "image_timestamp_ns": "1793919272566156287",
       "time_s": 6.964262,
       "original_time_s": 46.964262,
       "levels": {
@@ -3913,5 +3913,10 @@
       "native_mask_count": 347823
     }
   ],
-  "raw_source": "rope-manipulation-40-47"
+  "raw_source": "rope-manipulation-40-47",
+  "robot_overlay": {
+    "data_url": "../robot/data.json",
+    "default_show_arm": true,
+    "default_opacity": 0.75
+  }
 }

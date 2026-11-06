@@ -1,10 +1,4 @@
 {
-  "schema": "public-stereo-manipulation-demo.v1",
-  "status": "complete",
-  "source_display_interval_s": [
-    40.0,
-    47.0
-  ],
   "duration_s": 7.0,
   "frame_count": 141,
   "source_index_range": [
@@ -26,8 +20,6 @@
     0.2,
     1.5
   ],
-  "world_transform_applied": false,
-  "archived_world_base_axes_display_only": true,
   "registration_profile_compatibility": "pending",
   "lossless_pointcloud_encoding": "PCD2; all original float32 XYZ and uint8 RGB bits preserved",
   "density_levels": [
@@ -36,10 +28,7 @@
     4
   ],
   "all_frames_preserved": true,
-  "RGB_videos": "Display copies from original rectified PNGs; not stereo inference inputs",
   "depth_accuracy_accepted": false,
-  "dataset_contains_robot_controls_or_credentials": false,
-  "pointcloud_payload_bytes": 605602258,
   "content_quality_review": {
     "scope": "Severe transient stereo-wrap signature; not absolute depth accuracy.",
     "raw_recording_frames": 1229,
@@ -65,5 +54,41 @@
     "current_selection_contains_known_bad_frames": false,
     "current_display_only_trim": true,
     "original_recording_and_previous_10s_outputs_preserved": true
-  }
+  },
+  "schema": "public-robot-stereo-manipulation-demo.v1",
+  "status": "complete",
+  "version": "robot-full-uf850-141",
+  "source_display_interval_s": [
+    40.0,
+    47.0
+  ],
+  "world_transform_applied": false,
+  "robot_visual_part_count": 14,
+  "arm_visual_parts": 7,
+  "gripper_visual_parts": 7,
+  "default_show_arm": true,
+  "stable_gripper_candidate_points": 30,
+  "robot_and_pointcloud_frames_match_exact_IMAGE_ns": true,
+  "pointcloud_files_reused_unchanged": 846,
+  "RGB_videos_reused_unchanged": 3,
+  "source_timestamps_are_decimal_strings": true,
+  "exact_exposure_synchronization": false,
+  "robot_pose_method": "nominal UF850 URDF FK from measured joint sequence, interpolated at camera post-grab host time",
+  "gripper_pose_method": "fixed nominal stock gripper opening, operator-reported UI89 -> drive_joint0.761rad",
+  "candidate_point_semantics": "Stable surface tool candidates; not observed rope contacts or verified no-slip material identities.",
+  "model_download": {
+    "urdf": "models/uf850_stock_ag1011/uf850_stock_ag1011.urdf",
+    "archive": "models/uf850_stock_ag1011_visual.zip",
+    "archive_sha256": "53e76d11dfd9d5ddb1a90477095594135710a199e704942931c3f429561e678e",
+    "upstream_source_manifest": "models/uf850_stock_ag1011/UPSTREAM_SOURCES.json",
+    "visual_parts": 14,
+    "scope": "all UF850 arm and stock gripper visual geometry; derived nominal visual/FK subset, not full dynamics"
+  },
+  "limitations": [
+    "Nominal URDF is not individual robot calibration or absolute physical accuracy acceptance.",
+    "Joint/camera association uses approximate host timing, not exposure/controller synchronization.",
+    "Inherited ZED optical profile compatibility remains pending.",
+    "The downloadable model is a visual/FK subset; it omits inertia, collision geometry and hardware-control plugins."
+  ],
+  "contains_hardware_control_endpoints_or_credentials": false
 }

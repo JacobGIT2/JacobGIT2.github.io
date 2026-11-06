@@ -4,7 +4,7 @@ const cameras=new Map(),displays=new Map(),requests=new Map(),loadErrors=new Map
 const compareFrames=()=>[$('sdkCompare'),$('foundationCompare')];
 const displayId=source=>source===$('sdkCompare')?'sdkDisplay':'foundationDisplay';
 const displayName=source=>source===$('sdkCompare')?'SDK':'模型';
-function makeFrame(kind){const element=document.createElement('iframe');element.src=`./${kind}/index.html?v=clip-40-47-141&frame=${frame}`;element.title=kind==='sdk'?'SDK 深度4D点云':'Fast-FoundationStereo 深度4D点云';element.allow='fullscreen';return element;}
+function makeFrame(kind){const element=document.createElement('iframe');element.src=`./${kind}/index.html?v=robot-full-uf850-141&frame=${frame}`;element.title=kind==='sdk'?'SDK 深度4D点云':'Fast-FoundationStereo 深度4D点云';element.allow='fullscreen';return element;}
 function updateDisplayStatus(){
  for(const source of compareFrames()){
   const displayed=displays.get(source),requested=requests.get(source),error=loadErrors.get(source);
@@ -26,13 +26,13 @@ function select(view){
  if(view!=='rgb')$('rgbVideo').pause();
  if(['sdk','foundation'].includes(view)){
   single?.remove();single=makeFrame(view);$('singleContainer').append(single);
-  $('cloudTitle').textContent=view==='sdk'?'相机 SDK 深度 → 彩色4D点云':'Fast-FoundationStereo 深度 → 彩色4D点云';
+  $('cloudTitle').textContent=view==='sdk'?'相机 SDK 深度 → 彩色4D点云＋完整机器人网格':'Fast-FoundationStereo 深度 → 彩色4D点云＋完整机器人网格';
   $('cloudInfo').textContent=view==='sdk'?'1920 × 1080 原始深度 · 完整 141 时刻':'960 × 540 双目模型深度 · 完整 141 时刻';
-  $('openCloud').href=`./${view}/index.html?v=clip-40-47-141&frame=${frame}`;
+  $('openCloud').href=`./${view}/index.html?v=robot-full-uf850-141&frame=${frame}`;
  }else if(single){single.remove();single=null;}
  if(view==='compare'&&!pairReady){
   displays.clear();requests.clear();loadErrors.clear();
-  for(const [source,kind] of [[$('sdkCompare'),'sdk'],[$('foundationCompare'),'foundation']]){requests.set(source,frame);source.src=`./${kind}/index.html?v=clip-40-47-141&frame=${frame}`;}
+  for(const [source,kind] of [[$('sdkCompare'),'sdk'],[$('foundationCompare'),'foundation']]){requests.set(source,frame);source.src=`./${kind}/index.html?v=robot-full-uf850-141&frame=${frame}`;}
   pairReady=true;updateDisplayStatus();
  }
  if(view!=='compare'&&pairReady){for(const source of compareFrames())source.removeAttribute('src');pairReady=false;cameraLeader=null;playbackLeader=null;cameras.clear();displays.clear();requests.clear();loadErrors.clear();}
@@ -50,6 +50,8 @@ $('syncViews').onchange=()=>{
 };
 addEventListener('message',event=>{
  if(event.origin!==location.origin||!event.data)return;
+ const singleMessage=event.data;
+ if(single?.contentWindow===event.source&&singleMessage.type==='pcd:frame'&&Number.isInteger(singleMessage.index)&&singleMessage.index>=0&&singleMessage.index<141){frame=singleMessage.index;return;}
  const source=compareFrames().find(iframe=>iframe.contentWindow===event.source);
  if(!source)return;
  const other=source===$('sdkCompare')?$('foundationCompare'):$('sdkCompare');
@@ -75,4 +77,4 @@ addEventListener('message',event=>{
   requestSeek(source,frame);if(cameraLeader&&cameras.has(cameraLeader))send(source,{type:'pcd:camera',camera:cameras.get(cameraLeader)});updateDisplayStatus();
  }
 });
-const requested=location.hash.slice(1);select(['sdk','foundation','compare'].includes(requested)?requested:'rgb');
+const requested=location.hash.slice(1);select(['rgb','sdk','foundation','compare'].includes(requested)?requested:'foundation');
