@@ -1,0 +1,56 @@
+{
+  "schema": "public-stereo-manipulation-demo.v1",
+  "status": "complete",
+  "source_display_interval_s": [
+    40,
+    50
+  ],
+  "duration_s": 10,
+  "frame_count": 200,
+  "source_index_range": [
+    711,
+    910
+  ],
+  "camera": "ZED 2i",
+  "SDK_depth_resolution_hw": [
+    1080,
+    1920
+  ],
+  "Foundation_depth_resolution_hw": [
+    540,
+    960
+  ],
+  "Foundation_model": "Fast-FoundationStereo",
+  "coordinate_frame": "ZED rectified LEFT optical; metres; +X right,+Y down,+Z forward",
+  "native_optical_depth_gate_m": [
+    0.2,
+    1.5
+  ],
+  "world_transform_applied": false,
+  "archived_world_base_axes_display_only": true,
+  "registration_profile_compatibility": "pending",
+  "lossless_pointcloud_encoding": "PCD2; all original float32 XYZ and uint8 RGB bits preserved",
+  "density_levels": [
+    1,
+    2,
+    4
+  ],
+  "all_frames_preserved": true,
+  "RGB_videos": "Display copies from original rectified PNGs; not stereo inference inputs",
+  "depth_accuracy_accepted": false,
+  "dataset_contains_robot_controls_or_credentials": false,
+  "pointcloud_payload_bytes": 818002413,
+  "validation": {
+    "lossless_python_roundtrip_assets": 1200,
+    "independent_JavaScript_byte_exact_assets": 1200,
+    "all_point_densities": [
+      1,
+      2,
+      4
+    ],
+    "frames_per_depth_source": 200,
+    "public_bundle_paths_and_hashes": "passed",
+    "local_browser_full_density_and_last_frame": "passed"
+  },
+  "public_path": "/demos/rope-depth/"
+}

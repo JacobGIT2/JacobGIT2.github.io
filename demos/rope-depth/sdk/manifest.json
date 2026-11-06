@@ -1,0 +1,5510 @@
+{
+  "selected_frame_count": 200,
+  "source_range": [
+    711,
+    910
+  ],
+  "span_s": 9.974945,
+  "final_hold_s": 0.025055000000001826,
+  "depth_source_kind": "sdk",
+  "intrinsics": [
+    [
+      1065.370361328125,
+      0.0,
+      971.065673828125
+    ],
+    [
+      0.0,
+      1065.370361328125,
+      563.7350463867188
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "shape_hw": [
+    1080,
+    1920
+  ],
+  "coordinates": {
+    "frame": "ZED rectified LEFT optical",
+    "units": "metre",
+    "axes": "+X image right, +Y image down, +Z camera forward",
+    "c2w": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_transform_applied": false,
+    "registration_profile_compatibility": "pending; not validated by this viewer"
+  },
+  "native_gate": {
+    "strict": true,
+    "min_optical_z_m": 0.2,
+    "max_optical_z_m": 1.5,
+    "implementation": "Frozen get_pcd_from_data applied after float64 metre→millimetre input adaptation; no extra filtering."
+  },
+  "spatial_sampling": {
+    "default_stride": 4,
+    "levels": [
+      1,
+      2,
+      4
+    ],
+    "rule": "Original image lattice [::stride,::stride], then native depth mask; no time subsampling or voxel averaging."
+  },
+  "derived_display_clip": {
+    "requested_source_interval_s": [
+      40.0,
+      50.0
+    ],
+    "end_exclusive": true,
+    "duration_s": 10.0,
+    "selected_frame_count": 200,
+    "source_index_range": [
+      711,
+      910
+    ],
+    "carry_in_frame": true,
+    "first_source_exposure_s": 39.973271,
+    "last_source_exposure_s": 49.974945,
+    "first_display_time_s": 0.0,
+    "final_frame_hold_s": 0.025055000000001826,
+    "policy": "Clip original frame display intervals to [start,end); do not invent or interpolate exposures."
+  },
+  "schema": "native-pcd-interactive.v1",
+  "status": "complete",
+  "binary": {
+    "compression": "gzip",
+    "format": "pcd2-lossless.v1",
+    "magic": 843334480,
+    "lossless_original_xyz_rgb": true
+  },
+  "source_label": "ZED SDK 深度",
+  "frames": [
+    {
+      "source_index": 711,
+      "image_timestamp_ns": 1793919265575165287,
+      "time_s": 0.0,
+      "original_time_s": 39.973271,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0711.pcd2.gz",
+          "count": 626365,
+          "bytes": 2169652,
+          "sha256": "22f4ad5a88c6d67c2e9fe6cd12869a5cb8e83d83c5de3853286a054f221f629c"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0711.pcd2.gz",
+          "count": 156583,
+          "bytes": 601971,
+          "sha256": "a79c7bb7b2ae480d3e12db48ead817e4202bf29cdd1548cfd40fe1aca8de7b2c"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0711.pcd2.gz",
+          "count": 39140,
+          "bytes": 169781,
+          "sha256": "3f44a97c23ccf3b4579713588cbffffec9109c02464dcf18971b17c1cc902954"
+        }
+      },
+      "native_mask_count": 626365
+    },
+    {
+      "source_index": 712,
+      "image_timestamp_ns": 1793919265641916287,
+      "time_s": 0.040022,
+      "original_time_s": 40.040022,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0712.pcd2.gz",
+          "count": 622735,
+          "bytes": 2149400,
+          "sha256": "d5f7f3a2b910154cbce72eedd3f95fa40dab70a0fb2d24f4ac75fda21b41f4fb"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0712.pcd2.gz",
+          "count": 155709,
+          "bytes": 597698,
+          "sha256": "fec17e18d2532c11d2fd43baff03918888c97f3fd1cc9359b7f37bf99e585160"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0712.pcd2.gz",
+          "count": 38939,
+          "bytes": 168507,
+          "sha256": "066952caa20a592bd3fe75554fb445a2db2ac5897ad585888566e88319af1066"
+        }
+      },
+      "native_mask_count": 622735
+    },
+    {
+      "source_index": 713,
+      "image_timestamp_ns": 1793919265708928287,
+      "time_s": 0.107034,
+      "original_time_s": 40.107034,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0713.pcd2.gz",
+          "count": 629543,
+          "bytes": 2181971,
+          "sha256": "f1d96f560bce3e1388008e36886882004f1d80329365dc8934b2bfa3171568c4"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0713.pcd2.gz",
+          "count": 157300,
+          "bytes": 605125,
+          "sha256": "23b4fa511e71a163085361774c0ed21951124e3c0b2766c2031ccafde96b9731"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0713.pcd2.gz",
+          "count": 39434,
+          "bytes": 171344,
+          "sha256": "6b5350f8f43598994a35fb81546b2e814a3c68aaf949e95885a540b300fbfb0b"
+        }
+      },
+      "native_mask_count": 629543
+    },
+    {
+      "source_index": 714,
+      "image_timestamp_ns": 1793919265742394287,
+      "time_s": 0.1405,
+      "original_time_s": 40.1405,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0714.pcd2.gz",
+          "count": 629902,
+          "bytes": 2181952,
+          "sha256": "612a92b4304e927551cf3e1cac0f5b72336a26c9fb9384ed2ca4b440f6f69db5"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0714.pcd2.gz",
+          "count": 157487,
+          "bytes": 605629,
+          "sha256": "c84c3241ca35ba29833a804dd8ffd23d17dff2701b2aa4a23a3301fc0d96581b"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0714.pcd2.gz",
+          "count": 39451,
+          "bytes": 171125,
+          "sha256": "7d8440413f80f5f92fb4f541f76eff0eda8c94b5b9f71b79f90553e228a049a7"
+        }
+      },
+      "native_mask_count": 629902
+    },
+    {
+      "source_index": 715,
+      "image_timestamp_ns": 1793919265775653287,
+      "time_s": 0.173759,
+      "original_time_s": 40.173759,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0715.pcd2.gz",
+          "count": 618932,
+          "bytes": 2136298,
+          "sha256": "635269638908039e2b02bb6633c3381d697be533a938113a3011dfab997ff741"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0715.pcd2.gz",
+          "count": 154673,
+          "bytes": 593490,
+          "sha256": "475800839ab9d0b5e01ea6a8857392b10344e2a53937b08c09f4439fd2e4b825"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0715.pcd2.gz",
+          "count": 38698,
+          "bytes": 167450,
+          "sha256": "575fbe691449445d4357d27add8c2a9804924333a0bfd9005f4b1742b65aac12"
+        }
+      },
+      "native_mask_count": 618932
+    },
+    {
+      "source_index": 716,
+      "image_timestamp_ns": 1793919265809289287,
+      "time_s": 0.207395,
+      "original_time_s": 40.207395,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0716.pcd2.gz",
+          "count": 640473,
+          "bytes": 2213373,
+          "sha256": "b26a827a60e105a39e27457de5b33bdc8c9283a370fdee01226a1890c4a74de2"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0716.pcd2.gz",
+          "count": 160073,
+          "bytes": 615869,
+          "sha256": "e331bcef9887066d99a1b0446bf2559351445348cd29bf93d0decdc54a32a57f"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0716.pcd2.gz",
+          "count": 40106,
+          "bytes": 172654,
+          "sha256": "bdaa0e840fe5688639611db158d0a4fce9593184599572da73104b8353e57965"
+        }
+      },
+      "native_mask_count": 640473
+    },
+    {
+      "source_index": 717,
+      "image_timestamp_ns": 1793919265842665287,
+      "time_s": 0.240771,
+      "original_time_s": 40.240771,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0717.pcd2.gz",
+          "count": 619693,
+          "bytes": 2142366,
+          "sha256": "35fd78ffedfecd150c6bf643ba0df1aae7a8940c6d90d827494a428835ed94ec"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0717.pcd2.gz",
+          "count": 154880,
+          "bytes": 595957,
+          "sha256": "06e8a44113a24f3428e6f2031b92cc3d7cff059266907671bae6a0b055ec5dd6"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0717.pcd2.gz",
+          "count": 38785,
+          "bytes": 168186,
+          "sha256": "371f1fc615f9f2ef93d5b4050b8f9b76068003eff70950c0d2d30a5a9cc5032e"
+        }
+      },
+      "native_mask_count": 619693
+    },
+    {
+      "source_index": 718,
+      "image_timestamp_ns": 1793919265910304287,
+      "time_s": 0.30841,
+      "original_time_s": 40.30841,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0718.pcd2.gz",
+          "count": 643339,
+          "bytes": 2229485,
+          "sha256": "a84648178657d2b2f37b26165c82b8dda78b73c731c2e147a03e59b6aa5e0592"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0718.pcd2.gz",
+          "count": 160756,
+          "bytes": 619570,
+          "sha256": "1309031a74fdba8fc4fb7c7fbdbe5764a47513cbb7431f4e8d5dcb833515e95b"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0718.pcd2.gz",
+          "count": 40190,
+          "bytes": 172983,
+          "sha256": "f23626e1d3e6f35cfb6dfe900181bdc4acc4539c6908c1777f10d6f6c45e5bc3"
+        }
+      },
+      "native_mask_count": 643339
+    },
+    {
+      "source_index": 719,
+      "image_timestamp_ns": 1793919265942917287,
+      "time_s": 0.341023,
+      "original_time_s": 40.341023,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0719.pcd2.gz",
+          "count": 653862,
+          "bytes": 2263581,
+          "sha256": "4f70aaa55c28b79b80c65b2d3d56010bca94b08085be3919cfad03556a58c808"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0719.pcd2.gz",
+          "count": 163321,
+          "bytes": 627931,
+          "sha256": "b9b40c7ede35d6289e24b3294f6111cb111005456dbc32374617c13622592e78"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0719.pcd2.gz",
+          "count": 40908,
+          "bytes": 176290,
+          "sha256": "e04483dccf4a509a22a452b670b926378b93545ebaf5347e39c9734ee1d0be7b"
+        }
+      },
+      "native_mask_count": 653862
+    },
+    {
+      "source_index": 720,
+      "image_timestamp_ns": 1793919265976542287,
+      "time_s": 0.374648,
+      "original_time_s": 40.374648,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0720.pcd2.gz",
+          "count": 660125,
+          "bytes": 2272456,
+          "sha256": "c8bb5dbfd8f9e8f1b9d4d7044169d4c91c74395b9c7371b18787dbfc8b5567c2"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0720.pcd2.gz",
+          "count": 164931,
+          "bytes": 630864,
+          "sha256": "da366f2ee32cce5e8aa83f02e0b677730ef2d4ae82c7776d640c240f27834780"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0720.pcd2.gz",
+          "count": 41311,
+          "bytes": 177611,
+          "sha256": "6b916dd0732b43ab712fd5c5ac3d53b5678953bdad9b03b045d0e56977b0318a"
+        }
+      },
+      "native_mask_count": 660125
+    },
+    {
+      "source_index": 721,
+      "image_timestamp_ns": 1793919266009914287,
+      "time_s": 0.40802,
+      "original_time_s": 40.40802,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0721.pcd2.gz",
+          "count": 664482,
+          "bytes": 2288299,
+          "sha256": "9f7a93785e5fc3bfc9bb59ede4062fdd66a1ff4f5f1abbfceaf4750603f2df29"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0721.pcd2.gz",
+          "count": 166081,
+          "bytes": 635988,
+          "sha256": "23d4543807d8c5c75b0b8eb83b42eb140ea079489ddec7e71402a697b7390037"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0721.pcd2.gz",
+          "count": 41600,
+          "bytes": 179031,
+          "sha256": "689fd69818c5e21971d708edadd7d36cd20e3756fa61393453d480c7a34db748"
+        }
+      },
+      "native_mask_count": 664482
+    },
+    {
+      "source_index": 722,
+      "image_timestamp_ns": 1793919266110302287,
+      "time_s": 0.508408,
+      "original_time_s": 40.508408,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0722.pcd2.gz",
+          "count": 649323,
+          "bytes": 2245038,
+          "sha256": "a956b36c01b769a5f69d090c62e6b344da76fc7c4de413f36731c63baea0090b"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0722.pcd2.gz",
+          "count": 162336,
+          "bytes": 623272,
+          "sha256": "d8a7199fecb2f5240dede2cc3d2374b2c8379f1557ec81d8e68de2d0ff30b5ab"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0722.pcd2.gz",
+          "count": 40691,
+          "bytes": 174582,
+          "sha256": "d055d7425fc5a87581dc854223f2faf3645159ccdafca98a0a6c510cef373855"
+        }
+      },
+      "native_mask_count": 649323
+    },
+    {
+      "source_index": 723,
+      "image_timestamp_ns": 1793919266143799287,
+      "time_s": 0.541905,
+      "original_time_s": 40.541905,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0723.pcd2.gz",
+          "count": 644733,
+          "bytes": 2225987,
+          "sha256": "0ba51667ada6387cfe09c73024353777ec4f9bcaafe11e991b9d979c9a668a57"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0723.pcd2.gz",
+          "count": 161045,
+          "bytes": 619278,
+          "sha256": "b84356ecc5b1a26e69be7adc75b250ef6878dd72d00e76a0d78a3962a9ffc565"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0723.pcd2.gz",
+          "count": 40284,
+          "bytes": 173345,
+          "sha256": "5b9ba8de9e0926e8284d16f1be7b3b3be04f76e0439004c33246a2117e942378"
+        }
+      },
+      "native_mask_count": 644733
+    },
+    {
+      "source_index": 724,
+      "image_timestamp_ns": 1793919266177172287,
+      "time_s": 0.575278,
+      "original_time_s": 40.575278,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0724.pcd2.gz",
+          "count": 641619,
+          "bytes": 2218516,
+          "sha256": "df3f0fce088e060fce278c3e505de33179ea4e56f72b7d65517132f14a20fa16"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0724.pcd2.gz",
+          "count": 160358,
+          "bytes": 617459,
+          "sha256": "89c4b542ee363637971be53d52bd792f195e4c0381bff0eb71c8038e1c95650e"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0724.pcd2.gz",
+          "count": 40195,
+          "bytes": 172854,
+          "sha256": "4794a8d69e0c062e865ed2720baa338c52b5afad8048ec9ed03d9b8c0bf68f06"
+        }
+      },
+      "native_mask_count": 641619
+    },
+    {
+      "source_index": 725,
+      "image_timestamp_ns": 1793919266311057287,
+      "time_s": 0.709163,
+      "original_time_s": 40.709163,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0725.pcd2.gz",
+          "count": 641563,
+          "bytes": 2214129,
+          "sha256": "c4962f2cebb8f231ca9ab0aa8e52b40bf1ce5d8074cec96ad92ab63ee2600a5e"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0725.pcd2.gz",
+          "count": 160380,
+          "bytes": 616675,
+          "sha256": "a7b56c77152424f79f7815a5c6fcd70854f3c66c630eb535f3c8639c963fbc85"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0725.pcd2.gz",
+          "count": 40130,
+          "bytes": 172773,
+          "sha256": "55ee279eb92d704db30e960c7aaed43226edd819e4c193bca1aea900aa7e6840"
+        }
+      },
+      "native_mask_count": 641563
+    },
+    {
+      "source_index": 726,
+      "image_timestamp_ns": 1793919266444803287,
+      "time_s": 0.842909,
+      "original_time_s": 40.842909,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0726.pcd2.gz",
+          "count": 647108,
+          "bytes": 2236389,
+          "sha256": "28811e947813cbc378a372931ea1794b9854f79d9c6d499231332e75c7bf3c9d"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0726.pcd2.gz",
+          "count": 161718,
+          "bytes": 621581,
+          "sha256": "5b9796c1c7a8e856e34a115a2f128d8253ae2f5f9b0eb1a3b08c293460123e8b"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0726.pcd2.gz",
+          "count": 40405,
+          "bytes": 173673,
+          "sha256": "2c66ad2b4d10c56020e8954c7150b19c0c2054adac86d516bb36438b2bb3b34f"
+        }
+      },
+      "native_mask_count": 647108
+    },
+    {
+      "source_index": 727,
+      "image_timestamp_ns": 1793919266478296287,
+      "time_s": 0.876402,
+      "original_time_s": 40.876402,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0727.pcd2.gz",
+          "count": 656877,
+          "bytes": 2264225,
+          "sha256": "e20a0c569c81fccae6f828d3bd4b0459c86572e23e3a5b63e1c94fb069124e48"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0727.pcd2.gz",
+          "count": 164095,
+          "bytes": 628428,
+          "sha256": "a3577d75fb693c47fae85532a7d0fd565ae72b530c9ba55d9495efbd38aed7de"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0727.pcd2.gz",
+          "count": 41069,
+          "bytes": 176213,
+          "sha256": "618659f5e2a5da15708d43163041bfb214072cd8c66f828e06e4fd9d8b48148b"
+        }
+      },
+      "native_mask_count": 656877
+    },
+    {
+      "source_index": 728,
+      "image_timestamp_ns": 1793919266511668287,
+      "time_s": 0.909774,
+      "original_time_s": 40.909774,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0728.pcd2.gz",
+          "count": 658606,
+          "bytes": 2267260,
+          "sha256": "18ce05ef93b4ed8ddcc8a6f9df60f44327ee6d3b6ec1a3193f1dfa55fa4547de"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0728.pcd2.gz",
+          "count": 164572,
+          "bytes": 629347,
+          "sha256": "053765ad9111c784d4b6ce977bce366c33d9b7d8eace0dddee3a81cb081b44cb"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0728.pcd2.gz",
+          "count": 41229,
+          "bytes": 176898,
+          "sha256": "a0854fb22aa3c00ad5c0de807bed8d25bb234751c2509a66e37a7d8c70469845"
+        }
+      },
+      "native_mask_count": 658606
+    },
+    {
+      "source_index": 729,
+      "image_timestamp_ns": 1793919266545177287,
+      "time_s": 0.943283,
+      "original_time_s": 40.943283,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0729.pcd2.gz",
+          "count": 636230,
+          "bytes": 2205150,
+          "sha256": "1d7b86f17a9c14bd49198da560aab3c8eb6a581a762f3ee7df808f813e5a466d"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0729.pcd2.gz",
+          "count": 159030,
+          "bytes": 613640,
+          "sha256": "40bfb6ae2e4cb21e7a807b035d5f81735b21e3acdb926e735085a0f3a724a871"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0729.pcd2.gz",
+          "count": 39782,
+          "bytes": 172383,
+          "sha256": "3057645ee2d98ba0085b38cefc5a685c05b26fe3c9c330ecb71605f85d3871b4"
+        }
+      },
+      "native_mask_count": 636230
+    },
+    {
+      "source_index": 730,
+      "image_timestamp_ns": 1793919266612058287,
+      "time_s": 1.010164,
+      "original_time_s": 41.010164,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0730.pcd2.gz",
+          "count": 644002,
+          "bytes": 2229003,
+          "sha256": "ddc07607f5404cb04bc8c7f2fa34982ab9cb7b8ce5981c7b0b871305d2e69bd7"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0730.pcd2.gz",
+          "count": 160979,
+          "bytes": 619960,
+          "sha256": "9b29d71349fd1794ae32eff2c8224c4b061c33fd7dff908c214d7753c4b97048"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0730.pcd2.gz",
+          "count": 40304,
+          "bytes": 173573,
+          "sha256": "db6ba5889696da497609015585135b96c34570632edf5e4b5a0609742d109ba7"
+        }
+      },
+      "native_mask_count": 644002
+    },
+    {
+      "source_index": 731,
+      "image_timestamp_ns": 1793919266645551287,
+      "time_s": 1.043657,
+      "original_time_s": 41.043657,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0731.pcd2.gz",
+          "count": 646004,
+          "bytes": 2223977,
+          "sha256": "bda1b391c0a324a831470ddb5baa10eb3d6d02cd49d0055ec1135fa3bc424ecb"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0731.pcd2.gz",
+          "count": 161399,
+          "bytes": 618694,
+          "sha256": "a188f375fb9f75f5114526c057a4377fd827dc2d16c8f34aa9ae731c08f5fbfc"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0731.pcd2.gz",
+          "count": 40372,
+          "bytes": 172984,
+          "sha256": "5a9d9dda970e182b20448b3a0235f9e821f96d6aa6fb31d71d3b5bdf9ea19b07"
+        }
+      },
+      "native_mask_count": 646004
+    },
+    {
+      "source_index": 732,
+      "image_timestamp_ns": 1793919266745920287,
+      "time_s": 1.144026,
+      "original_time_s": 41.144026,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0732.pcd2.gz",
+          "count": 642830,
+          "bytes": 2213719,
+          "sha256": "d54ded1e34725da8461d9081f4917426b9c557528265b30f08ea52cab6373cc9"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0732.pcd2.gz",
+          "count": 160664,
+          "bytes": 616345,
+          "sha256": "1516a6bae48efb000761d22d7a77eb5d1578bc589939d92c6b1040eec6fe1d07"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0732.pcd2.gz",
+          "count": 40229,
+          "bytes": 172761,
+          "sha256": "d6a8b6e391924366b3ef77cdddca81e6f9b287e61d6edd083f4bfffe4872b5cf"
+        }
+      },
+      "native_mask_count": 642830
+    },
+    {
+      "source_index": 733,
+      "image_timestamp_ns": 1793919266779187287,
+      "time_s": 1.177293,
+      "original_time_s": 41.177293,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0733.pcd2.gz",
+          "count": 644262,
+          "bytes": 2223961,
+          "sha256": "795ce2d0d9dae045aadf6b5a5cd736579af6d2ea5c26575984b74ec8482be1f8"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0733.pcd2.gz",
+          "count": 161001,
+          "bytes": 619066,
+          "sha256": "9c2afe7ee6bce9d881223c4d646c0a113d26141946c7b5ca366b9c1e487f3428"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0733.pcd2.gz",
+          "count": 40335,
+          "bytes": 173385,
+          "sha256": "6c47229b219cb1699819884166e61928fef439f7892884fa670f46c1a81ee70d"
+        }
+      },
+      "native_mask_count": 644262
+    },
+    {
+      "source_index": 734,
+      "image_timestamp_ns": 1793919266812807287,
+      "time_s": 1.210913,
+      "original_time_s": 41.210913,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0734.pcd2.gz",
+          "count": 630214,
+          "bytes": 2180851,
+          "sha256": "37dd46822318bc5481f30c358cf1257b07c5518be16cba100e0bcc1f82e3a295"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0734.pcd2.gz",
+          "count": 157465,
+          "bytes": 604287,
+          "sha256": "ba108e125fb73c32f5071d95a1497ae4e978639afbcca027290a473194a010a7"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0734.pcd2.gz",
+          "count": 39457,
+          "bytes": 171042,
+          "sha256": "8c87d8e8869545ae09ae3758489d5114cdf6edf285732c0db99c7a1a4215dd73"
+        }
+      },
+      "native_mask_count": 630214
+    },
+    {
+      "source_index": 735,
+      "image_timestamp_ns": 1793919266879686287,
+      "time_s": 1.277792,
+      "original_time_s": 41.277792,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0735.pcd2.gz",
+          "count": 644580,
+          "bytes": 2218992,
+          "sha256": "c60156d28a36e3bc8f10cd99f9b7b8ae54360013cf4fd7914de84a8bdd3c813c"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0735.pcd2.gz",
+          "count": 161058,
+          "bytes": 616917,
+          "sha256": "0440682979a9d0f4ed9145fccb6a2013fd3e5905036b9a8e93c19a6af0d3742f"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0735.pcd2.gz",
+          "count": 40323,
+          "bytes": 172552,
+          "sha256": "d886ab29c59ea6ebe258315427e4d4a8dc737892e57fc889e921caf0e3e1f70c"
+        }
+      },
+      "native_mask_count": 644580
+    },
+    {
+      "source_index": 736,
+      "image_timestamp_ns": 1793919266913175287,
+      "time_s": 1.311281,
+      "original_time_s": 41.311281,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0736.pcd2.gz",
+          "count": 659238,
+          "bytes": 2269763,
+          "sha256": "142f90403bfec82b3aad3c1c141813e3159ef99d877492f273b103d8cb9eb71c"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0736.pcd2.gz",
+          "count": 164750,
+          "bytes": 631004,
+          "sha256": "d1e24e50f92c4c4d88b35c709499d66a4d5043bd01c4c8bf77f5859315e074dd"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0736.pcd2.gz",
+          "count": 41242,
+          "bytes": 177256,
+          "sha256": "a609554377e3e606ae5f09bfc7388a93f1e41166e83673e1a9e481c9c856b6a8"
+        }
+      },
+      "native_mask_count": 659238
+    },
+    {
+      "source_index": 737,
+      "image_timestamp_ns": 1793919266946435287,
+      "time_s": 1.344541,
+      "original_time_s": 41.344541,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0737.pcd2.gz",
+          "count": 656343,
+          "bytes": 2265992,
+          "sha256": "bb15cf275162f1cb47fb8b8f0ef0a31a962249f652aaad6c648a282bee334f5f"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0737.pcd2.gz",
+          "count": 164046,
+          "bytes": 629757,
+          "sha256": "b91f6fa90205947a84e2d936d2fe9ea98ddca9789cf0d6f7aea22713c0bd385b"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0737.pcd2.gz",
+          "count": 41054,
+          "bytes": 176461,
+          "sha256": "b2d66cc86a4a4845bd4dc878d39f5bd7a89ec05ab91efc161abb5068aab8f8c0"
+        }
+      },
+      "native_mask_count": 656343
+    },
+    {
+      "source_index": 738,
+      "image_timestamp_ns": 1793919266980051287,
+      "time_s": 1.378157,
+      "original_time_s": 41.378157,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0738.pcd2.gz",
+          "count": 652166,
+          "bytes": 2248362,
+          "sha256": "b306c5f33b1da0aa8216d45012948774b07043f8116010cf5f98258592b61ecc"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0738.pcd2.gz",
+          "count": 162908,
+          "bytes": 622937,
+          "sha256": "be0f88706b1de8fd2f6ad440ffd8232af8fe7af0f0a19d589f50384cdaf2f725"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0738.pcd2.gz",
+          "count": 40784,
+          "bytes": 174785,
+          "sha256": "489997dd78a40b659788cf4b70f8da753a82e519068f08600ce4d1c87a058737"
+        }
+      },
+      "native_mask_count": 652166
+    },
+    {
+      "source_index": 739,
+      "image_timestamp_ns": 1793919267046932287,
+      "time_s": 1.445038,
+      "original_time_s": 41.445038,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0739.pcd2.gz",
+          "count": 675126,
+          "bytes": 2326600,
+          "sha256": "576177e6762dd78350269e65a22879a6de894717124c86c7817da5b9ea37b490"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0739.pcd2.gz",
+          "count": 168806,
+          "bytes": 645878,
+          "sha256": "cb5d6e902899a82cfd9a323f66aeca9c5c1751b142583dbe6d776c4eacdcc831"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0739.pcd2.gz",
+          "count": 42238,
+          "bytes": 182015,
+          "sha256": "22d95f5aece615e6c069c1a84eb0101cf6f03f3b6ca942deb601e269fb807645"
+        }
+      },
+      "native_mask_count": 675126
+    },
+    {
+      "source_index": 740,
+      "image_timestamp_ns": 1793919267080422287,
+      "time_s": 1.478528,
+      "original_time_s": 41.478528,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0740.pcd2.gz",
+          "count": 642833,
+          "bytes": 2201378,
+          "sha256": "633f22ce9c62faac568c3631c88ccbf621fb33e862a74a0d08219f21158e100e"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0740.pcd2.gz",
+          "count": 160635,
+          "bytes": 611570,
+          "sha256": "057e4e4dd8536b52dc52528cfc1575aebc8b48edd82a54825ffced17ee532f56"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0740.pcd2.gz",
+          "count": 40250,
+          "bytes": 172782,
+          "sha256": "db52f76b3554279eefb0e1de0c16cf31625ef5da37db90b7ed52df5ad63ab9e9"
+        }
+      },
+      "native_mask_count": 642833
+    },
+    {
+      "source_index": 741,
+      "image_timestamp_ns": 1793919267113807287,
+      "time_s": 1.511913,
+      "original_time_s": 41.511913,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0741.pcd2.gz",
+          "count": 674128,
+          "bytes": 2303603,
+          "sha256": "13338e03602d066580062d489a6803c6c603e74b6be814f6fb4a6988fb83615a"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0741.pcd2.gz",
+          "count": 168377,
+          "bytes": 640127,
+          "sha256": "432f92f04bacf0e15a715d3414a130d14f6822b32044de2c3c8ae30f55665382"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0741.pcd2.gz",
+          "count": 42166,
+          "bytes": 179841,
+          "sha256": "1842acca64e207727e9e58cb638ce98c3cdbd408e7411cbcbb4ab4d5ba02826a"
+        }
+      },
+      "native_mask_count": 674128
+    },
+    {
+      "source_index": 742,
+      "image_timestamp_ns": 1793919267147305287,
+      "time_s": 1.545411,
+      "original_time_s": 41.545411,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0742.pcd2.gz",
+          "count": 681810,
+          "bytes": 2339720,
+          "sha256": "b1f7bee553849eda08444474f8698b5c9f00635ad4d6acaef3919dd6f893639c"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0742.pcd2.gz",
+          "count": 170363,
+          "bytes": 649756,
+          "sha256": "a610f89215ca3beaefd603663e015c7b6488fc9e6f3201604841d9e43850067f"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0742.pcd2.gz",
+          "count": 42655,
+          "bytes": 182687,
+          "sha256": "1b2c0d2894c84466354e684ce7fabd42b7e95b5450c0ba547a920654e97ecc3a"
+        }
+      },
+      "native_mask_count": 681810
+    },
+    {
+      "source_index": 743,
+      "image_timestamp_ns": 1793919267214196287,
+      "time_s": 1.612302,
+      "original_time_s": 41.612302,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0743.pcd2.gz",
+          "count": 663782,
+          "bytes": 2295527,
+          "sha256": "752e8f6e2b8e49b412ebebd3073b9c868f5831902a47bf48cfc62800c82d2846"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0743.pcd2.gz",
+          "count": 165982,
+          "bytes": 638026,
+          "sha256": "e1654c9c419d8d9501c0953951fdae53b8f9e3cbbebda4b588eea5534e8a121a"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0743.pcd2.gz",
+          "count": 41491,
+          "bytes": 178589,
+          "sha256": "448016e7e19c4bbef70f9fc158010cdccdaddc92b2314cf06052870322e15f82"
+        }
+      },
+      "native_mask_count": 663782
+    },
+    {
+      "source_index": 744,
+      "image_timestamp_ns": 1793919267248315287,
+      "time_s": 1.646421,
+      "original_time_s": 41.646421,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0744.pcd2.gz",
+          "count": 645956,
+          "bytes": 2230028,
+          "sha256": "924575b74fd0e5526c5173313587982918196dd5172ea7e61ae7cc780cabe001"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0744.pcd2.gz",
+          "count": 161494,
+          "bytes": 620557,
+          "sha256": "de681668eefdf45cc972e9b58624e774c9fb0654217ec94816879dbd5951413f"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0744.pcd2.gz",
+          "count": 40423,
+          "bytes": 173396,
+          "sha256": "dd028676acc737e91ac7b3e32125795c61ce2ecbeac75bd554d61fef8976772a"
+        }
+      },
+      "native_mask_count": 645956
+    },
+    {
+      "source_index": 745,
+      "image_timestamp_ns": 1793919267280938287,
+      "time_s": 1.679044,
+      "original_time_s": 41.679044,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0745.pcd2.gz",
+          "count": 686344,
+          "bytes": 2367419,
+          "sha256": "c7c6e3c38288d31d36f101abbba3628bf31f7d99b0a24ac556bd6d6293763471"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0745.pcd2.gz",
+          "count": 171567,
+          "bytes": 659125,
+          "sha256": "9c9e000d671b000fa7baf9781b2e268b4d01a8ffc7f17ca539af7e270621395b"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0745.pcd2.gz",
+          "count": 42973,
+          "bytes": 184978,
+          "sha256": "c129539c7d80600f7a38363dc113ec2e4b4388ae844a41c815fddd0077b18801"
+        }
+      },
+      "native_mask_count": 686344
+    },
+    {
+      "source_index": 746,
+      "image_timestamp_ns": 1793919267314580287,
+      "time_s": 1.712686,
+      "original_time_s": 41.712686,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0746.pcd2.gz",
+          "count": 700923,
+          "bytes": 2425613,
+          "sha256": "35349bcf99e49550d536dd6ffd6862b1d9883b67e7231e3b2d78c56c1445bfc1"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0746.pcd2.gz",
+          "count": 175252,
+          "bytes": 672978,
+          "sha256": "867e6f2e91d57bedd53c0c7981b94465132f4daa6568060753ec9a4ff69a6c3c"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0746.pcd2.gz",
+          "count": 43848,
+          "bytes": 189309,
+          "sha256": "5557fd61bea4d71dc9c2d685f4fadc48de200e23c6557fcb531c40345c41fb1e"
+        }
+      },
+      "native_mask_count": 700923
+    },
+    {
+      "source_index": 747,
+      "image_timestamp_ns": 1793919267448334287,
+      "time_s": 1.84644,
+      "original_time_s": 41.84644,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0747.pcd2.gz",
+          "count": 650979,
+          "bytes": 2244554,
+          "sha256": "a9a74c02c3bd95cb6ba6144347ac571d11a9f07b6401002bd8c98006fefa90ce"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0747.pcd2.gz",
+          "count": 162729,
+          "bytes": 624142,
+          "sha256": "6063e65bb7bd0ff9c69ac4c65c9d9245b87d5df3564b358d95765c44b2882819"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0747.pcd2.gz",
+          "count": 40732,
+          "bytes": 175098,
+          "sha256": "50bbdaba6a08b42144ac8cf1732e4c3351a2c767801ec9c34228627e92ea02e2"
+        }
+      },
+      "native_mask_count": 650979
+    },
+    {
+      "source_index": 748,
+      "image_timestamp_ns": 1793919267481820287,
+      "time_s": 1.879926,
+      "original_time_s": 41.879926,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0748.pcd2.gz",
+          "count": 673649,
+          "bytes": 2334803,
+          "sha256": "46fffb0770161f588713d871cd98fb3ab3494b566d1fd7cb88a6b287fc3b3271"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0748.pcd2.gz",
+          "count": 168394,
+          "bytes": 648126,
+          "sha256": "09f8bce63be80ada2086253bad2de3dd08b1a6675b611820f0b577d11adb465a"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0748.pcd2.gz",
+          "count": 42149,
+          "bytes": 182147,
+          "sha256": "9d70ce879fba13ef0bbfe847a61c7e54b33e3a83c4e0e4496a3629c9dd0354a4"
+        }
+      },
+      "native_mask_count": 673649
+    },
+    {
+      "source_index": 749,
+      "image_timestamp_ns": 1793919267516401287,
+      "time_s": 1.914507,
+      "original_time_s": 41.914507,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0749.pcd2.gz",
+          "count": 651354,
+          "bytes": 2265990,
+          "sha256": "7b9209cbe85f03ab88c0f42e274f31f9a4165dda8474706980be06eba765eb58"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0749.pcd2.gz",
+          "count": 162862,
+          "bytes": 629299,
+          "sha256": "5c14b40abd3aa64936200278baa5a30dfe4ea9ab45c9012edd55cc79d4646f01"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0749.pcd2.gz",
+          "count": 40807,
+          "bytes": 176856,
+          "sha256": "cd60270da85a982d7f52cf3f439c52521ad9a56f0f0162a44efa339ae34b737d"
+        }
+      },
+      "native_mask_count": 651354
+    },
+    {
+      "source_index": 750,
+      "image_timestamp_ns": 1793919267582190287,
+      "time_s": 1.980296,
+      "original_time_s": 41.980296,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0750.pcd2.gz",
+          "count": 663433,
+          "bytes": 2301774,
+          "sha256": "0c2e25a1273e2242465ec4922b3def31450ff376b2e71a4c85eb6113e810ad0e"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0750.pcd2.gz",
+          "count": 165929,
+          "bytes": 639365,
+          "sha256": "25015836f68aefa074c2d91829e446e70543a5420e8aa86d0262d4e0f8b99321"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0750.pcd2.gz",
+          "count": 41482,
+          "bytes": 179323,
+          "sha256": "405bc76d7c8743f2682dc69028b3333373c2442d6d42b6fe53b9579c4e074f55"
+        }
+      },
+      "native_mask_count": 663433
+    },
+    {
+      "source_index": 751,
+      "image_timestamp_ns": 1793919267615440287,
+      "time_s": 2.013546,
+      "original_time_s": 42.013546,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0751.pcd2.gz",
+          "count": 657172,
+          "bytes": 2282347,
+          "sha256": "f95f6e1b4473d9b1142563aa25d3f953f4edc45d65dd9cc78c75009472951000"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0751.pcd2.gz",
+          "count": 164383,
+          "bytes": 633586,
+          "sha256": "e68d3ccd979952cea67cff18fa71b76d0015cfff2befa080b9b1b744577d9a48"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0751.pcd2.gz",
+          "count": 41156,
+          "bytes": 178008,
+          "sha256": "a7460b46c0abb75271334bedcf991e12ece0e24dd54bdeee852496613aa6fc13"
+        }
+      },
+      "native_mask_count": 657172
+    },
+    {
+      "source_index": 752,
+      "image_timestamp_ns": 1793919267649077287,
+      "time_s": 2.047183,
+      "original_time_s": 42.047183,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0752.pcd2.gz",
+          "count": 636699,
+          "bytes": 2204792,
+          "sha256": "d17da9eeef107465bb79d7a54b0aa4ddb664e3be54bb83b225f75a497cfdad33"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0752.pcd2.gz",
+          "count": 159113,
+          "bytes": 612559,
+          "sha256": "eeeb194017be20e94e62ea5f70884fa89f52dda867b9e85cf780796551d312e6"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0752.pcd2.gz",
+          "count": 39817,
+          "bytes": 172359,
+          "sha256": "76c7ffef5f1bdb536e157634975b43eb48bf6b13bf531814407fa1fa14f22186"
+        }
+      },
+      "native_mask_count": 636699
+    },
+    {
+      "source_index": 753,
+      "image_timestamp_ns": 1793919267682444287,
+      "time_s": 2.08055,
+      "original_time_s": 42.08055,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0753.pcd2.gz",
+          "count": 645168,
+          "bytes": 2241041,
+          "sha256": "6b335bbb7de6b5a021ea22fdda64560e13ab7fa926c77196691ae1edb08dcb93"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0753.pcd2.gz",
+          "count": 161327,
+          "bytes": 623800,
+          "sha256": "0d2788d609921b6915119a63a2801f06a096c981b49a9d7600ee3522d57c2d1c"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0753.pcd2.gz",
+          "count": 40380,
+          "bytes": 174715,
+          "sha256": "ebd8fcba6b98a67169fa731772dfbba80838a3bc7291caaac857c16010d9a52a"
+        }
+      },
+      "native_mask_count": 645168
+    },
+    {
+      "source_index": 754,
+      "image_timestamp_ns": 1793919267715954287,
+      "time_s": 2.11406,
+      "original_time_s": 42.11406,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0754.pcd2.gz",
+          "count": 662911,
+          "bytes": 2294412,
+          "sha256": "39b38df679221c513e695a244c1a81f88057283b9d7cbaf9f25a8082450bdc11"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0754.pcd2.gz",
+          "count": 165746,
+          "bytes": 637352,
+          "sha256": "422f1a62f79dfec93096eb2ac193f9dfd9c5f53a0bb3a022cbc6e07d54002073"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0754.pcd2.gz",
+          "count": 41505,
+          "bytes": 179163,
+          "sha256": "0ad2fb22a054c928fae3cce0c33a89e650320f15062482993293ce83eb4f8ada"
+        }
+      },
+      "native_mask_count": 662911
+    },
+    {
+      "source_index": 755,
+      "image_timestamp_ns": 1793919267749456287,
+      "time_s": 2.147562,
+      "original_time_s": 42.147562,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0755.pcd2.gz",
+          "count": 643444,
+          "bytes": 2212236,
+          "sha256": "05cb6d87d286506dc29d667af55fad6c02304b7bb7dc6c28a0cd7e32b1471173"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0755.pcd2.gz",
+          "count": 160742,
+          "bytes": 613949,
+          "sha256": "49f0774b9111df7777514ce9228a1086cb36f4cd77beac881cb314274389bbe5"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0755.pcd2.gz",
+          "count": 40256,
+          "bytes": 172909,
+          "sha256": "c87121f61ac0ec324bd95170dcaf98d99379db8b2bf43ced11430165bb464078"
+        }
+      },
+      "native_mask_count": 643444
+    },
+    {
+      "source_index": 756,
+      "image_timestamp_ns": 1793919267782698287,
+      "time_s": 2.180804,
+      "original_time_s": 42.180804,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0756.pcd2.gz",
+          "count": 656172,
+          "bytes": 2260993,
+          "sha256": "017080c1fdcc6870e55e0e43b5242d3b5c8a28adba8437c5acd5cee03e03ba2f"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0756.pcd2.gz",
+          "count": 164036,
+          "bytes": 628201,
+          "sha256": "4d5fd8916f2957f49ecf1e80e6c42cb90ac7ce0e49116a7d597b9497635efc2d"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0756.pcd2.gz",
+          "count": 40963,
+          "bytes": 175677,
+          "sha256": "34662fba0d25d08ca7a0cac71f4c422bd518e047b1045fd4e9b714d1f709cd56"
+        }
+      },
+      "native_mask_count": 656172
+    },
+    {
+      "source_index": 757,
+      "image_timestamp_ns": 1793919267816325287,
+      "time_s": 2.214431,
+      "original_time_s": 42.214431,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0757.pcd2.gz",
+          "count": 650810,
+          "bytes": 2241903,
+          "sha256": "79fcc35c6249c722aeb1d95c7412e9dc35fde970ecdfc6dbac7f6d148c7ae1c1"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0757.pcd2.gz",
+          "count": 162632,
+          "bytes": 624112,
+          "sha256": "f304f2f217f7786c99e629bed807be04c6c7fe0301ae345e71a40e093ef0048e"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0757.pcd2.gz",
+          "count": 40660,
+          "bytes": 174784,
+          "sha256": "620b294f6df6568f1902210299db3d3145d6e7e34efcd383cad4925b3ee882a2"
+        }
+      },
+      "native_mask_count": 650810
+    },
+    {
+      "source_index": 758,
+      "image_timestamp_ns": 1793919267849702287,
+      "time_s": 2.247808,
+      "original_time_s": 42.247808,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0758.pcd2.gz",
+          "count": 651759,
+          "bytes": 2251078,
+          "sha256": "7d164dbd1b93b2a0aabefe87b363b0462a178b03394c24d80786db4099da58c0"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0758.pcd2.gz",
+          "count": 162870,
+          "bytes": 625321,
+          "sha256": "94cbea317392c689fd1869cd068946cfe58c611816d80184b3c8461d1d4d9137"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0758.pcd2.gz",
+          "count": 40737,
+          "bytes": 175654,
+          "sha256": "1c3f7c8c3c29217ee85bcaae1b4d5c816a285f032ff7aa0ad471ceed15858ac3"
+        }
+      },
+      "native_mask_count": 651759
+    },
+    {
+      "source_index": 759,
+      "image_timestamp_ns": 1793919267883201287,
+      "time_s": 2.281307,
+      "original_time_s": 42.281307,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0759.pcd2.gz",
+          "count": 652830,
+          "bytes": 2257181,
+          "sha256": "f3053991b87481708c7f5a94c9085c66abc4a990702182925ce2d3dc8a3b2ce6"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0759.pcd2.gz",
+          "count": 163101,
+          "bytes": 626683,
+          "sha256": "a6b23a37b8553b5760f6adda03dcb0154fe2a828956d7688384a2b6d4dc756a1"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0759.pcd2.gz",
+          "count": 40711,
+          "bytes": 175347,
+          "sha256": "b1cdb649c02c2abeb88223bf874ce03eeb29292bf810e099ed65e4bcd6f2941d"
+        }
+      },
+      "native_mask_count": 652830
+    },
+    {
+      "source_index": 760,
+      "image_timestamp_ns": 1793919268050460287,
+      "time_s": 2.448566,
+      "original_time_s": 42.448566,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0760.pcd2.gz",
+          "count": 668338,
+          "bytes": 2299373,
+          "sha256": "29324dd45aefda9d9ab559291f78e732e5ae9b9bfc9a687c9ec16bace2ad4e63"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0760.pcd2.gz",
+          "count": 167062,
+          "bytes": 639660,
+          "sha256": "c7d103c7c2cc9c662629ee5c03be5a7929bd6c842f50e01250ba7789a68e8e03"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0760.pcd2.gz",
+          "count": 41791,
+          "bytes": 179798,
+          "sha256": "fb3e00d68ad964a677cce123de4fab6d3da26744bb939babcb2b292d9eef07ef"
+        }
+      },
+      "native_mask_count": 668338
+    },
+    {
+      "source_index": 761,
+      "image_timestamp_ns": 1793919268084107287,
+      "time_s": 2.482213,
+      "original_time_s": 42.482213,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0761.pcd2.gz",
+          "count": 665872,
+          "bytes": 2297826,
+          "sha256": "319ff3f420692b155d59640516edc795a738c6b41e0958d5b7a5c4edd67edc85"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0761.pcd2.gz",
+          "count": 166380,
+          "bytes": 638634,
+          "sha256": "ce8a83ab789aa48737e996341e4f46e01edb99d80849a92ad6b6a0342d809587"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0761.pcd2.gz",
+          "count": 41562,
+          "bytes": 179181,
+          "sha256": "ae91e477e6e6f028c5fd97b828d125f505eef3fb4b593147c15593756eaa84a9"
+        }
+      },
+      "native_mask_count": 665872
+    },
+    {
+      "source_index": 762,
+      "image_timestamp_ns": 1793919268117214287,
+      "time_s": 2.51532,
+      "original_time_s": 42.51532,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0762.pcd2.gz",
+          "count": 663160,
+          "bytes": 2281656,
+          "sha256": "7ad86777fad4024758fdd486cf457834970943e16ebc34a03ec870564abe0c5d"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0762.pcd2.gz",
+          "count": 165784,
+          "bytes": 634916,
+          "sha256": "b6e585b05c11f5f1fa5b42f1696ab2177b71c88aad2cbc810a0978a0230c0354"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0762.pcd2.gz",
+          "count": 41406,
+          "bytes": 177798,
+          "sha256": "baea9a5a6537999b1915514474e00ce3a99d8e71299ecf94db3f63bd844152d8"
+        }
+      },
+      "native_mask_count": 663160
+    },
+    {
+      "source_index": 763,
+      "image_timestamp_ns": 1793919268150821287,
+      "time_s": 2.548927,
+      "original_time_s": 42.548927,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0763.pcd2.gz",
+          "count": 672145,
+          "bytes": 2314478,
+          "sha256": "6fe0d16f437d3443e358b9293c82cfa137f4e4d55fcfd08598750bcf3ef97936"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0763.pcd2.gz",
+          "count": 167995,
+          "bytes": 641658,
+          "sha256": "21271ac3192042bca72e2a8bbce67f9c035ff35f8a5b44c9c84a83496f7e72c6"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0763.pcd2.gz",
+          "count": 42002,
+          "bytes": 180529,
+          "sha256": "ac2fdbbad6c2def0d3b50c40e09ef568a84ed9413237fcb89c9530feec5fab10"
+        }
+      },
+      "native_mask_count": 672145
+    },
+    {
+      "source_index": 764,
+      "image_timestamp_ns": 1793919268184213287,
+      "time_s": 2.582319,
+      "original_time_s": 42.582319,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0764.pcd2.gz",
+          "count": 664281,
+          "bytes": 2295980,
+          "sha256": "d9b02ba35243c0a47cba725b8e53ee29651170060b180156583a905dcb5a2bd6"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0764.pcd2.gz",
+          "count": 166065,
+          "bytes": 639057,
+          "sha256": "074d8831e5057ee6d3c94fc8901a6082b23a3e3265bbb0da0790d7d14a1042ef"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0764.pcd2.gz",
+          "count": 41518,
+          "bytes": 179409,
+          "sha256": "1c6070a5e4d8f89ca8f4e76f64004a747f8f9a829e809ecdd15bbaf69e3e0863"
+        }
+      },
+      "native_mask_count": 664281
+    },
+    {
+      "source_index": 765,
+      "image_timestamp_ns": 1793919268217712287,
+      "time_s": 2.615818,
+      "original_time_s": 42.615818,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0765.pcd2.gz",
+          "count": 661785,
+          "bytes": 2273684,
+          "sha256": "1a85dcd2676d5c4953a2319b34044fff7961b87759b2b809ef0abb2b432802b9"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0765.pcd2.gz",
+          "count": 165308,
+          "bytes": 631979,
+          "sha256": "35ded007c57675f0db72eb644be1e1f8638c8206624282e97818650f2cbf0d33"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0765.pcd2.gz",
+          "count": 41313,
+          "bytes": 177263,
+          "sha256": "d80f5e8062c1f631c1346a5403df3971282a3482a657b763a9c372f58601aa77"
+        }
+      },
+      "native_mask_count": 661785
+    },
+    {
+      "source_index": 766,
+      "image_timestamp_ns": 1793919268251089287,
+      "time_s": 2.649195,
+      "original_time_s": 42.649195,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0766.pcd2.gz",
+          "count": 669854,
+          "bytes": 2302667,
+          "sha256": "64cf679933e712cae69900a68ea7bc7d45b87a3bcaed9facca5d368121200b63"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0766.pcd2.gz",
+          "count": 167381,
+          "bytes": 639904,
+          "sha256": "210cf3177e6c43fe77be50909379f59b40497462f68366fe7514de7148ff4b81"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0766.pcd2.gz",
+          "count": 41816,
+          "bytes": 179980,
+          "sha256": "6de4829fc9c2fe2d3fbd54e271913c5add81271808d39ef83184684ffb978dca"
+        }
+      },
+      "native_mask_count": 669854
+    },
+    {
+      "source_index": 767,
+      "image_timestamp_ns": 1793919268284583287,
+      "time_s": 2.682689,
+      "original_time_s": 42.682689,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0767.pcd2.gz",
+          "count": 655287,
+          "bytes": 2250612,
+          "sha256": "66925128b9e40d22dc882e10aa2ee92cd0c1d70016e810aad00237f5c2c99277"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0767.pcd2.gz",
+          "count": 163797,
+          "bytes": 624855,
+          "sha256": "b314ff24caeb549649bd2e41807451576ea273e7204f1ccab49acf238adef7f3"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0767.pcd2.gz",
+          "count": 40933,
+          "bytes": 175694,
+          "sha256": "6c844a2540fccc0bfad7acb4c95310046f507665460f5bd56f3e038c116c07bd"
+        }
+      },
+      "native_mask_count": 655287
+    },
+    {
+      "source_index": 768,
+      "image_timestamp_ns": 1793919268318079287,
+      "time_s": 2.716185,
+      "original_time_s": 42.716185,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0768.pcd2.gz",
+          "count": 684017,
+          "bytes": 2341859,
+          "sha256": "7aeaaa63440cfc3746c211c2727bc68fceff42314c255d9bb71f702204700ece"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0768.pcd2.gz",
+          "count": 171016,
+          "bytes": 651363,
+          "sha256": "f3db2fd202b8ed813d6ee18fa6998f4b5d00b2940347dffabf66469a6fad6842"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0768.pcd2.gz",
+          "count": 42724,
+          "bytes": 183213,
+          "sha256": "b55447fdcf6a31405d937738f375e68fa38cf36f88d355d142f7856e4a845981"
+        }
+      },
+      "native_mask_count": 684017
+    },
+    {
+      "source_index": 769,
+      "image_timestamp_ns": 1793919268384957287,
+      "time_s": 2.783063,
+      "original_time_s": 42.783063,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0769.pcd2.gz",
+          "count": 677060,
+          "bytes": 2319510,
+          "sha256": "12aac66a6427e7ea7ed260ba2001a9b065a849a16474411e9c66aae2d0907c08"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0769.pcd2.gz",
+          "count": 169244,
+          "bytes": 642936,
+          "sha256": "a41ed377189352b8a743b8b0f585481575e3462463ebffe9797f5e511ff15812"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0769.pcd2.gz",
+          "count": 42270,
+          "bytes": 181599,
+          "sha256": "05f40b54810b9f88f12a68c3a231b2c164145e3104516f9acc67b05397a476aa"
+        }
+      },
+      "native_mask_count": 677060
+    },
+    {
+      "source_index": 770,
+      "image_timestamp_ns": 1793919268485342287,
+      "time_s": 2.883448,
+      "original_time_s": 42.883448,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0770.pcd2.gz",
+          "count": 659574,
+          "bytes": 2260250,
+          "sha256": "4e41bd95ac512c7d2d08bf2b4dd5f434e434e7db68831d22ff87efc2e8c5d144"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0770.pcd2.gz",
+          "count": 164818,
+          "bytes": 626371,
+          "sha256": "e4c4731be016b24e1738a06dfd25b06073002ffb724360e12b04fcf4323a9740"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0770.pcd2.gz",
+          "count": 41135,
+          "bytes": 175316,
+          "sha256": "93b61650bb7ac93326ecf843bc677d8cbcdda82a961192e69dafba73a45e046f"
+        }
+      },
+      "native_mask_count": 659574
+    },
+    {
+      "source_index": 771,
+      "image_timestamp_ns": 1793919268518714287,
+      "time_s": 2.91682,
+      "original_time_s": 42.91682,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0771.pcd2.gz",
+          "count": 665837,
+          "bytes": 2294150,
+          "sha256": "9850bfb580afc2ed55f2f0c8a286ffd820e0f30eda295b33d24bd2d3bd4c1a76"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0771.pcd2.gz",
+          "count": 166490,
+          "bytes": 637617,
+          "sha256": "0577da021fb2fa828842921a9f932df5074133dcdde3f8dbe08507b26c38ac69"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0771.pcd2.gz",
+          "count": 41598,
+          "bytes": 178841,
+          "sha256": "7983164967d31d336b4aae978b98bb1200bc5e53aeeff294bf12ae4bebcc324b"
+        }
+      },
+      "native_mask_count": 665837
+    },
+    {
+      "source_index": 772,
+      "image_timestamp_ns": 1793919268552240287,
+      "time_s": 2.950346,
+      "original_time_s": 42.950346,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0772.pcd2.gz",
+          "count": 657777,
+          "bytes": 2256050,
+          "sha256": "c02efda708350a66f0f0b1be48e85c3b3a9a94414272027336166116211bbd78"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0772.pcd2.gz",
+          "count": 164595,
+          "bytes": 625973,
+          "sha256": "aaf2db87c1db3a126fdf2f878b9d2a2acd90ceba405002647c6854cf2b080c75"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0772.pcd2.gz",
+          "count": 41134,
+          "bytes": 175597,
+          "sha256": "0d592fec2c3319f7a90cb8c4e81e85a013b792ddc689838d867da9287c88a2d3"
+        }
+      },
+      "native_mask_count": 657777
+    },
+    {
+      "source_index": 773,
+      "image_timestamp_ns": 1793919268585611287,
+      "time_s": 2.983717,
+      "original_time_s": 42.983717,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0773.pcd2.gz",
+          "count": 654257,
+          "bytes": 2239343,
+          "sha256": "1978dffd9658d77a5ad6f103633e74003c481e33b719cf7f2783b6e081df52b8"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0773.pcd2.gz",
+          "count": 163513,
+          "bytes": 622898,
+          "sha256": "a39d8246ef39af267fd851d8d0ae38ac7910da52821f875417b7376c9c5d5783"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0773.pcd2.gz",
+          "count": 40850,
+          "bytes": 173999,
+          "sha256": "0b34107f2c8888790f920da0416d7905f85b2c05ecfac6a3cfcb1e36637e6a46"
+        }
+      },
+      "native_mask_count": 654257
+    },
+    {
+      "source_index": 774,
+      "image_timestamp_ns": 1793919268619087287,
+      "time_s": 3.017193,
+      "original_time_s": 43.017193,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0774.pcd2.gz",
+          "count": 672750,
+          "bytes": 2307926,
+          "sha256": "bf5e09cae7c4731f429a18d071b362d885f8dd3600e1ab67a6d4a60c9bcb84f3"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0774.pcd2.gz",
+          "count": 168208,
+          "bytes": 640209,
+          "sha256": "2405514c9c7c25d9636253de7165d0f59ef5b36cef3a436063d1050c16eea100"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0774.pcd2.gz",
+          "count": 42007,
+          "bytes": 179571,
+          "sha256": "1a75f2d1b769e8ecc8b3525cfd555804e21264c72f77928a26e9c12d05481ede"
+        }
+      },
+      "native_mask_count": 672750
+    },
+    {
+      "source_index": 775,
+      "image_timestamp_ns": 1793919268719479287,
+      "time_s": 3.117585,
+      "original_time_s": 43.117585,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0775.pcd2.gz",
+          "count": 678356,
+          "bytes": 2325833,
+          "sha256": "ebe7221c56d1bff69c4a95c3e87959d267b42faa83d18eb7c1d1aeace9649cf5"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0775.pcd2.gz",
+          "count": 169537,
+          "bytes": 644287,
+          "sha256": "8baaf06bfe7af6dc3479ba1263cafb5b5b936cd8b50fb308c26c0b54ea38509f"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0775.pcd2.gz",
+          "count": 42397,
+          "bytes": 181577,
+          "sha256": "e7257a1227bff16416eb9dbc4750021f4bbf75f86bb754b934c1a09ad1c573d4"
+        }
+      },
+      "native_mask_count": 678356
+    },
+    {
+      "source_index": 776,
+      "image_timestamp_ns": 1793919268786389287,
+      "time_s": 3.184495,
+      "original_time_s": 43.184495,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0776.pcd2.gz",
+          "count": 684354,
+          "bytes": 2356249,
+          "sha256": "79ae91b0c85ad7d1bb58d9150900b6b5831098c03106a3df701907484470a09f"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0776.pcd2.gz",
+          "count": 171071,
+          "bytes": 653609,
+          "sha256": "6d0845547479ba30707565b4cf679de75157c6a5f3f404fc1ebe69fd4e8b8465"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0776.pcd2.gz",
+          "count": 42849,
+          "bytes": 183641,
+          "sha256": "00f66ab6188c73675aaae34cd9bc59acb910b864649c0ffa21053b83f5dc754a"
+        }
+      },
+      "native_mask_count": 684354
+    },
+    {
+      "source_index": 777,
+      "image_timestamp_ns": 1793919268819850287,
+      "time_s": 3.217956,
+      "original_time_s": 43.217956,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0777.pcd2.gz",
+          "count": 707528,
+          "bytes": 2429708,
+          "sha256": "4a27b0d16cc95eab2de7f0c0bcc7a6bf40a6151636eb8b32b9a5b6d299086484"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0777.pcd2.gz",
+          "count": 176923,
+          "bytes": 673428,
+          "sha256": "51b22fd8f4789f085e47534b3b6855944b481b5dab077a2e7fcd6b764d223776"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0777.pcd2.gz",
+          "count": 44316,
+          "bytes": 189850,
+          "sha256": "957564c0ba6eee4b8ece079ac57c3cb837e5965821bb9be4fb178c3865006d0a"
+        }
+      },
+      "native_mask_count": 707528
+    },
+    {
+      "source_index": 778,
+      "image_timestamp_ns": 1793919268920104287,
+      "time_s": 3.31821,
+      "original_time_s": 43.31821,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0778.pcd2.gz",
+          "count": 692637,
+          "bytes": 2387554,
+          "sha256": "553ddc3c4153feaa46791a3a7d421d410cb871acf6628be47888b076b46c1d87"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0778.pcd2.gz",
+          "count": 173078,
+          "bytes": 661633,
+          "sha256": "806b98bc30c120c1b48201f79d416fbbea6e96cac36392beb1dbb2875f114892"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0778.pcd2.gz",
+          "count": 43290,
+          "bytes": 186311,
+          "sha256": "bed0bb4dbdf5c707621ea53013090d8a3322be07b912985f743b829ebe22400b"
+        }
+      },
+      "native_mask_count": 692637
+    },
+    {
+      "source_index": 779,
+      "image_timestamp_ns": 1793919268953590287,
+      "time_s": 3.351696,
+      "original_time_s": 43.351696,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0779.pcd2.gz",
+          "count": 657097,
+          "bytes": 2267571,
+          "sha256": "867a6d69a1085aa46f41933908742558c78a2a8cdd840b89187548cedf236258"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0779.pcd2.gz",
+          "count": 164237,
+          "bytes": 628103,
+          "sha256": "90662272feefb0877bb717ceb6e3b904e64372593092f6d53b8bb998136214ba"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0779.pcd2.gz",
+          "count": 41120,
+          "bytes": 176411,
+          "sha256": "0124f9ecbb8bcb7de65d59a3110368ab39ed747a8fb6e04e523ff511414d7759"
+        }
+      },
+      "native_mask_count": 657097
+    },
+    {
+      "source_index": 780,
+      "image_timestamp_ns": 1793919269053972287,
+      "time_s": 3.452078,
+      "original_time_s": 43.452078,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0780.pcd2.gz",
+          "count": 615658,
+          "bytes": 2127969,
+          "sha256": "9cfd704fb540eb7bce2427a3485fc562397a6384fdb2d9f49e80c464d855b4e6"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0780.pcd2.gz",
+          "count": 153925,
+          "bytes": 590573,
+          "sha256": "e47964d3695086108d4af59c2454d76b0d9a7b559e2b9e45234de08696149dba"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0780.pcd2.gz",
+          "count": 38554,
+          "bytes": 166881,
+          "sha256": "9034ffbd219dbbbe03ff14c9233284e1da555a1c822883e6f30a3297c545e347"
+        }
+      },
+      "native_mask_count": 615658
+    },
+    {
+      "source_index": 781,
+      "image_timestamp_ns": 1793919269120873287,
+      "time_s": 3.518979,
+      "original_time_s": 43.518979,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0781.pcd2.gz",
+          "count": 622432,
+          "bytes": 2161835,
+          "sha256": "ff567a4e2b5cc50f24b5d71457b196cf0b66c02b98583c35c901f9cfd968e385"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0781.pcd2.gz",
+          "count": 155594,
+          "bytes": 600264,
+          "sha256": "21e1a49cc51c1c7e666d2f68a4efefc925f9ad5b3cb86517f49bc6990f3c557b"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0781.pcd2.gz",
+          "count": 38920,
+          "bytes": 169098,
+          "sha256": "5efb056843ae720d18a1e9deee55bf06ef2fecf6271899e515c4eb9a46a96848"
+        }
+      },
+      "native_mask_count": 622432
+    },
+    {
+      "source_index": 782,
+      "image_timestamp_ns": 1793919269154373287,
+      "time_s": 3.552479,
+      "original_time_s": 43.552479,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0782.pcd2.gz",
+          "count": 621116,
+          "bytes": 2147601,
+          "sha256": "dbfbcb193bf0852d3c4ec44dc0e3c1b28881835b69098424644bffa52547e0b5"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0782.pcd2.gz",
+          "count": 155259,
+          "bytes": 597193,
+          "sha256": "f51d724568688a387d24e27ce6199e12c6cf665ecba528a94d1a0323cb05a20d"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0782.pcd2.gz",
+          "count": 38831,
+          "bytes": 168139,
+          "sha256": "34ad91213bea1afaed52b1a4e10ca8c68a1a3387f9669e9d15b92f229588661d"
+        }
+      },
+      "native_mask_count": 621116
+    },
+    {
+      "source_index": 783,
+      "image_timestamp_ns": 1793919269187721287,
+      "time_s": 3.585827,
+      "original_time_s": 43.585827,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0783.pcd2.gz",
+          "count": 584551,
+          "bytes": 2020269,
+          "sha256": "cb9987e5c6e6c139d14e358e8a2290a47205bfe4c76047a9cb5f340388ac9e6c"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0783.pcd2.gz",
+          "count": 146250,
+          "bytes": 561826,
+          "sha256": "a6d5b0b93022622f3516b83ff600491a6839c7264bd5f9034757c96ac46870b0"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0783.pcd2.gz",
+          "count": 36631,
+          "bytes": 157945,
+          "sha256": "564f7f5f7e8b8b1e28e8a9dad467f0b4793467f534a7b6b82db6b02f5edf3f27"
+        }
+      },
+      "native_mask_count": 584551
+    },
+    {
+      "source_index": 784,
+      "image_timestamp_ns": 1793919269221227287,
+      "time_s": 3.619333,
+      "original_time_s": 43.619333,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0784.pcd2.gz",
+          "count": 610700,
+          "bytes": 2113088,
+          "sha256": "b925c0af2363dfabb6a5baf8f07f623aec9d2e7be2e4c71120060ae3f751a5e4"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0784.pcd2.gz",
+          "count": 152599,
+          "bytes": 585043,
+          "sha256": "2b6af2443c0db11effb2efc35e017e29be8d1d6f2b4b84a0f167e711cea700be"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0784.pcd2.gz",
+          "count": 38204,
+          "bytes": 165211,
+          "sha256": "01bc9f197cb1f1dc213bd78a9307d1b3d88cdd883f9aeb1084775cdff364e506"
+        }
+      },
+      "native_mask_count": 610700
+    },
+    {
+      "source_index": 785,
+      "image_timestamp_ns": 1793919269254593287,
+      "time_s": 3.652699,
+      "original_time_s": 43.652699,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0785.pcd2.gz",
+          "count": 562513,
+          "bytes": 1959357,
+          "sha256": "3db74385920e285d135e3e10e4a74066401c6f86bab707259a93ea08db91191c"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0785.pcd2.gz",
+          "count": 140531,
+          "bytes": 542282,
+          "sha256": "8f6ec9d4d405fa25715730c4de8975f337b27aae86b090e65a8ba76a813dd2ca"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0785.pcd2.gz",
+          "count": 35166,
+          "bytes": 153335,
+          "sha256": "01a8c5ee98ded52e6685a9bce08dd85f0e91147f645e7b0a21d4b4cdcbacd85f"
+        }
+      },
+      "native_mask_count": 562513
+    },
+    {
+      "source_index": 786,
+      "image_timestamp_ns": 1793919269288114287,
+      "time_s": 3.68622,
+      "original_time_s": 43.68622,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0786.pcd2.gz",
+          "count": 597430,
+          "bytes": 2073916,
+          "sha256": "5e5b9089240a5133070ce355cb881b667887fc6458680d3867af419209c3c327"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0786.pcd2.gz",
+          "count": 149346,
+          "bytes": 575625,
+          "sha256": "62ebd2a36ad875b7972babe473db0c6daa1d4c6e87581134e456a418f1d98fd9"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0786.pcd2.gz",
+          "count": 37339,
+          "bytes": 162213,
+          "sha256": "edab0f8188bc819ea04286b40f46c429cb4f44f8c7dc379004c8157f9869c1c8"
+        }
+      },
+      "native_mask_count": 597430
+    },
+    {
+      "source_index": 787,
+      "image_timestamp_ns": 1793919269321601287,
+      "time_s": 3.719707,
+      "original_time_s": 43.719707,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0787.pcd2.gz",
+          "count": 576643,
+          "bytes": 2012629,
+          "sha256": "ea0ee454c87da92bd8b3c180b057ed283e4fbeaf7e31ab64ba90f6879f717d2a"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0787.pcd2.gz",
+          "count": 144232,
+          "bytes": 559694,
+          "sha256": "b4c2423c85227a07d729c24210c29ae8df74c3aeebaad7f66841744296530f3e"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0787.pcd2.gz",
+          "count": 36086,
+          "bytes": 156763,
+          "sha256": "205c154fb180f34f297ffd1133ed9c324479ca71e01b52f851c7fd2a769f6122"
+        }
+      },
+      "native_mask_count": 576643
+    },
+    {
+      "source_index": 788,
+      "image_timestamp_ns": 1793919269354977287,
+      "time_s": 3.753083,
+      "original_time_s": 43.753083,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0788.pcd2.gz",
+          "count": 538067,
+          "bytes": 1875366,
+          "sha256": "1ad4f54785a0c085067b06d7e5a9cf3b54730f3d4eb92969afd13ed162065621"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0788.pcd2.gz",
+          "count": 134476,
+          "bytes": 521711,
+          "sha256": "256cbb4fdf97c1d06fc1166fdfe05ca2655389ebca1a30ba510b42a714e5e1b5"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0788.pcd2.gz",
+          "count": 33698,
+          "bytes": 146711,
+          "sha256": "5ee5a7278f62de782275472388bf907faa8905b7b7ce7c16d9ee819495f615ec"
+        }
+      },
+      "native_mask_count": 538067
+    },
+    {
+      "source_index": 789,
+      "image_timestamp_ns": 1793919269388481287,
+      "time_s": 3.786587,
+      "original_time_s": 43.786587,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0789.pcd2.gz",
+          "count": 570045,
+          "bytes": 2002281,
+          "sha256": "5921d60ac96260dc04ba5e4d3f01697c28c33e9fb0d730cbcce2fa7bbfbf0bdc"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0789.pcd2.gz",
+          "count": 142537,
+          "bytes": 557289,
+          "sha256": "33e55c4e2ce49880514fbe27200c24cab3419416adffd1e64d131ea1c17d8609"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0789.pcd2.gz",
+          "count": 35700,
+          "bytes": 156385,
+          "sha256": "05806fe40e3788e415f43a0d75662626698372734927b432aac37d07287368a3"
+        }
+      },
+      "native_mask_count": 570045
+    },
+    {
+      "source_index": 790,
+      "image_timestamp_ns": 1793919269421862287,
+      "time_s": 3.819968,
+      "original_time_s": 43.819968,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0790.pcd2.gz",
+          "count": 547171,
+          "bytes": 1914535,
+          "sha256": "4e358272ae45328f892485cf676bf5ff31508da66042baf0c7d4860312d68053"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0790.pcd2.gz",
+          "count": 136761,
+          "bytes": 532241,
+          "sha256": "bc663d53333182affa623a65cd7165ef628b484b00843230834bf81d5a55b85e"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0790.pcd2.gz",
+          "count": 34202,
+          "bytes": 149797,
+          "sha256": "2223d5e995fd999bb57c82eaf9e6464665304d02cc2c3b13e19907c0664954b9"
+        }
+      },
+      "native_mask_count": 547171
+    },
+    {
+      "source_index": 791,
+      "image_timestamp_ns": 1793919269455349287,
+      "time_s": 3.853455,
+      "original_time_s": 43.853455,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0791.pcd2.gz",
+          "count": 542738,
+          "bytes": 1909671,
+          "sha256": "e0839bd7ac8cfe164c373f49430493e56f1a98560b550c5efc3aa2a4c153c6b7"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0791.pcd2.gz",
+          "count": 135750,
+          "bytes": 531212,
+          "sha256": "e27ff0e0cd3eddf6fed2430e183684624d080f83af77b8a20b86cf79ae54a863"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0791.pcd2.gz",
+          "count": 33923,
+          "bytes": 149389,
+          "sha256": "e6f75f1fd975741a4df08a1735a1df5d97b6376a205b21375df9244bec3fc972"
+        }
+      },
+      "native_mask_count": 542738
+    },
+    {
+      "source_index": 792,
+      "image_timestamp_ns": 1793919269488861287,
+      "time_s": 3.886967,
+      "original_time_s": 43.886967,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0792.pcd2.gz",
+          "count": 524555,
+          "bytes": 1837970,
+          "sha256": "2c0eb9bee3871873bcd04de1b26cc6cd799343c048b022de202f9d90b38f2f08"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0792.pcd2.gz",
+          "count": 131152,
+          "bytes": 510189,
+          "sha256": "ffcac8b60f7816a7a538564b35316e89aefde260abf16ae1fa09e35623a9e8d8"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0792.pcd2.gz",
+          "count": 32776,
+          "bytes": 143473,
+          "sha256": "d275b89d816a5cdc9ada6943bea851443b0ea3fb5b50e89429f7fd1d22a73c91"
+        }
+      },
+      "native_mask_count": 524555
+    },
+    {
+      "source_index": 793,
+      "image_timestamp_ns": 1793919269522108287,
+      "time_s": 3.920214,
+      "original_time_s": 43.920214,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0793.pcd2.gz",
+          "count": 538739,
+          "bytes": 1883748,
+          "sha256": "dabfdcad64002f012902f37131e0d2e2f4c0c14d95d46d67705980681c9e346b"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0793.pcd2.gz",
+          "count": 134766,
+          "bytes": 523135,
+          "sha256": "7e6a2a2bef351bfe2708f035a46e48892410cd48dfd7d0a18041b5b0e742a56b"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0793.pcd2.gz",
+          "count": 33639,
+          "bytes": 147258,
+          "sha256": "b4e519603ae2679afdbde99161463b8fc4d377796d3f6472b990f49e3453fcc9"
+        }
+      },
+      "native_mask_count": 538739
+    },
+    {
+      "source_index": 794,
+      "image_timestamp_ns": 1793919269589106287,
+      "time_s": 3.987212,
+      "original_time_s": 43.987212,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0794.pcd2.gz",
+          "count": 534005,
+          "bytes": 1882186,
+          "sha256": "9bc0a87c492ad5365e0fd8a9cf2b8500c5e4450f81755301449399e073bef365"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0794.pcd2.gz",
+          "count": 133467,
+          "bytes": 521549,
+          "sha256": "01e29e9fc9573a2aa9669f1c8197b80f441815b059f1d1a79f07ab0e7df61461"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0794.pcd2.gz",
+          "count": 33317,
+          "bytes": 146357,
+          "sha256": "2471cf5c1c50ed03eaff6e332fcfdd7440bb42848c33db20b63c8c82cf446e9b"
+        }
+      },
+      "native_mask_count": 534005
+    },
+    {
+      "source_index": 795,
+      "image_timestamp_ns": 1793919269689483287,
+      "time_s": 4.087589,
+      "original_time_s": 44.087589,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0795.pcd2.gz",
+          "count": 485724,
+          "bytes": 1699136,
+          "sha256": "5de31caeec5807f9c9d24fa538e2d49053fab16942dc517b6ec2fd27b500d2e3"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0795.pcd2.gz",
+          "count": 121409,
+          "bytes": 472745,
+          "sha256": "302823bab91af438f47695aef282fbf13e527ed5b5211b5935d2d5a13e9d363f"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0795.pcd2.gz",
+          "count": 30296,
+          "bytes": 130465,
+          "sha256": "0fc3bccbf7ef6028f21f71fe0f19eeb06d8960a03159ed6f686de572e1f84d09"
+        }
+      },
+      "native_mask_count": 485724
+    },
+    {
+      "source_index": 796,
+      "image_timestamp_ns": 1793919269722976287,
+      "time_s": 4.121082,
+      "original_time_s": 44.121082,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0796.pcd2.gz",
+          "count": 503577,
+          "bytes": 1777501,
+          "sha256": "7e345a5f3c6129e3bb388b97dc6cc43ca82cdb800ba553082f8305c04aa7d584"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0796.pcd2.gz",
+          "count": 125892,
+          "bytes": 494489,
+          "sha256": "4f17777646573f4f089e354891c631335d373e76e5148de5fd1576d2444f62be"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0796.pcd2.gz",
+          "count": 31487,
+          "bytes": 136580,
+          "sha256": "459340e576d52bc0465b4b706e4092a6528a5ac90f5051f6adba93d75494b8de"
+        }
+      },
+      "native_mask_count": 503577
+    },
+    {
+      "source_index": 797,
+      "image_timestamp_ns": 1793919269756359287,
+      "time_s": 4.154465,
+      "original_time_s": 44.154465,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0797.pcd2.gz",
+          "count": 478580,
+          "bytes": 1682532,
+          "sha256": "e10d9bcf1f8efcb270fd979ca77772198ada4791d722fa9e69b0b575a03cb301"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0797.pcd2.gz",
+          "count": 119675,
+          "bytes": 467480,
+          "sha256": "6c9aac605fd05851366a13eed096dbf7e11e042265102de17dfd6b275e0f8c37"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0797.pcd2.gz",
+          "count": 29897,
+          "bytes": 129818,
+          "sha256": "e7b2f7e24bb3c275a0a446296252c974b6301599e0f794bf761aa024f819534b"
+        }
+      },
+      "native_mask_count": 478580
+    },
+    {
+      "source_index": 798,
+      "image_timestamp_ns": 1793919269856759287,
+      "time_s": 4.254865,
+      "original_time_s": 44.254865,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0798.pcd2.gz",
+          "count": 480537,
+          "bytes": 1708108,
+          "sha256": "a22e49396825e626e266e845f6e6ce1428e0bfa7783afd89bbff963d2b642b0c"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0798.pcd2.gz",
+          "count": 120197,
+          "bytes": 473371,
+          "sha256": "842e0c3ac65af172a279c3e8b2adbd1631eb535233e8b7f6a200ecbfb4c9d0ea"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0798.pcd2.gz",
+          "count": 30081,
+          "bytes": 131704,
+          "sha256": "c54e084bd75c5ec3799842ae468c63078f7b4fb86644c1c6e3b691b3020b4d02"
+        }
+      },
+      "native_mask_count": 480537
+    },
+    {
+      "source_index": 799,
+      "image_timestamp_ns": 1793919269923609287,
+      "time_s": 4.321715,
+      "original_time_s": 44.321715,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0799.pcd2.gz",
+          "count": 480976,
+          "bytes": 1703637,
+          "sha256": "7c8e3c1ed171ec4496132bc8b15ee84627fe1fbcfeb5ac8842ed9c6692055bb7"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0799.pcd2.gz",
+          "count": 120237,
+          "bytes": 473160,
+          "sha256": "bfee8c9eea4854d3196c206f544a095491c9deda9ea4dc0971dd744c75a16ce7"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0799.pcd2.gz",
+          "count": 30049,
+          "bytes": 131362,
+          "sha256": "1db2b41236d204f649ed029bc97509b8193b2edf9800794cdd1aa17f8ce44074"
+        }
+      },
+      "native_mask_count": 480976
+    },
+    {
+      "source_index": 800,
+      "image_timestamp_ns": 1793919270057482287,
+      "time_s": 4.455588,
+      "original_time_s": 44.455588,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0800.pcd2.gz",
+          "count": 477121,
+          "bytes": 1699555,
+          "sha256": "17c494bbeddf63486bb40dcb449a1780e90e3244643cb13e8b376f4cbcf4f60b"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0800.pcd2.gz",
+          "count": 119245,
+          "bytes": 470916,
+          "sha256": "c628c87e6068fd30f1184e106b79e7da6d8ba30c058b06c8f5603f6114a094d8"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0800.pcd2.gz",
+          "count": 29823,
+          "bytes": 130629,
+          "sha256": "d278bf0e0dc14051d05a9286efec75f3bb05584b01354fbb871de584c42aebb6"
+        }
+      },
+      "native_mask_count": 477121
+    },
+    {
+      "source_index": 801,
+      "image_timestamp_ns": 1793919270157882287,
+      "time_s": 4.555988,
+      "original_time_s": 44.555988,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0801.pcd2.gz",
+          "count": 444721,
+          "bytes": 1600652,
+          "sha256": "13cf2394168246c87c2e503fde00222e4282bf0802b21bd665185cd37ec4ed4f"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0801.pcd2.gz",
+          "count": 111142,
+          "bytes": 443350,
+          "sha256": "aaf58fd94b5f15a1ee895f102c199bfaa07cfc65d771d52eacd7c10d0b76c64b"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0801.pcd2.gz",
+          "count": 27802,
+          "bytes": 123547,
+          "sha256": "29ceecfde37006261b42ceae88c73d994a742656827689ade73aa5e75d7f296c"
+        }
+      },
+      "native_mask_count": 444721
+    },
+    {
+      "source_index": 802,
+      "image_timestamp_ns": 1793919270191135287,
+      "time_s": 4.589241,
+      "original_time_s": 44.589241,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0802.pcd2.gz",
+          "count": 457409,
+          "bytes": 1645791,
+          "sha256": "9442f0a30b5a82214f53f5a7e01441af291cfe6e659b3f9f9aef72f4a65d4d32"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0802.pcd2.gz",
+          "count": 114321,
+          "bytes": 457738,
+          "sha256": "4e873e5a396e62e9e846845c17758f076cec74ceb00f48f8ff9b6fbd21dd958a"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0802.pcd2.gz",
+          "count": 28616,
+          "bytes": 126912,
+          "sha256": "32b6c8b3a1e5ec3361e7dc9727ed925a95cfdf23338a30193554f746fa1295a6"
+        }
+      },
+      "native_mask_count": 457409
+    },
+    {
+      "source_index": 803,
+      "image_timestamp_ns": 1793919270224749287,
+      "time_s": 4.622855,
+      "original_time_s": 44.622855,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0803.pcd2.gz",
+          "count": 454100,
+          "bytes": 1638466,
+          "sha256": "6549115a7e4b9cc3c411e40825665e3b767b2a8d0483dbcca6ccb6991adc563e"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0803.pcd2.gz",
+          "count": 113464,
+          "bytes": 455496,
+          "sha256": "0d211784c66569f53457cbda984c2eb10bb5589514a121d7940fda3cf786866c"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0803.pcd2.gz",
+          "count": 28408,
+          "bytes": 126432,
+          "sha256": "7033ce87b95810ac1bc78e81522499b4acbe1353d887f94ec2c3ee0665af4310"
+        }
+      },
+      "native_mask_count": 454100
+    },
+    {
+      "source_index": 804,
+      "image_timestamp_ns": 1793919270258112287,
+      "time_s": 4.656218,
+      "original_time_s": 44.656218,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0804.pcd2.gz",
+          "count": 461491,
+          "bytes": 1660226,
+          "sha256": "5f7561cad9792a7debf039c7b992216c058587140681da0afc40d57f2ee27ba6"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0804.pcd2.gz",
+          "count": 115306,
+          "bytes": 459743,
+          "sha256": "be271225a562c52fdd3d2860a4a7f631709e0b4c0dbe4ce98c63cda72f15f8f6"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0804.pcd2.gz",
+          "count": 28850,
+          "bytes": 127852,
+          "sha256": "1a5f6d50b0b693997cb99c61df746757316bc1be1cc2d1d456334d95779e37a1"
+        }
+      },
+      "native_mask_count": 461491
+    },
+    {
+      "source_index": 805,
+      "image_timestamp_ns": 1793919270325142287,
+      "time_s": 4.723248,
+      "original_time_s": 44.723248,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0805.pcd2.gz",
+          "count": 453624,
+          "bytes": 1634918,
+          "sha256": "8ce0067a168c4d313ee76dc3ad8562c5800e816e5a8a102680c977464c1576ac"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0805.pcd2.gz",
+          "count": 113405,
+          "bytes": 454875,
+          "sha256": "366e47b1abc877e131ecc42729503965e71e1ac707e4d0d31d6ccff3eca8fe68"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0805.pcd2.gz",
+          "count": 28392,
+          "bytes": 126082,
+          "sha256": "dcee5bd3ea18bfba743792981e9de636bf0310aca94c940ec387cbe748367224"
+        }
+      },
+      "native_mask_count": 453624
+    },
+    {
+      "source_index": 806,
+      "image_timestamp_ns": 1793919270358359287,
+      "time_s": 4.756465,
+      "original_time_s": 44.756465,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0806.pcd2.gz",
+          "count": 468841,
+          "bytes": 1692316,
+          "sha256": "f466777764c878ecf8cc494055337536b542e96125cf0c170680a190abc561c9"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0806.pcd2.gz",
+          "count": 117185,
+          "bytes": 470633,
+          "sha256": "48ff183dd13f73861c70a7e609f72290f59c64176aeaed20f45c1ea3a4729ff3"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0806.pcd2.gz",
+          "count": 29279,
+          "bytes": 129938,
+          "sha256": "402e9b0037b62c9978daaabcb637d031df2269717b9983c187349f25db5142a9"
+        }
+      },
+      "native_mask_count": 468841
+    },
+    {
+      "source_index": 807,
+      "image_timestamp_ns": 1793919270391994287,
+      "time_s": 4.7901,
+      "original_time_s": 44.7901,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0807.pcd2.gz",
+          "count": 461571,
+          "bytes": 1657222,
+          "sha256": "ac9afee4853ca80ec92f08cfa7460f404fa50e07b2af51e21553a57a66aa1eb8"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0807.pcd2.gz",
+          "count": 115352,
+          "bytes": 460413,
+          "sha256": "5522a10d7b04d8f841a7546c25b66f3f8d2cd41e0e1d156ae88aefc0bc143a2f"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0807.pcd2.gz",
+          "count": 28819,
+          "bytes": 127262,
+          "sha256": "1520c312cdafb9b34b8ed4329f7ec0d500b24184dd8783e8e0f66c244a6c2f6e"
+        }
+      },
+      "native_mask_count": 461571
+    },
+    {
+      "source_index": 808,
+      "image_timestamp_ns": 1793919270425372287,
+      "time_s": 4.823478,
+      "original_time_s": 44.823478,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0808.pcd2.gz",
+          "count": 456613,
+          "bytes": 1653237,
+          "sha256": "d68ee30d4553f1cd496e17dd9892a6ba989c2ae0776205775c2879c98bd4c4c1"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0808.pcd2.gz",
+          "count": 114122,
+          "bytes": 458672,
+          "sha256": "390758f7f076691b95f044f826dbfe0b980338c9543b0925939626ab2ea4f5ca"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0808.pcd2.gz",
+          "count": 28588,
+          "bytes": 127258,
+          "sha256": "a219b0f92443beb12905b2eeaa4a9477d67532850824f47dc47d965577a2afae"
+        }
+      },
+      "native_mask_count": 456613
+    },
+    {
+      "source_index": 809,
+      "image_timestamp_ns": 1793919270458866287,
+      "time_s": 4.856972,
+      "original_time_s": 44.856972,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0809.pcd2.gz",
+          "count": 442755,
+          "bytes": 1597507,
+          "sha256": "b5e135b178210cbe7d16e6b50ea896a3ef5ef09b8e6cf85272d9dcfa3f85b136"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0809.pcd2.gz",
+          "count": 110636,
+          "bytes": 444172,
+          "sha256": "62a49edffe61c778f78bc5c55bfa013a81ef59cbede47e7d0fd943bc5ff3f689"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0809.pcd2.gz",
+          "count": 27696,
+          "bytes": 123149,
+          "sha256": "91fb8246a1a1120128ad230bc8f63b432a9c2231bd4766de9457b6320e7ee2d5"
+        }
+      },
+      "native_mask_count": 442755
+    },
+    {
+      "source_index": 810,
+      "image_timestamp_ns": 1793919270525762287,
+      "time_s": 4.923868,
+      "original_time_s": 44.923868,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0810.pcd2.gz",
+          "count": 456375,
+          "bytes": 1637513,
+          "sha256": "9de766c0e686fc37cdb7e5155c33cb556d95913bd74db27bcafd0d0f7e744b9b"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0810.pcd2.gz",
+          "count": 114043,
+          "bytes": 455368,
+          "sha256": "4719e026e30432efb0e8b6ebeb0266f80921ca4cc3a43ad330d9c3505f19b170"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0810.pcd2.gz",
+          "count": 28503,
+          "bytes": 125983,
+          "sha256": "6ad5ac6c4d4f7327772d86efcc909fd4f90ae18e02623a143b2bbdd3bd54849a"
+        }
+      },
+      "native_mask_count": 456375
+    },
+    {
+      "source_index": 811,
+      "image_timestamp_ns": 1793919270559250287,
+      "time_s": 4.957356,
+      "original_time_s": 44.957356,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0811.pcd2.gz",
+          "count": 469562,
+          "bytes": 1684716,
+          "sha256": "2cbe93ce6054dacefd86f7644ee11042e39bd665c95f1b91987637967fc0744f"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0811.pcd2.gz",
+          "count": 117256,
+          "bytes": 467972,
+          "sha256": "3bd296e80ee99e409bc3ff6e5ad1c5af901a6fd038ed5fc4c6db5b66ffe996e3"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0811.pcd2.gz",
+          "count": 29354,
+          "bytes": 129264,
+          "sha256": "e9decb972a7a8ba434ebcbc1b15191bda4f6d5c73b0eb58d4c547cacf2523b75"
+        }
+      },
+      "native_mask_count": 469562
+    },
+    {
+      "source_index": 812,
+      "image_timestamp_ns": 1793919270626123287,
+      "time_s": 5.024229,
+      "original_time_s": 45.024229,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0812.pcd2.gz",
+          "count": 445547,
+          "bytes": 1605480,
+          "sha256": "3aad28352d3822915d414001e1cd7e5b4fd4fc9feb9eddf1e08fb2510c8408b7"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0812.pcd2.gz",
+          "count": 111405,
+          "bytes": 446220,
+          "sha256": "eae0179b2c5cc242106ce724bc9516084397303ecd8b31cc81c49d27e5435618"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0812.pcd2.gz",
+          "count": 27836,
+          "bytes": 123695,
+          "sha256": "f5ddacac793592797c4ace40faf605ea4b8d13bb89014999a9900d987c4fb947"
+        }
+      },
+      "native_mask_count": 445547
+    },
+    {
+      "source_index": 813,
+      "image_timestamp_ns": 1793919270695160287,
+      "time_s": 5.093266,
+      "original_time_s": 45.093266,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0813.pcd2.gz",
+          "count": 449916,
+          "bytes": 1617995,
+          "sha256": "11e8915feeac372c9c42b10d0987907bd6c4283d09d6cc5f865019aa400d5872"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0813.pcd2.gz",
+          "count": 112421,
+          "bytes": 449579,
+          "sha256": "7517013f29460c9a494d46dae042171b4687106d35e403f85512a07d427fa294"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0813.pcd2.gz",
+          "count": 28062,
+          "bytes": 124285,
+          "sha256": "047ad32392db0684b00f212573c336fb8d1f35ea2e0b2664ada67b05896ec0e7"
+        }
+      },
+      "native_mask_count": 449916
+    },
+    {
+      "source_index": 814,
+      "image_timestamp_ns": 1793919270726498287,
+      "time_s": 5.124604,
+      "original_time_s": 45.124604,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0814.pcd2.gz",
+          "count": 469532,
+          "bytes": 1675508,
+          "sha256": "c33e097eee9da02a77694e6b8211946d1a2f34d1e2aaf165a7e09e3d30152036"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0814.pcd2.gz",
+          "count": 117263,
+          "bytes": 464795,
+          "sha256": "ae355760326a181d60f4d3be6bbaa2c118e801225ae7c097f187363b1b588042"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0814.pcd2.gz",
+          "count": 29306,
+          "bytes": 128301,
+          "sha256": "895f5a3f6b745c1ab9fde8b162d6c57401b23504b299ff36f51655b2e8146757"
+        }
+      },
+      "native_mask_count": 469532
+    },
+    {
+      "source_index": 815,
+      "image_timestamp_ns": 1793919270759890287,
+      "time_s": 5.157996,
+      "original_time_s": 45.157996,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0815.pcd2.gz",
+          "count": 469842,
+          "bytes": 1682625,
+          "sha256": "85eff4f49a49c545f7e22fe1b00332f78bc3343481b253770bda7458599d20e7"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0815.pcd2.gz",
+          "count": 117477,
+          "bytes": 468322,
+          "sha256": "919c17d7916361fff5da8868da7b552590c9a4825f6b610404f3a57849bd4459"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0815.pcd2.gz",
+          "count": 29390,
+          "bytes": 129101,
+          "sha256": "0e8eb2f843ba44f860eab874cb966f6d5f82be8d7f394403a4fa5a759a582168"
+        }
+      },
+      "native_mask_count": 469842
+    },
+    {
+      "source_index": 816,
+      "image_timestamp_ns": 1793919270793372287,
+      "time_s": 5.191478,
+      "original_time_s": 45.191478,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0816.pcd2.gz",
+          "count": 463286,
+          "bytes": 1683193,
+          "sha256": "85799d4985b74474efbb4bba4bdc27198a3d306ca66734628f962c5753385935"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0816.pcd2.gz",
+          "count": 115749,
+          "bytes": 467347,
+          "sha256": "d43361646e928e0f69e9328a6c28514371acfaecf7a44c44daa1626550694479"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0816.pcd2.gz",
+          "count": 28960,
+          "bytes": 129127,
+          "sha256": "dc64787b27b99d5dbe39bace2ba7fed4e4ef0af13940c52c6599b2391e497882"
+        }
+      },
+      "native_mask_count": 463286
+    },
+    {
+      "source_index": 817,
+      "image_timestamp_ns": 1793919270860244287,
+      "time_s": 5.25835,
+      "original_time_s": 45.25835,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0817.pcd2.gz",
+          "count": 482598,
+          "bytes": 1744135,
+          "sha256": "2d9e6320e82b22690b1b95decc37f11e1ce9078be6318d7df2bef00e9bd8442c"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0817.pcd2.gz",
+          "count": 120632,
+          "bytes": 483611,
+          "sha256": "2514199fd4b7304e94b572cd1804d6ce014c7fb9193fab45b00f2f588629b219"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0817.pcd2.gz",
+          "count": 30150,
+          "bytes": 133257,
+          "sha256": "debda1588e4d0534c88bec8e4ddd9e95e5ccc5bfc8c30a306ea9fd43b010c4b2"
+        }
+      },
+      "native_mask_count": 482598
+    },
+    {
+      "source_index": 818,
+      "image_timestamp_ns": 1793919270893762287,
+      "time_s": 5.291868,
+      "original_time_s": 45.291868,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0818.pcd2.gz",
+          "count": 476098,
+          "bytes": 1725147,
+          "sha256": "a122fecb627367674a9f2d74f72201f6ec9c27241c0a5d84625c31ec9c9d95b4"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0818.pcd2.gz",
+          "count": 119039,
+          "bytes": 477284,
+          "sha256": "454b2039b2c011a847f1a4db782f99568c525c9e63a1616f34fa31163be061de"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0818.pcd2.gz",
+          "count": 29746,
+          "bytes": 132402,
+          "sha256": "a9d22f9ebc4f5ab0745690294c660eced27df649430a0d1996107face7729ca3"
+        }
+      },
+      "native_mask_count": 476098
+    },
+    {
+      "source_index": 819,
+      "image_timestamp_ns": 1793919270927131287,
+      "time_s": 5.325237,
+      "original_time_s": 45.325237,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0819.pcd2.gz",
+          "count": 461776,
+          "bytes": 1660172,
+          "sha256": "3842f9861848a5034a20a35987855cc57764be462218bb98e6ce2643d67589b3"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0819.pcd2.gz",
+          "count": 115398,
+          "bytes": 460919,
+          "sha256": "2eaf5cae1913b3d74df125c7da81cec7664f5bbe2f675f4656a4c5747f6078de"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0819.pcd2.gz",
+          "count": 28893,
+          "bytes": 127869,
+          "sha256": "f328b62e2cd8e9143fcac21573f4698e00a29693ce543262e3d613090aaf5bed"
+        }
+      },
+      "native_mask_count": 461776
+    },
+    {
+      "source_index": 820,
+      "image_timestamp_ns": 1793919270960626287,
+      "time_s": 5.358732,
+      "original_time_s": 45.358732,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0820.pcd2.gz",
+          "count": 453502,
+          "bytes": 1638736,
+          "sha256": "faade53b0201aabfe23ba1221e6c43db0b439c11bc9dd673d3257ffb477a88da"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0820.pcd2.gz",
+          "count": 113272,
+          "bytes": 454191,
+          "sha256": "aa23f680519888648d53ff2fe9787e9b2e20d9e119b7f300e1fb7ce8ea38ca5c"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0820.pcd2.gz",
+          "count": 28338,
+          "bytes": 125558,
+          "sha256": "d0dfe3a03de581a0f3cfae1afc72ecfeb1ab06094f3d39123b8f6e2cb22231c9"
+        }
+      },
+      "native_mask_count": 453502
+    },
+    {
+      "source_index": 821,
+      "image_timestamp_ns": 1793919270994120287,
+      "time_s": 5.392226,
+      "original_time_s": 45.392226,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0821.pcd2.gz",
+          "count": 454048,
+          "bytes": 1638910,
+          "sha256": "9b8a4264c029d3d48b4b1dcf80095fd8bc574d80de5f54381229202d1e7c1ddc"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0821.pcd2.gz",
+          "count": 113464,
+          "bytes": 455043,
+          "sha256": "592fd2837609f9e179a0a6c5dca87d7bc56f8b7c9d972c2146dcfddb341a27b2"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0821.pcd2.gz",
+          "count": 28371,
+          "bytes": 125733,
+          "sha256": "89fdff30932f39415e8c32eb71e0db3b3490fb4f5bb1f982c276053be8147f51"
+        }
+      },
+      "native_mask_count": 454048
+    },
+    {
+      "source_index": 822,
+      "image_timestamp_ns": 1793919271027381287,
+      "time_s": 5.425487,
+      "original_time_s": 45.425487,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0822.pcd2.gz",
+          "count": 452820,
+          "bytes": 1648463,
+          "sha256": "60cf2f47652c535ba0ae91cfb8f2df26b0f990d6ac7d326627349163400cc27c"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0822.pcd2.gz",
+          "count": 113204,
+          "bytes": 456458,
+          "sha256": "8112526d2b81fb3075af4c9a77c3ea412338217665df4581c056f5eb265b355f"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0822.pcd2.gz",
+          "count": 28310,
+          "bytes": 126850,
+          "sha256": "8ed8acfb9d8680f9173089ba36d22f24c1f41d1f621aa182d4ec1c691cb47055"
+        }
+      },
+      "native_mask_count": 452820
+    },
+    {
+      "source_index": 823,
+      "image_timestamp_ns": 1793919271061016287,
+      "time_s": 5.459122,
+      "original_time_s": 45.459122,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0823.pcd2.gz",
+          "count": 459631,
+          "bytes": 1663787,
+          "sha256": "8ef63fb50c8a55135f92b4db29730f77cc67e3bea33194ca2f73cadc6cd31fbf"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0823.pcd2.gz",
+          "count": 114916,
+          "bytes": 462652,
+          "sha256": "1247c08275a471eee2c402ba0af2acdf32a78a1161c5803cbf1b7632bee631f3"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0823.pcd2.gz",
+          "count": 28774,
+          "bytes": 127622,
+          "sha256": "ea1fe91ffa7138ae5eeb978d9bf46a1d37dfceb69b9f21e3548f79c7bd4187bd"
+        }
+      },
+      "native_mask_count": 459631
+    },
+    {
+      "source_index": 824,
+      "image_timestamp_ns": 1793919271127880287,
+      "time_s": 5.525986,
+      "original_time_s": 45.525986,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0824.pcd2.gz",
+          "count": 432139,
+          "bytes": 1578192,
+          "sha256": "927a2d610893d3d0c57c574716004d76ab3c1d14a7da88d5b4080510f27c888e"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0824.pcd2.gz",
+          "count": 107960,
+          "bytes": 438313,
+          "sha256": "4f7ed7253422700bb63aa120810620fa99bfc0945b639ba82eb2dc9b2c6ef1ff"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0824.pcd2.gz",
+          "count": 27007,
+          "bytes": 120641,
+          "sha256": "59de414f45aca07c8974777fe95b87c9511bdd2d0d2c8baf366559c51a305547"
+        }
+      },
+      "native_mask_count": 432139
+    },
+    {
+      "source_index": 825,
+      "image_timestamp_ns": 1793919271161385287,
+      "time_s": 5.559491,
+      "original_time_s": 45.559491,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0825.pcd2.gz",
+          "count": 425385,
+          "bytes": 1540723,
+          "sha256": "d6aa826c34f60348ad17086df1c8d36ce9a96bbcf39399f6cfbd64faf2c07267"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0825.pcd2.gz",
+          "count": 106421,
+          "bytes": 429800,
+          "sha256": "f7bde441f1c0b170d967da7a73c928fa5d608aa279396a2b3592dcebf52da431"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0825.pcd2.gz",
+          "count": 26663,
+          "bytes": 118370,
+          "sha256": "12bfc8a3de389322495b9bd697e25d3550a23d09c645a007e23d4940a1f63a54"
+        }
+      },
+      "native_mask_count": 425385
+    },
+    {
+      "source_index": 826,
+      "image_timestamp_ns": 1793919271261515287,
+      "time_s": 5.659621,
+      "original_time_s": 45.659621,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0826.pcd2.gz",
+          "count": 384016,
+          "bytes": 1408949,
+          "sha256": "3e519be2d74621db7514b1da190a953e9582e7e90b63715b2a90c7e51d97db84"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0826.pcd2.gz",
+          "count": 95976,
+          "bytes": 391992,
+          "sha256": "c4f5139207c1bd0d7288b2d90e9e75e89f2e183ce9247564b2672b2cc19ff86d"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0826.pcd2.gz",
+          "count": 24026,
+          "bytes": 108210,
+          "sha256": "0f66581d4c75390f2a42d6e69df14bf1f5cba8e5b1d66341a0583a84b7fcbc9b"
+        }
+      },
+      "native_mask_count": 384016
+    },
+    {
+      "source_index": 827,
+      "image_timestamp_ns": 1793919271295132287,
+      "time_s": 5.693238,
+      "original_time_s": 45.693238,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0827.pcd2.gz",
+          "count": 400241,
+          "bytes": 1464948,
+          "sha256": "a27d8db636b607c17b993d7ef78008e4e297a6dd4260389a6c505f8d4eff869e"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0827.pcd2.gz",
+          "count": 99918,
+          "bytes": 406382,
+          "sha256": "d21e51ac84a3be88c717662c7bb32102a6f19e4b51ec61cc285a221fb5809a53"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0827.pcd2.gz",
+          "count": 25020,
+          "bytes": 112421,
+          "sha256": "7e83d59c13554c01c626b0194a5f6e4157623e3fb74663b4e219fb40f2521a7d"
+        }
+      },
+      "native_mask_count": 400241
+    },
+    {
+      "source_index": 828,
+      "image_timestamp_ns": 1793919271328629287,
+      "time_s": 5.726735,
+      "original_time_s": 45.726735,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0828.pcd2.gz",
+          "count": 385877,
+          "bytes": 1429191,
+          "sha256": "b34af8b7417374e39cc9e2298b0bba0cfec4b0d1844f5ab26cf9fe8f6beeb87a"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0828.pcd2.gz",
+          "count": 96422,
+          "bytes": 396230,
+          "sha256": "573d476b3244199f7fce28b86d2f8b280a6e9cdb7c15f9cb30ac0349db506b38"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0828.pcd2.gz",
+          "count": 24110,
+          "bytes": 108957,
+          "sha256": "919ed944f175334c3a133fc59bee1b336bcd878ff03a0387948422dbe038dfb6"
+        }
+      },
+      "native_mask_count": 385877
+    },
+    {
+      "source_index": 829,
+      "image_timestamp_ns": 1793919271495781287,
+      "time_s": 5.893887,
+      "original_time_s": 45.893887,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0829.pcd2.gz",
+          "count": 407013,
+          "bytes": 1487405,
+          "sha256": "a2e519ca1981cc9eb7dd788d18d6d7f525fc4343f467c62ec152ef647192bf1b"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0829.pcd2.gz",
+          "count": 101712,
+          "bytes": 414097,
+          "sha256": "08001df5f26653a4c6d88294a8444e667a7dbe53958c1acaabc5991ee8e136e5"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0829.pcd2.gz",
+          "count": 25473,
+          "bytes": 113654,
+          "sha256": "7ea41abe03d8ff83e63cc51e48c75403ffb52304dbac09c0f3ecae378f43cedd"
+        }
+      },
+      "native_mask_count": 407013
+    },
+    {
+      "source_index": 830,
+      "image_timestamp_ns": 1793919271529133287,
+      "time_s": 5.927239,
+      "original_time_s": 45.927239,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0830.pcd2.gz",
+          "count": 420677,
+          "bytes": 1552690,
+          "sha256": "6e67735399242259f5b09b12853d71eccfe021025dc1dd3f1eb8ccf62531e206"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0830.pcd2.gz",
+          "count": 105089,
+          "bytes": 431522,
+          "sha256": "83b5da5187de731b6302d83f36fa4a5a69b260e7852dee190d490770f7d50709"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0830.pcd2.gz",
+          "count": 26280,
+          "bytes": 118344,
+          "sha256": "d8d437f92b51f9bf2603329d9b2153f0298fe9a95931a163d990b64074a3ef8b"
+        }
+      },
+      "native_mask_count": 420677
+    },
+    {
+      "source_index": 831,
+      "image_timestamp_ns": 1793919271596135287,
+      "time_s": 5.994241,
+      "original_time_s": 45.994241,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0831.pcd2.gz",
+          "count": 395519,
+          "bytes": 1462567,
+          "sha256": "d5276d0ae7bff1a439bd40296936eb1cd95e835a11971398645407e2a118dd45"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0831.pcd2.gz",
+          "count": 98853,
+          "bytes": 405991,
+          "sha256": "913cab9e012a695e620f5f927fa52faf70e1fc54c1ce08f6fe6b7b787a18a557"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0831.pcd2.gz",
+          "count": 24737,
+          "bytes": 111637,
+          "sha256": "5e2104587ea43603b3ab7b459a1a61d1f338633131aaf299ed20345c9c31843a"
+        }
+      },
+      "native_mask_count": 395519
+    },
+    {
+      "source_index": 832,
+      "image_timestamp_ns": 1793919271629640287,
+      "time_s": 6.027746,
+      "original_time_s": 46.027746,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0832.pcd2.gz",
+          "count": 416373,
+          "bytes": 1520836,
+          "sha256": "dfcd2c8491d81e885891e747a8ef2f5260751450072deb9eccb8b516622f41c0"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0832.pcd2.gz",
+          "count": 103980,
+          "bytes": 420924,
+          "sha256": "e663ae883ff0a3368944200713cbf0d8882ec57ccb1951ed7260f9a500b28030"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0832.pcd2.gz",
+          "count": 26040,
+          "bytes": 115869,
+          "sha256": "dbf1336b0b972f784ae7a8e74810d186be6c15da6ef4f937c09951fb5d5d65d4"
+        }
+      },
+      "native_mask_count": 416373
+    },
+    {
+      "source_index": 833,
+      "image_timestamp_ns": 1793919271696516287,
+      "time_s": 6.094622,
+      "original_time_s": 46.094622,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0833.pcd2.gz",
+          "count": 394020,
+          "bytes": 1445884,
+          "sha256": "7e86dcfcbd8b981bc6046b02c17454d90d7a83c7506995e6a00201022b53e59e"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0833.pcd2.gz",
+          "count": 98416,
+          "bytes": 400968,
+          "sha256": "f8b0a736c8bac70c48fcd25571e060f6b1b7ff0b9c9f8222c769a125a1cfe929"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0833.pcd2.gz",
+          "count": 24567,
+          "bytes": 110546,
+          "sha256": "0c15e4f076e86a90315ecc8a7625a1d8a357060e556108bde96721a6a472baa8"
+        }
+      },
+      "native_mask_count": 394020
+    },
+    {
+      "source_index": 834,
+      "image_timestamp_ns": 1793919271730028287,
+      "time_s": 6.128134,
+      "original_time_s": 46.128134,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0834.pcd2.gz",
+          "count": 387359,
+          "bytes": 1433271,
+          "sha256": "8b393a8126c4e0099d3081f7b77a4553ab64b70ec6a2afe8a05e3676efb36ad4"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0834.pcd2.gz",
+          "count": 96749,
+          "bytes": 397536,
+          "sha256": "e04abc81cb8481e30cb6347e6d63cf8ef1256451f06c6b577134033e5cac36f0"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0834.pcd2.gz",
+          "count": 24238,
+          "bytes": 109598,
+          "sha256": "e5991e054a8df723823e6b493cf8a318e26aee41da2059fbb384de253a0d4016"
+        }
+      },
+      "native_mask_count": 387359
+    },
+    {
+      "source_index": 835,
+      "image_timestamp_ns": 1793919271763392287,
+      "time_s": 6.161498,
+      "original_time_s": 46.161498,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0835.pcd2.gz",
+          "count": 392105,
+          "bytes": 1449131,
+          "sha256": "aeeacbd47ebe81d203bacbaa258b3203a02b4f7a3dd65b737ab7222c90c3dbdd"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0835.pcd2.gz",
+          "count": 97861,
+          "bytes": 401376,
+          "sha256": "1c23a8c2ce24c40954b05beff93f3ca7eadceff3a8fe6e94f391eec7f41ad3e5"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0835.pcd2.gz",
+          "count": 24490,
+          "bytes": 110579,
+          "sha256": "b004593059b084082b30262b6c79da79863126b6f0697dee2988601d88a31f50"
+        }
+      },
+      "native_mask_count": 392105
+    },
+    {
+      "source_index": 836,
+      "image_timestamp_ns": 1793919271796899287,
+      "time_s": 6.195005,
+      "original_time_s": 46.195005,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0836.pcd2.gz",
+          "count": 392165,
+          "bytes": 1444676,
+          "sha256": "42f231a4ab4e1683c06be64620527f1e73aeeb763fbb3040fdf58b6a964fff6b"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0836.pcd2.gz",
+          "count": 97947,
+          "bytes": 401308,
+          "sha256": "8800967ac626046073cb8b29f2bc67e687032cbd47e9a25640f04e30fc522fce"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0836.pcd2.gz",
+          "count": 24533,
+          "bytes": 110765,
+          "sha256": "d5cdd8d5916e61c76a31d661e880b11159687a1a84e02942ead80c31ca9645cb"
+        }
+      },
+      "native_mask_count": 392165
+    },
+    {
+      "source_index": 837,
+      "image_timestamp_ns": 1793919271863771287,
+      "time_s": 6.261877,
+      "original_time_s": 46.261877,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0837.pcd2.gz",
+          "count": 399467,
+          "bytes": 1473760,
+          "sha256": "fc9fc502bc03163984c3d136452bcbf8943e3f3779a1b5d8ead5593d1e8d7b51"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0837.pcd2.gz",
+          "count": 99841,
+          "bytes": 410212,
+          "sha256": "ec51e181ec63edab910dbaa4a690ad2e59d05698e79994fd8a2e03d7c69ff4ce"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0837.pcd2.gz",
+          "count": 24948,
+          "bytes": 112431,
+          "sha256": "68b219fdb40fca54cd5b5116f52b4b19f4323efa1cc466e1c955fcf367126130"
+        }
+      },
+      "native_mask_count": 399467
+    },
+    {
+      "source_index": 838,
+      "image_timestamp_ns": 1793919271930642287,
+      "time_s": 6.328748,
+      "original_time_s": 46.328748,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0838.pcd2.gz",
+          "count": 396284,
+          "bytes": 1466945,
+          "sha256": "ec07a89c04775b44becf41555f450743a31e564f626d9e5a2cea04b5457fa71d"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0838.pcd2.gz",
+          "count": 98982,
+          "bytes": 406256,
+          "sha256": "b31d5364532df237223a99731bb68af6874b1e578ed70be56cb681e317095108"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0838.pcd2.gz",
+          "count": 24821,
+          "bytes": 112089,
+          "sha256": "b2189666c63bc57086c52fa017dab9d9431b4a3f588a6531a23321c10d93b4ab"
+        }
+      },
+      "native_mask_count": 396284
+    },
+    {
+      "source_index": 839,
+      "image_timestamp_ns": 1793919271997644287,
+      "time_s": 6.39575,
+      "original_time_s": 46.39575,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0839.pcd2.gz",
+          "count": 399708,
+          "bytes": 1472124,
+          "sha256": "66c27c948d3e5efd532a17aead6f9f7e519c06f1db5392913a6ccdaa2a766419"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0839.pcd2.gz",
+          "count": 99925,
+          "bytes": 409383,
+          "sha256": "e753db82aba2388ecd349dabf0ae1ac0c240115d0ba5ef1fb08ff293844f8c3d"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0839.pcd2.gz",
+          "count": 25029,
+          "bytes": 112319,
+          "sha256": "b0814aeb174d04faed67f140cf60b7cb0dc6b0ef7143dfe91f8eb31925ee088f"
+        }
+      },
+      "native_mask_count": 399708
+    },
+    {
+      "source_index": 840,
+      "image_timestamp_ns": 1793919272097767287,
+      "time_s": 6.495873,
+      "original_time_s": 46.495873,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0840.pcd2.gz",
+          "count": 397502,
+          "bytes": 1467953,
+          "sha256": "a580d2762df9ca0660eef6d69dd5849c47cf1cb1271d576f7a390f36e9ff7a6f"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0840.pcd2.gz",
+          "count": 99301,
+          "bytes": 406854,
+          "sha256": "8c6153b318e8b9fa03fbfe017a0e05136328cb0ffbd41c5129ee98e5dd3fa5b0"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0840.pcd2.gz",
+          "count": 24824,
+          "bytes": 111553,
+          "sha256": "c3594c1d1bb95fdf838d9940692f87cc83261d0a17d651527946c9e8352df3a3"
+        }
+      },
+      "native_mask_count": 397502
+    },
+    {
+      "source_index": 841,
+      "image_timestamp_ns": 1793919272131389287,
+      "time_s": 6.529495,
+      "original_time_s": 46.529495,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0841.pcd2.gz",
+          "count": 377856,
+          "bytes": 1395869,
+          "sha256": "d6d0769a3faeeaafa04f4af98ef86abff2a24979041eae755025be763c5d9d21"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0841.pcd2.gz",
+          "count": 94371,
+          "bytes": 387099,
+          "sha256": "79249f313187d85c8ea99096f691cc788373c798d8d5dc02560774b546386927"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0841.pcd2.gz",
+          "count": 23631,
+          "bytes": 106819,
+          "sha256": "c859db5bb8114c000a5d3b9b0e716797f0fcaf339eca565b0808c49ac21cb8e1"
+        }
+      },
+      "native_mask_count": 377856
+    },
+    {
+      "source_index": 842,
+      "image_timestamp_ns": 1793919272164897287,
+      "time_s": 6.563003,
+      "original_time_s": 46.563003,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0842.pcd2.gz",
+          "count": 412585,
+          "bytes": 1515184,
+          "sha256": "66c4831a5d6ccfb15292cab9ed9f59ed59b36e8cda608477d7f77510b4f086da"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0842.pcd2.gz",
+          "count": 103117,
+          "bytes": 420130,
+          "sha256": "8d3d10c9a0cb4eceed426195acf67330a05eab5d5d278ed1e1c3df660bf8ec64"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0842.pcd2.gz",
+          "count": 25791,
+          "bytes": 115133,
+          "sha256": "594af615647a0912faea0f544b28a1fc1351130df64059cc1169bcf357d8da95"
+        }
+      },
+      "native_mask_count": 412585
+    },
+    {
+      "source_index": 843,
+      "image_timestamp_ns": 1793919272198151287,
+      "time_s": 6.596257,
+      "original_time_s": 46.596257,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0843.pcd2.gz",
+          "count": 388893,
+          "bytes": 1443892,
+          "sha256": "57a9089049aa44b09b9a646996fd1ea8063e983991f8f3da39d4b0211355cab9"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0843.pcd2.gz",
+          "count": 97095,
+          "bytes": 399966,
+          "sha256": "f4e321772b322a833bade54f9cb7a1a481144a55fcf92adb7241feeca28addc6"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0843.pcd2.gz",
+          "count": 24308,
+          "bytes": 110218,
+          "sha256": "cfd01f7226e98a75d81c452c42dfa99e052b07cbcaa251f996654ed2bb51f63a"
+        }
+      },
+      "native_mask_count": 388893
+    },
+    {
+      "source_index": 844,
+      "image_timestamp_ns": 1793919272231772287,
+      "time_s": 6.629878,
+      "original_time_s": 46.629878,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0844.pcd2.gz",
+          "count": 392215,
+          "bytes": 1439627,
+          "sha256": "12baee2587c03a2b6d0f6128d9317aacf3d360e5f52b0cbdd4858361eac617c4"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0844.pcd2.gz",
+          "count": 97919,
+          "bytes": 399382,
+          "sha256": "14f09a26e9e413515d11fa7a43088431d2be17c5e62de5615b6ae030dd54c834"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0844.pcd2.gz",
+          "count": 24478,
+          "bytes": 110032,
+          "sha256": "b41d79335e1e1a84444cf58dc265d6ed9fb34ef57e3be5a1dc725106500913ef"
+        }
+      },
+      "native_mask_count": 392215
+    },
+    {
+      "source_index": 845,
+      "image_timestamp_ns": 1793919272332141287,
+      "time_s": 6.730247,
+      "original_time_s": 46.730247,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0845.pcd2.gz",
+          "count": 372446,
+          "bytes": 1382015,
+          "sha256": "15a256b4ba4a3bb36eacb48fe7ba50b642f029114d23a6eea289083c3134ece5"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0845.pcd2.gz",
+          "count": 93061,
+          "bytes": 383268,
+          "sha256": "74d8e822bee9c080506b35e8d7c447861e8845b42e2fe357972ba20b7e933bb4"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0845.pcd2.gz",
+          "count": 23304,
+          "bytes": 105837,
+          "sha256": "4b7086fdf84ac2406dd70808264ce49f44a31fffb22fe1e2f00d684800a5671d"
+        }
+      },
+      "native_mask_count": 372446
+    },
+    {
+      "source_index": 846,
+      "image_timestamp_ns": 1793919272365398287,
+      "time_s": 6.763504,
+      "original_time_s": 46.763504,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0846.pcd2.gz",
+          "count": 407192,
+          "bytes": 1499381,
+          "sha256": "077483891814cdf855ea091fab3f0e2b6d5ca3fab400a6053b0c11d06634cc6b"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0846.pcd2.gz",
+          "count": 101866,
+          "bytes": 416131,
+          "sha256": "bd9d3ea1b16a36ef893fe253eaa9f798fbb1b2335858542acd8acc991e1c4f2a"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0846.pcd2.gz",
+          "count": 25510,
+          "bytes": 114614,
+          "sha256": "695f14a199dff6a4a8f2969cf7d832c637356e54c33bf41721c535e261900e7d"
+        }
+      },
+      "native_mask_count": 407192
+    },
+    {
+      "source_index": 847,
+      "image_timestamp_ns": 1793919272399039287,
+      "time_s": 6.797145,
+      "original_time_s": 46.797145,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0847.pcd2.gz",
+          "count": 387886,
+          "bytes": 1429403,
+          "sha256": "9b2d3b682da6d1e97fe5c36beef31c9ebf80561782eaa7c445fbf2e92df57b65"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0847.pcd2.gz",
+          "count": 96903,
+          "bytes": 396926,
+          "sha256": "1a4926aa108646c2ea58f73a45396416d002afda65326fa1fc911041ad8e4d1b"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0847.pcd2.gz",
+          "count": 24258,
+          "bytes": 109111,
+          "sha256": "f5c237984f10a1a67dfb67c806cfc5d72351508a1958555e81bc60e74b9cd32f"
+        }
+      },
+      "native_mask_count": 387886
+    },
+    {
+      "source_index": 848,
+      "image_timestamp_ns": 1793919272432394287,
+      "time_s": 6.8305,
+      "original_time_s": 46.8305,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0848.pcd2.gz",
+          "count": 389557,
+          "bytes": 1442456,
+          "sha256": "49cc4fa52e1449d8b1c7c6ee58f18746b3826267b11e03778756ce838b6ddd0d"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0848.pcd2.gz",
+          "count": 97332,
+          "bytes": 399833,
+          "sha256": "24c6341da69651b5267ab41f9189777ea835df09da8f342c2b72fa285413a654"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0848.pcd2.gz",
+          "count": 24404,
+          "bytes": 110218,
+          "sha256": "d09ee71e80c1772dd5fdbdf2468dcbc7a09bf8862d6c4774e71c43b438e0aea7"
+        }
+      },
+      "native_mask_count": 389557
+    },
+    {
+      "source_index": 849,
+      "image_timestamp_ns": 1793919272465918287,
+      "time_s": 6.864024,
+      "original_time_s": 46.864024,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0849.pcd2.gz",
+          "count": 394780,
+          "bytes": 1472024,
+          "sha256": "b6dbfd4878c6b94729f77a474a5d0bad70c1e1e358770497a27bd7f811fba3c3"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0849.pcd2.gz",
+          "count": 98625,
+          "bytes": 408559,
+          "sha256": "19a6aa8b6120b4f2edeaf6307c62a3f74aa9e3ae2f12b0a8dd277d076c3ff7c9"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0849.pcd2.gz",
+          "count": 24685,
+          "bytes": 111969,
+          "sha256": "c0ad9caffd1a2120be84ab7f743182cf1cc0c7faf7ede93a1a144a2e1da53935"
+        }
+      },
+      "native_mask_count": 394780
+    },
+    {
+      "source_index": 850,
+      "image_timestamp_ns": 1793919272499405287,
+      "time_s": 6.897511,
+      "original_time_s": 46.897511,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0850.pcd2.gz",
+          "count": 399425,
+          "bytes": 1472620,
+          "sha256": "701dd52cf7698e6d2a59a6b206fb0b86e6dd5c6e166be7c36c0117c7cddf753d"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0850.pcd2.gz",
+          "count": 99792,
+          "bytes": 408855,
+          "sha256": "4198ad69151635f1cee3f4f6837beed71b4bc6927d7ebcf4cf06f19c2392fa8c"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0850.pcd2.gz",
+          "count": 24971,
+          "bytes": 112125,
+          "sha256": "ec9ce04cc67f9be7b6c557f24480546f78dbc4304b3ecdb53c2518f5147ac2bb"
+        }
+      },
+      "native_mask_count": 399425
+    },
+    {
+      "source_index": 851,
+      "image_timestamp_ns": 1793919272566156287,
+      "time_s": 6.964262,
+      "original_time_s": 46.964262,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0851.pcd2.gz",
+          "count": 373791,
+          "bytes": 1377521,
+          "sha256": "c0efd544316ce882c45794371b40548c4a8cee9fd20bab46026081fa2a165086"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0851.pcd2.gz",
+          "count": 93310,
+          "bytes": 381779,
+          "sha256": "982d4a178772db25a662dfcd27564169c9177abf34e01b9e579c62d54798b569"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0851.pcd2.gz",
+          "count": 23365,
+          "bytes": 105207,
+          "sha256": "7d69b4503c78f20a5fb30f5abba40c32804e51fb20282d93d7742db0e6b24119"
+        }
+      },
+      "native_mask_count": 373791
+    },
+    {
+      "source_index": 852,
+      "image_timestamp_ns": 1793919272633150287,
+      "time_s": 7.031256,
+      "original_time_s": 47.031256,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0852.pcd2.gz",
+          "count": 406814,
+          "bytes": 1494311,
+          "sha256": "114ebdb5ff532ec5a0eebc650c41f3aa4e5b1418c6a147ecbcdc8f391672798c"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0852.pcd2.gz",
+          "count": 101575,
+          "bytes": 414224,
+          "sha256": "7e407b34d6171fb3bdf8d992dea11d8b037f373d449251922e6c54785a5a474a"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0852.pcd2.gz",
+          "count": 25407,
+          "bytes": 113362,
+          "sha256": "122f4ec53a1f1efc3771ccbc842e346f74052fae6635ac22d4f47e2694258342"
+        }
+      },
+      "native_mask_count": 406814
+    },
+    {
+      "source_index": 853,
+      "image_timestamp_ns": 1793919272666656287,
+      "time_s": 7.064762,
+      "original_time_s": 47.064762,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0853.pcd2.gz",
+          "count": 367631,
+          "bytes": 1365550,
+          "sha256": "ed4d72eedf74bf6f20af4ba794f8594ca8f85bad130fdadf5f3d4ee820358725"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0853.pcd2.gz",
+          "count": 91847,
+          "bytes": 378022,
+          "sha256": "b03a370bc62896e96a4fd37301abcc4a017244afe377b7e7f0405774415a67c2"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0853.pcd2.gz",
+          "count": 23004,
+          "bytes": 104644,
+          "sha256": "a3e251f53a2e49fb528405e76343f2436cc2a5db5c53b4f1aadac86cef16d872"
+        }
+      },
+      "native_mask_count": 367631
+    },
+    {
+      "source_index": 854,
+      "image_timestamp_ns": 1793919272699922287,
+      "time_s": 7.098028,
+      "original_time_s": 47.098028,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0854.pcd2.gz",
+          "count": 411769,
+          "bytes": 1513599,
+          "sha256": "8b4edb68ac209b16b30d70e90dfe02e5d9c675dce820ae673ac2290d69d4a4e1"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0854.pcd2.gz",
+          "count": 102815,
+          "bytes": 418781,
+          "sha256": "42b8fb54f858a8ab7291787b4c94e54a80b8d433961f0009de8c1581550dc834"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0854.pcd2.gz",
+          "count": 25738,
+          "bytes": 115118,
+          "sha256": "3665ab4ac84be8e47bac64c45de7271dc5943e6061c7997adb57f80d2b9044d5"
+        }
+      },
+      "native_mask_count": 411769
+    },
+    {
+      "source_index": 855,
+      "image_timestamp_ns": 1793919272733530287,
+      "time_s": 7.131636,
+      "original_time_s": 47.131636,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0855.pcd2.gz",
+          "count": 389444,
+          "bytes": 1441770,
+          "sha256": "5c106fd076dc2b0182b7161d1bf57853141af7185032b5d9c232471b9e7808cd"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0855.pcd2.gz",
+          "count": 97283,
+          "bytes": 399815,
+          "sha256": "8f68893474a24f3399313cd41e5c87f3de4d896dc357794e560bbc80fef3f0b9"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0855.pcd2.gz",
+          "count": 24358,
+          "bytes": 110002,
+          "sha256": "5ac06080d349c3ab73fb3cbb841bdd8fb927585a0059dc786ed2b3cd0edc6c72"
+        }
+      },
+      "native_mask_count": 389444
+    },
+    {
+      "source_index": 856,
+      "image_timestamp_ns": 1793919272766899287,
+      "time_s": 7.165005,
+      "original_time_s": 47.165005,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0856.pcd2.gz",
+          "count": 403232,
+          "bytes": 1491356,
+          "sha256": "2d1411eec11743352a88e6ca0ccef47bfdecd1facd7ce7b5c8f625a2755f5f06"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0856.pcd2.gz",
+          "count": 100728,
+          "bytes": 413655,
+          "sha256": "da5d119986246560912f53d95426cb51383406e07eac60affa517b0def5a141e"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0856.pcd2.gz",
+          "count": 25198,
+          "bytes": 113289,
+          "sha256": "64ec2670997e2ec87f36168e34b3067225c016cb75cf79d6b06cc6183c14f289"
+        }
+      },
+      "native_mask_count": 403232
+    },
+    {
+      "source_index": 857,
+      "image_timestamp_ns": 1793919272833904287,
+      "time_s": 7.23201,
+      "original_time_s": 47.23201,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0857.pcd2.gz",
+          "count": 399910,
+          "bytes": 1476118,
+          "sha256": "7cca244e39f5be6b23c8db56191a89b91191b0b3d6d1aaca19ce4861bb739ecc"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0857.pcd2.gz",
+          "count": 99916,
+          "bytes": 410271,
+          "sha256": "da4e05cc526a7181d33d0d8a35d2fb51768b8a1ca4ead501737a62ad3ac9b480"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0857.pcd2.gz",
+          "count": 24994,
+          "bytes": 112322,
+          "sha256": "eddb20fe568339da2d3dc2bbdbdf3489bca3664296cd9fd085ebf9df9fb1c4d8"
+        }
+      },
+      "native_mask_count": 399910
+    },
+    {
+      "source_index": 858,
+      "image_timestamp_ns": 1793919272867153287,
+      "time_s": 7.265259,
+      "original_time_s": 47.265259,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0858.pcd2.gz",
+          "count": 402936,
+          "bytes": 1484910,
+          "sha256": "15ea27f91e6f70c6c08c7f31b3db83542945d8dc159a6a3c0efb55c1db3ac015"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0858.pcd2.gz",
+          "count": 100644,
+          "bytes": 412009,
+          "sha256": "ede4bd3a9b1e7c6f1c8f4acec9029a55972d05b55b326fe9428f84c00efe6819"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0858.pcd2.gz",
+          "count": 25184,
+          "bytes": 112583,
+          "sha256": "c417249135a7d66ce3ae536a7dd84e76a635a7244a2ed313702f88c8dd9ffe13"
+        }
+      },
+      "native_mask_count": 402936
+    },
+    {
+      "source_index": 859,
+      "image_timestamp_ns": 1793919272900784287,
+      "time_s": 7.29889,
+      "original_time_s": 47.29889,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0859.pcd2.gz",
+          "count": 391846,
+          "bytes": 1450241,
+          "sha256": "f0c952685789e253089809fd0b6831e0723ca3e5e4f73e8d47a86f1e6f7a4d31"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0859.pcd2.gz",
+          "count": 97925,
+          "bytes": 403047,
+          "sha256": "cbbf4961d5e3b5ff28e36fee8e382d8881757ed5345f449a04ecb6702a39fcb5"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0859.pcd2.gz",
+          "count": 24493,
+          "bytes": 110748,
+          "sha256": "1eb48cb7a80528dfb2b06a53ebd41050273289baf87c95708b0f48c46cd4c1fd"
+        }
+      },
+      "native_mask_count": 391846
+    },
+    {
+      "source_index": 860,
+      "image_timestamp_ns": 1793919272967666287,
+      "time_s": 7.365772,
+      "original_time_s": 47.365772,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0860.pcd2.gz",
+          "count": 393864,
+          "bytes": 1457504,
+          "sha256": "0b48abfa58c1cf131fd1db1148056df657fc5cf68c0838912c8dbca7e280d3fc"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0860.pcd2.gz",
+          "count": 98333,
+          "bytes": 404289,
+          "sha256": "382ba87c1f487d7b6f08368baaea94b6fb126c85e63c1fcc4fbd9ed293defaa9"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0860.pcd2.gz",
+          "count": 24567,
+          "bytes": 111009,
+          "sha256": "e730b09e3241e76c8e86a3b0885e1a9f6978385eee49115febe469a8850195b7"
+        }
+      },
+      "native_mask_count": 393864
+    },
+    {
+      "source_index": 861,
+      "image_timestamp_ns": 1793919273001157287,
+      "time_s": 7.399263,
+      "original_time_s": 47.399263,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0861.pcd2.gz",
+          "count": 416138,
+          "bytes": 1521301,
+          "sha256": "2b0eb360318bfaccca5b93d5d6daf7c5ada685f8f46296fc454df9c9d4845b3b"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0861.pcd2.gz",
+          "count": 103937,
+          "bytes": 422004,
+          "sha256": "d61417dcea9d605cb15c37083919cc57c622457701502d3160764be15c498e1f"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0861.pcd2.gz",
+          "count": 26005,
+          "bytes": 115970,
+          "sha256": "ae6ad1bbdd4a7c1001b1dada357e1253bb8bb523b61bb9521fed39f3da722bd4"
+        }
+      },
+      "native_mask_count": 416138
+    },
+    {
+      "source_index": 862,
+      "image_timestamp_ns": 1793919273034412287,
+      "time_s": 7.432518,
+      "original_time_s": 47.432518,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0862.pcd2.gz",
+          "count": 398704,
+          "bytes": 1476460,
+          "sha256": "a115bd58d056d0ff46179e3207015390f19dbf8c28ebde737e67c8bc366ad5d2"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0862.pcd2.gz",
+          "count": 99629,
+          "bytes": 410188,
+          "sha256": "ac920d4ffd54cacd5d2637a83a725438e755eba4b01e39b90a8caacd8363325b"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0862.pcd2.gz",
+          "count": 24928,
+          "bytes": 112178,
+          "sha256": "24d56432b1496dc810d3258795a2b19646815f3b352dca689d45e436bcedb244"
+        }
+      },
+      "native_mask_count": 398704
+    },
+    {
+      "source_index": 863,
+      "image_timestamp_ns": 1793919273201806287,
+      "time_s": 7.599912,
+      "original_time_s": 47.599912,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0863.pcd2.gz",
+          "count": 389925,
+          "bytes": 1451723,
+          "sha256": "9e23d5fd11291638134b9588bbf1915c85ee4587009b7fb2fb2d0c7304897550"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0863.pcd2.gz",
+          "count": 97439,
+          "bytes": 402575,
+          "sha256": "d7dd77a016dfb71701c980979f2428db87a317895407918733475a38ce80cff1"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0863.pcd2.gz",
+          "count": 24403,
+          "bytes": 110693,
+          "sha256": "de79e603a426c08f5955c87cdfbc275f991e9157e8d9a4179b647f621faac67d"
+        }
+      },
+      "native_mask_count": 389925
+    },
+    {
+      "source_index": 864,
+      "image_timestamp_ns": 1793919273235292287,
+      "time_s": 7.633398,
+      "original_time_s": 47.633398,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0864.pcd2.gz",
+          "count": 396106,
+          "bytes": 1467032,
+          "sha256": "c39a6c79459b012a338ab8f15637400cd15981f3e805ce5df4fd27d2c8f63901"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0864.pcd2.gz",
+          "count": 98896,
+          "bytes": 407567,
+          "sha256": "8b1ee5256b30eda09b1c401e2b94b620457de642bf6a169c65a7589f550dfec0"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0864.pcd2.gz",
+          "count": 24778,
+          "bytes": 112195,
+          "sha256": "2c644151a72fca134a61390a01268bd7085aefaf22b73da45407f63634428604"
+        }
+      },
+      "native_mask_count": 396106
+    },
+    {
+      "source_index": 865,
+      "image_timestamp_ns": 1793919273268662287,
+      "time_s": 7.666768,
+      "original_time_s": 47.666768,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0865.pcd2.gz",
+          "count": 397819,
+          "bytes": 1474489,
+          "sha256": "f49d8d9e4fb9f2a6757f4e15d968025f91bc29d43ef5e5b2925f2f0f40856a5a"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0865.pcd2.gz",
+          "count": 99417,
+          "bytes": 409302,
+          "sha256": "59fc03b95d2df402051b3675250198c17b2afbf7c8c9a69ddfcf411e2cd2816f"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0865.pcd2.gz",
+          "count": 24875,
+          "bytes": 112280,
+          "sha256": "53e9511a00c8d34498efd312718d03b3961dbe87ab356de568ad2369a31437d5"
+        }
+      },
+      "native_mask_count": 397819
+    },
+    {
+      "source_index": 866,
+      "image_timestamp_ns": 1793919273302167287,
+      "time_s": 7.700273,
+      "original_time_s": 47.700273,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0866.pcd2.gz",
+          "count": 394942,
+          "bytes": 1457461,
+          "sha256": "cd0e53a8e217000a545af6e9b159da2898fb944d807856d7e26cc83a214f3fcf"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0866.pcd2.gz",
+          "count": 98662,
+          "bytes": 404618,
+          "sha256": "84e954e9984bcf98a3d98cb59b37253c9a9adf1bb813bdf87005bffec8d34d66"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0866.pcd2.gz",
+          "count": 24674,
+          "bytes": 111282,
+          "sha256": "b137dd61ff7af7a869e49013cbaf691e8fe0bb25f3a837acaaaaf9b942467831"
+        }
+      },
+      "native_mask_count": 394942
+    },
+    {
+      "source_index": 867,
+      "image_timestamp_ns": 1793919273335665287,
+      "time_s": 7.733771,
+      "original_time_s": 47.733771,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0867.pcd2.gz",
+          "count": 380534,
+          "bytes": 1408794,
+          "sha256": "11f51090e7a3283ca536c05f12d5bdfd11008f0bca9211333fa337a10ac199c2"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0867.pcd2.gz",
+          "count": 95127,
+          "bytes": 391873,
+          "sha256": "71568a20cbbde00ac2d7b3683321e826541a9284df4d63a00c452eb6c97a5ba3"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0867.pcd2.gz",
+          "count": 23799,
+          "bytes": 107869,
+          "sha256": "35f46138a07110ede6d66b768079688a0be3ed388eed41ff5c7e6e210d706f73"
+        }
+      },
+      "native_mask_count": 380534
+    },
+    {
+      "source_index": 868,
+      "image_timestamp_ns": 1793919273402430287,
+      "time_s": 7.800536,
+      "original_time_s": 47.800536,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0868.pcd2.gz",
+          "count": 386257,
+          "bytes": 1423259,
+          "sha256": "5f24ea8ea9b7ef47841950a7f4159b41612a4471e2ec2a6e8413dd4d6dbfe79f"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0868.pcd2.gz",
+          "count": 96497,
+          "bytes": 395764,
+          "sha256": "34a8e06adc5cd5e9c9f19f7c36a32f45856a027a47d5b4dfb23297c3d888e40b"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0868.pcd2.gz",
+          "count": 24149,
+          "bytes": 108282,
+          "sha256": "9b48f322b60a05ccabb94eb1d1df7731d83b6b85365c9714955580c31d04be7d"
+        }
+      },
+      "native_mask_count": 386257
+    },
+    {
+      "source_index": 869,
+      "image_timestamp_ns": 1793919273435919287,
+      "time_s": 7.834025,
+      "original_time_s": 47.834025,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0869.pcd2.gz",
+          "count": 384497,
+          "bytes": 1428826,
+          "sha256": "7d68fb4f295420e1ba1a32a37a2d3ef714767c8cc9558f3b82412783ca15e862"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0869.pcd2.gz",
+          "count": 95999,
+          "bytes": 395740,
+          "sha256": "5942c596e5a43fd8b76ac869ce89e1ce4f5c15783c7055b9c12caf79a3ddbe85"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0869.pcd2.gz",
+          "count": 24032,
+          "bytes": 109286,
+          "sha256": "1406dbe45081589786b59e793639ce012071c6a4df238d43ee6154093aa28b1a"
+        }
+      },
+      "native_mask_count": 384497
+    },
+    {
+      "source_index": 870,
+      "image_timestamp_ns": 1793919273469418287,
+      "time_s": 7.867524,
+      "original_time_s": 47.867524,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0870.pcd2.gz",
+          "count": 395245,
+          "bytes": 1465698,
+          "sha256": "b685f211b5673df5f74b6633527bb5cc3ec38aaa35d9e4d91cecbb7a9120e061"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0870.pcd2.gz",
+          "count": 98713,
+          "bytes": 407012,
+          "sha256": "19b4a5200471491de9c6303b5004f7dfc9a946e341f81d765bf5a930c75e1435"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0870.pcd2.gz",
+          "count": 24700,
+          "bytes": 111767,
+          "sha256": "8c91b688d0b5c4e2d236dc3a28b931f2b77f4f38ee246ab401e2bb2c7873f837"
+        }
+      },
+      "native_mask_count": 395245
+    },
+    {
+      "source_index": 871,
+      "image_timestamp_ns": 1793919273569802287,
+      "time_s": 7.967908,
+      "original_time_s": 47.967908,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0871.pcd2.gz",
+          "count": 390803,
+          "bytes": 1439285,
+          "sha256": "205567d609376c1e39eb364e974cfc076eef215302282271ed3389c181ff4c05"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0871.pcd2.gz",
+          "count": 97589,
+          "bytes": 399268,
+          "sha256": "b8b0f998d9d7b47b649802ff2eccad535f6dc85eebc7a0576a131632675cd67f"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0871.pcd2.gz",
+          "count": 24422,
+          "bytes": 109954,
+          "sha256": "ba40fb978b1f401b50db81a3d0d045b6c9bccd2c1486503535960eeee075b7e6"
+        }
+      },
+      "native_mask_count": 390803
+    },
+    {
+      "source_index": 872,
+      "image_timestamp_ns": 1793919273603168287,
+      "time_s": 8.001274,
+      "original_time_s": 48.001274,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0872.pcd2.gz",
+          "count": 417222,
+          "bytes": 1543560,
+          "sha256": "d4020cfa5b254bc6d2b5b591824a0a4fd573a8652c569571cd516fb692af35ad"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0872.pcd2.gz",
+          "count": 104286,
+          "bytes": 428794,
+          "sha256": "1a659da222f86cc98f980ca6ce9af4a77ace44c1b8abcb1e490a3a88d89235b3"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0872.pcd2.gz",
+          "count": 26069,
+          "bytes": 117333,
+          "sha256": "534bddb5fcb58da34bae3b07930df1dd6c8e6fb2a6c7610fbd43e2bbf7ea87b0"
+        }
+      },
+      "native_mask_count": 417222
+    },
+    {
+      "source_index": 873,
+      "image_timestamp_ns": 1793919273636674287,
+      "time_s": 8.03478,
+      "original_time_s": 48.03478,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0873.pcd2.gz",
+          "count": 385138,
+          "bytes": 1429572,
+          "sha256": "77be355f29f9ef7dde9caa2885774a933f2605d574fdf8c918e62ab128a39153"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0873.pcd2.gz",
+          "count": 96174,
+          "bytes": 395963,
+          "sha256": "e3ee41ebe1baaf3b8a7236a7af06fc15890908dd43bc0937fb055363e1721e23"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0873.pcd2.gz",
+          "count": 24083,
+          "bytes": 109044,
+          "sha256": "7b1a4c49fb63a4fc73352549d0339d019617e0a04ac090e6b641e516df4dbd4a"
+        }
+      },
+      "native_mask_count": 385138
+    },
+    {
+      "source_index": 874,
+      "image_timestamp_ns": 1793919273670164287,
+      "time_s": 8.06827,
+      "original_time_s": 48.06827,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0874.pcd2.gz",
+          "count": 397702,
+          "bytes": 1460193,
+          "sha256": "5259cf061047c9922ce36495b231fa1f157f77a149fd07e62961e2748e519c5a"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0874.pcd2.gz",
+          "count": 99360,
+          "bytes": 406001,
+          "sha256": "77d8a0d657f48c088768327bd4ca76270c5235654cc7a5e7d6d4c03a0f9dd7b1"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0874.pcd2.gz",
+          "count": 24841,
+          "bytes": 111333,
+          "sha256": "1f89947b25c819f4b71035f51c44e7e6476e42c9c7224726e0f36595326762fb"
+        }
+      },
+      "native_mask_count": 397702
+    },
+    {
+      "source_index": 875,
+      "image_timestamp_ns": 1793919273736931287,
+      "time_s": 8.135037,
+      "original_time_s": 48.135037,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0875.pcd2.gz",
+          "count": 415256,
+          "bytes": 1528721,
+          "sha256": "3d62f01e715f635ae11f2792bb93b3518d92cdfa24d3acc2853a4b1f7e2855df"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0875.pcd2.gz",
+          "count": 103781,
+          "bytes": 423688,
+          "sha256": "bd66a7159dfa470f3e54b5fbbbae7b9dad8bcfc6f1bc36c510f5a8d5e103385e"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0875.pcd2.gz",
+          "count": 25968,
+          "bytes": 115934,
+          "sha256": "ff0e2f47ff030af4083056f06d2b8ab124f1bbad1ee1508cb8030a8a3152af27"
+        }
+      },
+      "native_mask_count": 415256
+    },
+    {
+      "source_index": 876,
+      "image_timestamp_ns": 1793919273803929287,
+      "time_s": 8.202035,
+      "original_time_s": 48.202035,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0876.pcd2.gz",
+          "count": 399491,
+          "bytes": 1473892,
+          "sha256": "cf6fec2006e09a744f2bf3dc665e73688d108878e755a8ca3d739cf4d93b5005"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0876.pcd2.gz",
+          "count": 99794,
+          "bytes": 408782,
+          "sha256": "454014602a42b1e222e05717997337439f88a1b1d7fe33dcabf9b545959e73ab"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0876.pcd2.gz",
+          "count": 24941,
+          "bytes": 112340,
+          "sha256": "1391e1fc0ee2c616ada8f537ced2484a89928aa9a4f8b3523861746f6cb0130e"
+        }
+      },
+      "native_mask_count": 399491
+    },
+    {
+      "source_index": 877,
+      "image_timestamp_ns": 1793919273837420287,
+      "time_s": 8.235526,
+      "original_time_s": 48.235526,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0877.pcd2.gz",
+          "count": 374089,
+          "bytes": 1384566,
+          "sha256": "7b7b2e11e44104c331fb8d3dd89e62eaa359aaf5aa4cbfedace99877acdd0920"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0877.pcd2.gz",
+          "count": 93422,
+          "bytes": 383383,
+          "sha256": "a316a46f627818d227608d65058f0cf42d24f65b64a740f8d9490e8746233ff8"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0877.pcd2.gz",
+          "count": 23355,
+          "bytes": 105871,
+          "sha256": "325e3c691853dce88dd62ef8fa160841b45fb028a795821dc81c7724482a971e"
+        }
+      },
+      "native_mask_count": 374089
+    },
+    {
+      "source_index": 878,
+      "image_timestamp_ns": 1793919273870673287,
+      "time_s": 8.268779,
+      "original_time_s": 48.268779,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0878.pcd2.gz",
+          "count": 405122,
+          "bytes": 1486337,
+          "sha256": "c758aed19578752199e9a9fc1c425afa0fec3cc4d0474f5d3c5d339a9880f070"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0878.pcd2.gz",
+          "count": 101199,
+          "bytes": 413324,
+          "sha256": "aa1f03b6506abb40c72b518367e38906e67af8abb2239777c332a949af4fd8e7"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0878.pcd2.gz",
+          "count": 25301,
+          "bytes": 112882,
+          "sha256": "73a289037643dc8d5a57cb45ac3dfdb1badfe4f366740deef6a84b1d73dc4422"
+        }
+      },
+      "native_mask_count": 405122
+    },
+    {
+      "source_index": 879,
+      "image_timestamp_ns": 1793919273904297287,
+      "time_s": 8.302403,
+      "original_time_s": 48.302403,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0879.pcd2.gz",
+          "count": 388445,
+          "bytes": 1435602,
+          "sha256": "f8ee1c2c596cdc3b98ab32af46393def0ae2778ad9941d0854de3577823a4211"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0879.pcd2.gz",
+          "count": 97015,
+          "bytes": 397494,
+          "sha256": "17f1e2efc1db3c232cd29b483ac6e4a1f435f299b3db78b39d8cc6dc7abe0cd8"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0879.pcd2.gz",
+          "count": 24280,
+          "bytes": 109616,
+          "sha256": "5d5775fda60f147c1428a8feaff170e9962a836cbfd6d62d07a1eba2a99552b8"
+        }
+      },
+      "native_mask_count": 388445
+    },
+    {
+      "source_index": 880,
+      "image_timestamp_ns": 1793919274138430287,
+      "time_s": 8.536536,
+      "original_time_s": 48.536536,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0880.pcd2.gz",
+          "count": 407346,
+          "bytes": 1506459,
+          "sha256": "eac68293028636f8a50e299d302fdae4441c9c443fdb613ef44e2f12d0020bde"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0880.pcd2.gz",
+          "count": 101783,
+          "bytes": 416777,
+          "sha256": "544efd08aaf247502e24e5b3c7005dae92f82344c94f7b5c6062a64babcaf9e4"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0880.pcd2.gz",
+          "count": 25451,
+          "bytes": 114356,
+          "sha256": "5e7eb4ede68efe390833dbfff34a0e3943a830c1a85256c55feac75735476542"
+        }
+      },
+      "native_mask_count": 407346
+    },
+    {
+      "source_index": 881,
+      "image_timestamp_ns": 1793919274171939287,
+      "time_s": 8.570045,
+      "original_time_s": 48.570045,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0881.pcd2.gz",
+          "count": 401499,
+          "bytes": 1484140,
+          "sha256": "25d5745ff2305216ed1c0b03452886f993ca773ba7a12e155a6a02fe7058b85d"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0881.pcd2.gz",
+          "count": 100275,
+          "bytes": 412259,
+          "sha256": "df61761e21f43ac8421e01c32fa0a1483064900143eee96879f0c61e6caf9d20"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0881.pcd2.gz",
+          "count": 25082,
+          "bytes": 112671,
+          "sha256": "57b46e2657eede0aa5b4aff806196ff8b5fc066b7fbe8ee2d53802c6a2bf4f15"
+        }
+      },
+      "native_mask_count": 401499
+    },
+    {
+      "source_index": 882,
+      "image_timestamp_ns": 1793919274205184287,
+      "time_s": 8.60329,
+      "original_time_s": 48.60329,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0882.pcd2.gz",
+          "count": 387898,
+          "bytes": 1431894,
+          "sha256": "802cd12d810909d9b69a80fc4238c30484367fff9e3b8d521e2509b44295479e"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0882.pcd2.gz",
+          "count": 96906,
+          "bytes": 396703,
+          "sha256": "117d30bbde9ea0597191914f3e25635421d15e83743b653c3378ab5758969c1e"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0882.pcd2.gz",
+          "count": 24257,
+          "bytes": 109182,
+          "sha256": "5d9bc4dba8bc99d1ec0c775c47614fde4e5e968ec48c2c009ef754c2e042fc54"
+        }
+      },
+      "native_mask_count": 387898
+    },
+    {
+      "source_index": 883,
+      "image_timestamp_ns": 1793919274272188287,
+      "time_s": 8.670294,
+      "original_time_s": 48.670294,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0883.pcd2.gz",
+          "count": 413972,
+          "bytes": 1524422,
+          "sha256": "ad69424ec829f89cc7f341266f5decd3a7b4651ed78c89e9970214e05f04be2b"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0883.pcd2.gz",
+          "count": 103432,
+          "bytes": 422630,
+          "sha256": "62e904d01a3b928292286af97dd344086957fe045ec856d435e2e60609dbda70"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0883.pcd2.gz",
+          "count": 25895,
+          "bytes": 115997,
+          "sha256": "e70ad8fa3bbb063adc5e15877d70cc39d2e6532a7ee28579240c6b7871e2445b"
+        }
+      },
+      "native_mask_count": 413972
+    },
+    {
+      "source_index": 884,
+      "image_timestamp_ns": 1793919274372554287,
+      "time_s": 8.77066,
+      "original_time_s": 48.77066,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0884.pcd2.gz",
+          "count": 398518,
+          "bytes": 1477738,
+          "sha256": "d1a2de954c7ae1db6d2e4c71cd2fdb4f38d854a8f3522f4874dd244c53eb0c91"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0884.pcd2.gz",
+          "count": 99564,
+          "bytes": 410603,
+          "sha256": "8c54dc0237acce8883c16a5761f1bdb2ef1b66641ff081e189888eebb5091823"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0884.pcd2.gz",
+          "count": 24930,
+          "bytes": 112159,
+          "sha256": "abb4836420e289156400828b3ce80448a9d8835f188855b81d58dc71e7cfb893"
+        }
+      },
+      "native_mask_count": 398518
+    },
+    {
+      "source_index": 885,
+      "image_timestamp_ns": 1793919274406065287,
+      "time_s": 8.804171,
+      "original_time_s": 48.804171,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0885.pcd2.gz",
+          "count": 375358,
+          "bytes": 1390468,
+          "sha256": "ce55e7adc81872af2edab34356d132ff73313f70bfc4960dde5470011c9ced7b"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0885.pcd2.gz",
+          "count": 93709,
+          "bytes": 385107,
+          "sha256": "493d3306169ad5f5c89cbedb7bde396a4b3fc47dffcd2c3df1a79d48407bc9ed"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0885.pcd2.gz",
+          "count": 23457,
+          "bytes": 106316,
+          "sha256": "e55842eb079ddb072a5dc5342515b56317bf1253bf12d876bbd287f483154444"
+        }
+      },
+      "native_mask_count": 375358
+    },
+    {
+      "source_index": 886,
+      "image_timestamp_ns": 1793919274439434287,
+      "time_s": 8.83754,
+      "original_time_s": 48.83754,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0886.pcd2.gz",
+          "count": 386883,
+          "bytes": 1431495,
+          "sha256": "0d6b00cf11158fed9e8ff831137a4997fb539d11f31a3beb34f9f6c8e7bfc4b2"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0886.pcd2.gz",
+          "count": 96664,
+          "bytes": 396799,
+          "sha256": "eb5224cc93f68c6e8265f1f0975e719278ab3e961adcb35cc46888ffd913d2af"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0886.pcd2.gz",
+          "count": 24206,
+          "bytes": 109223,
+          "sha256": "b99a93eb0bf374742a3e005111889b1b118d68228250fa2722bf79b13f3aea73"
+        }
+      },
+      "native_mask_count": 386883
+    },
+    {
+      "source_index": 887,
+      "image_timestamp_ns": 1793919274506436287,
+      "time_s": 8.904542,
+      "original_time_s": 48.904542,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0887.pcd2.gz",
+          "count": 398744,
+          "bytes": 1472147,
+          "sha256": "046c000ef32118d9a4cf08f8874f3305c6cab9ca0170298b1951a5efce28ac48"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0887.pcd2.gz",
+          "count": 99606,
+          "bytes": 408600,
+          "sha256": "ebc1d17a17617c3c2a1db7553048d646ed0a421d43ead9fbba4eab3855ee9c37"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0887.pcd2.gz",
+          "count": 24947,
+          "bytes": 112236,
+          "sha256": "c4f0258a8c41933186897df2a963abdf00008f3817f30e9d115bbb3cbd22aff0"
+        }
+      },
+      "native_mask_count": 398744
+    },
+    {
+      "source_index": 888,
+      "image_timestamp_ns": 1793919274572931287,
+      "time_s": 8.971037,
+      "original_time_s": 48.971037,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0888.pcd2.gz",
+          "count": 328601,
+          "bytes": 1221609,
+          "sha256": "a9f21bd49f57305bb2b31553f40fb0c352fb0ac58e95c8532c17197227e8e484"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0888.pcd2.gz",
+          "count": 82134,
+          "bytes": 340816,
+          "sha256": "dc1d25152b07f6b4ac10cfba566037f0200a9a38a979f5f4b78240cc0c80ec64"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0888.pcd2.gz",
+          "count": 20541,
+          "bytes": 93909,
+          "sha256": "2c44b3c5eeee8988cc63f890287dce93d5babe83b5aacecb02e857e321592758"
+        }
+      },
+      "native_mask_count": 328601
+    },
+    {
+      "source_index": 889,
+      "image_timestamp_ns": 1793919274640428287,
+      "time_s": 9.038534,
+      "original_time_s": 49.038534,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0889.pcd2.gz",
+          "count": 397886,
+          "bytes": 1467220,
+          "sha256": "178b9cc2137a63ee8b18ed3add9b36c4df7ef2231d7d1516e3e7964ba2f93531"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0889.pcd2.gz",
+          "count": 99511,
+          "bytes": 408244,
+          "sha256": "2fca618c80d4a930b7eca0a581ee0df558aa385a84de88ed3e414dccd11ae569"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0889.pcd2.gz",
+          "count": 24850,
+          "bytes": 112414,
+          "sha256": "93fe9c094ac8a1b4ca773f1ffe5cc89229e547d704c6042ede12988c5bca48e6"
+        }
+      },
+      "native_mask_count": 397886
+    },
+    {
+      "source_index": 890,
+      "image_timestamp_ns": 1793919274673681287,
+      "time_s": 9.071787,
+      "original_time_s": 49.071787,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0890.pcd2.gz",
+          "count": 411425,
+          "bytes": 1527793,
+          "sha256": "10111b2b8355eef96d4093232f51be32cf3b2a862830c7c9ff5069922091a397"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0890.pcd2.gz",
+          "count": 102784,
+          "bytes": 423611,
+          "sha256": "1b840f6baa8cdb593232bc4a4c1cd64aa96a15abf981d9e6c29605af1505ff0d"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0890.pcd2.gz",
+          "count": 25718,
+          "bytes": 116450,
+          "sha256": "d96071afc574260269baf30e5784908e39d8db653c104d934f33da518d83383e"
+        }
+      },
+      "native_mask_count": 411425
+    },
+    {
+      "source_index": 891,
+      "image_timestamp_ns": 1793919274706944287,
+      "time_s": 9.10505,
+      "original_time_s": 49.10505,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0891.pcd2.gz",
+          "count": 409614,
+          "bytes": 1497933,
+          "sha256": "7bff841d4a5a932eb83e218f88b0af019f19038144a2e642ffe0878981483043"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0891.pcd2.gz",
+          "count": 102402,
+          "bytes": 415137,
+          "sha256": "98202291f88abd32965714de4c57ace4aa13dbf34a5282581dc6c527d6a86824"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0891.pcd2.gz",
+          "count": 25661,
+          "bytes": 114381,
+          "sha256": "f813094e4955473929af888a694ae57c8e042036c1a5295cb81676ca00528c76"
+        }
+      },
+      "native_mask_count": 409614
+    },
+    {
+      "source_index": 892,
+      "image_timestamp_ns": 1793919274773935287,
+      "time_s": 9.172041,
+      "original_time_s": 49.172041,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0892.pcd2.gz",
+          "count": 382544,
+          "bytes": 1413398,
+          "sha256": "d6b0610f4298f57792e45dc3f485e007a084989cfded9264db0ebc9dedcb6b5e"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0892.pcd2.gz",
+          "count": 95574,
+          "bytes": 393040,
+          "sha256": "3fcc6c43926d09d1a2e34011e2007f91ec5732eea770063c634d72daaab8781a"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0892.pcd2.gz",
+          "count": 23882,
+          "bytes": 107981,
+          "sha256": "fef5cf77f189453a55d78b3f4cf25bcf29e707be86b91d4b0e204ea27f5546ad"
+        }
+      },
+      "native_mask_count": 382544
+    },
+    {
+      "source_index": 893,
+      "image_timestamp_ns": 1793919274807442287,
+      "time_s": 9.205548,
+      "original_time_s": 49.205548,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0893.pcd2.gz",
+          "count": 397342,
+          "bytes": 1464977,
+          "sha256": "0a9d88b4fb33396a77eec71a896e47b57d2d95dc67f8a12072ac0777b2a0fa79"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0893.pcd2.gz",
+          "count": 99291,
+          "bytes": 407412,
+          "sha256": "0a773f0225513702432711577897a970b4d1f7ca047be13e8edc16e604350fae"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0893.pcd2.gz",
+          "count": 24799,
+          "bytes": 111791,
+          "sha256": "b2ef5fc89e524d6c0c6fa386b7720a8e50554551332771451da12f8f3d820753"
+        }
+      },
+      "native_mask_count": 397342
+    },
+    {
+      "source_index": 894,
+      "image_timestamp_ns": 1793919274840938287,
+      "time_s": 9.239044,
+      "original_time_s": 49.239044,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0894.pcd2.gz",
+          "count": 384360,
+          "bytes": 1415749,
+          "sha256": "c78e122789df79909f273f35ade57be44f6e8f835fafddc787f9e86bba7e3b99"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0894.pcd2.gz",
+          "count": 96007,
+          "bytes": 393525,
+          "sha256": "4a99a664eb5b0021bf5a4aad459f83d089cfc48358c09d94ea792215c1a06c4e"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0894.pcd2.gz",
+          "count": 24055,
+          "bytes": 108327,
+          "sha256": "8e4255646ccffbc19dcdee81390c1fae52330bd156599edfb917abc6ba826154"
+        }
+      },
+      "native_mask_count": 384360
+    },
+    {
+      "source_index": 895,
+      "image_timestamp_ns": 1793919274907442287,
+      "time_s": 9.305548,
+      "original_time_s": 49.305548,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0895.pcd2.gz",
+          "count": 338247,
+          "bytes": 1259440,
+          "sha256": "e8816c6dda721787131d27d72d6b312131175e90764973654dc5adfa2d9dfc71"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0895.pcd2.gz",
+          "count": 84571,
+          "bytes": 350348,
+          "sha256": "31139fb939268b29108d45dd8627a9fe6f94c36d40f527fccc6d281c70f0a5e4"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0895.pcd2.gz",
+          "count": 21179,
+          "bytes": 96159,
+          "sha256": "d65ccee9f78b65e7081133e3551591a61073c78d756b9d35aa472b1f8926142a"
+        }
+      },
+      "native_mask_count": 338247
+    },
+    {
+      "source_index": 896,
+      "image_timestamp_ns": 1793919274975078287,
+      "time_s": 9.373184,
+      "original_time_s": 49.373184,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0896.pcd2.gz",
+          "count": 401637,
+          "bytes": 1482617,
+          "sha256": "fc9203542e4b944c4c5d6ab4907fe1a6534a0463c170dc455eec6b5caccc9fe7"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0896.pcd2.gz",
+          "count": 100300,
+          "bytes": 411019,
+          "sha256": "a66b5707d352110ae01f4c21e1e843901f747be3e898c6ee6905dbe1ce73c5d9"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0896.pcd2.gz",
+          "count": 25054,
+          "bytes": 112743,
+          "sha256": "1f876e759f190eb1b31f934f7be2a512c72e217604c995562e458c9ff73867ba"
+        }
+      },
+      "native_mask_count": 401637
+    },
+    {
+      "source_index": 897,
+      "image_timestamp_ns": 1793919275008202287,
+      "time_s": 9.406308,
+      "original_time_s": 49.406308,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0897.pcd2.gz",
+          "count": 382222,
+          "bytes": 1419482,
+          "sha256": "e35e51c4c40199d2e0551fe941026e5e3c4f185738f1feae5285f3fdd9d2cbd5"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0897.pcd2.gz",
+          "count": 95430,
+          "bytes": 394518,
+          "sha256": "8dd31bca3c26807ce4612e6d52adf1e7538a51e4ec1bc0db765b612fb9494aaf"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0897.pcd2.gz",
+          "count": 23897,
+          "bytes": 108683,
+          "sha256": "e486c5ce19f2013474079600f16b81ef6282421ab5079b13bee036d3a0590847"
+        }
+      },
+      "native_mask_count": 382222
+    },
+    {
+      "source_index": 898,
+      "image_timestamp_ns": 1793919275074946287,
+      "time_s": 9.473052,
+      "original_time_s": 49.473052,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0898.pcd2.gz",
+          "count": 402304,
+          "bytes": 1491976,
+          "sha256": "3a08bdbb83220a9102cdbfc3625c0cd684a52a4ac5ba1e48a4419c4741b4b1d1"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0898.pcd2.gz",
+          "count": 100420,
+          "bytes": 411631,
+          "sha256": "2abd514bb2d7f406ecec880a5ff27c0ae6dcae8a6ac01b5efe011736f64b6b9b"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0898.pcd2.gz",
+          "count": 25125,
+          "bytes": 112681,
+          "sha256": "d517ff54281136e1372b94c543504f6100b36be019858dc93612adc43cdd467f"
+        }
+      },
+      "native_mask_count": 402304
+    },
+    {
+      "source_index": 899,
+      "image_timestamp_ns": 1793919275108463287,
+      "time_s": 9.506569,
+      "original_time_s": 49.506569,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0899.pcd2.gz",
+          "count": 399248,
+          "bytes": 1480166,
+          "sha256": "fdbef009aa902fc17b1406ffe7183f6bc8818b349e2c51091e93c06228c8d70e"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0899.pcd2.gz",
+          "count": 99793,
+          "bytes": 411084,
+          "sha256": "f442200e3a9ce5396a93e09bdcb5d60d50ed195e45ae02423ca633e22bc34925"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0899.pcd2.gz",
+          "count": 24936,
+          "bytes": 112282,
+          "sha256": "c9c8c8848aa9f1a0db343759cc71eaad276281d41a101b60d9d9f635e8a91241"
+        }
+      },
+      "native_mask_count": 399248
+    },
+    {
+      "source_index": 900,
+      "image_timestamp_ns": 1793919275141960287,
+      "time_s": 9.540066,
+      "original_time_s": 49.540066,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0900.pcd2.gz",
+          "count": 388244,
+          "bytes": 1434557,
+          "sha256": "a4a7b779c26e2d64e7efacb286d201f96c97a00a8e0e42a74848510d047c8ffa"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0900.pcd2.gz",
+          "count": 97050,
+          "bytes": 397708,
+          "sha256": "182c450143f415654108cc497a0fbdc46d0f35b67f2383fefcb9c4ad8bfe9515"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0900.pcd2.gz",
+          "count": 24284,
+          "bytes": 109488,
+          "sha256": "f64bc554353f2b5060fefa7cd02aa4588ed75356c0a5c9543255d6d29ecf92c3"
+        }
+      },
+      "native_mask_count": 388244
+    },
+    {
+      "source_index": 901,
+      "image_timestamp_ns": 1793919275208835287,
+      "time_s": 9.606941,
+      "original_time_s": 49.606941,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0901.pcd2.gz",
+          "count": 398039,
+          "bytes": 1469962,
+          "sha256": "14edfb0f8679de5ed5440d846ae4bfe866f3f18bf9689da5f85a09d9ac230882"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0901.pcd2.gz",
+          "count": 99421,
+          "bytes": 408637,
+          "sha256": "744306069722423204545a0f3bba5f2ccacc85da4215d3f1fe0f45ed0da39335"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0901.pcd2.gz",
+          "count": 24899,
+          "bytes": 112405,
+          "sha256": "749a9c3aa63e0be8a38bebb39c3123e41f94876075844c05ad41dd1148f55779"
+        }
+      },
+      "native_mask_count": 398039
+    },
+    {
+      "source_index": 902,
+      "image_timestamp_ns": 1793919275275699287,
+      "time_s": 9.673805,
+      "original_time_s": 49.673805,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0902.pcd2.gz",
+          "count": 419108,
+          "bytes": 1535784,
+          "sha256": "addbcc225c8b520df7db8f0c7a9676a2f45640c5c7d86f51cc6d77115ca6f835"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0902.pcd2.gz",
+          "count": 104661,
+          "bytes": 426053,
+          "sha256": "1e07f08c41a035d912ec52b25643b620b74d5d8f3a98e1305dc70770f671c402"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0902.pcd2.gz",
+          "count": 26199,
+          "bytes": 117127,
+          "sha256": "c5acdacd13d5adc7513b740925e5f5720ec4e34ae364b5c344f3f11be1407805"
+        }
+      },
+      "native_mask_count": 419108
+    },
+    {
+      "source_index": 903,
+      "image_timestamp_ns": 1793919275309201287,
+      "time_s": 9.707307,
+      "original_time_s": 49.707307,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0903.pcd2.gz",
+          "count": 390311,
+          "bytes": 1449210,
+          "sha256": "5b8808ebfac599062c1a5be88ee4b0e06ebde75dc69664816ad91f4f5abe28a5"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0903.pcd2.gz",
+          "count": 97558,
+          "bytes": 402700,
+          "sha256": "65b54ae577c341563d14d3542331e95e3ed2c81bc614477cd97c72137a62344d"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0903.pcd2.gz",
+          "count": 24387,
+          "bytes": 110678,
+          "sha256": "1e2e2c099135b8f22c56899aae114ac26301ec42f8973c71150adfb6dad43fab"
+        }
+      },
+      "native_mask_count": 390311
+    },
+    {
+      "source_index": 904,
+      "image_timestamp_ns": 1793919275376084287,
+      "time_s": 9.77419,
+      "original_time_s": 49.77419,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0904.pcd2.gz",
+          "count": 389969,
+          "bytes": 1434198,
+          "sha256": "a8bbe622c1367c22dea814e0d597ccaae9e731036342982cfbdfdc9a23798961"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0904.pcd2.gz",
+          "count": 97409,
+          "bytes": 397057,
+          "sha256": "9be64f1ed7f735ffa4b662d253383d6a45c5581ba2cc5378bdf6a37cd604a40f"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0904.pcd2.gz",
+          "count": 24335,
+          "bytes": 109179,
+          "sha256": "3d145faf617049180882274a41308e0c82ef2fee1b1fc6c08e30c505607a1497"
+        }
+      },
+      "native_mask_count": 389969
+    },
+    {
+      "source_index": 905,
+      "image_timestamp_ns": 1793919275409577287,
+      "time_s": 9.807683,
+      "original_time_s": 49.807683,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0905.pcd2.gz",
+          "count": 378286,
+          "bytes": 1403152,
+          "sha256": "c3b1e5d81b0cd7d6a66fe977404ab28bd5e12838f98803dfb099067b08538674"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0905.pcd2.gz",
+          "count": 94470,
+          "bytes": 389180,
+          "sha256": "ac0da6e5c2790d5f71155555a72f191e81b922fd2c98a6f59a3fa527dd79362b"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0905.pcd2.gz",
+          "count": 23647,
+          "bytes": 107020,
+          "sha256": "e5714ba3d7e6754349105653a82e496439381e24eccb2c9e512fd9003f569ea5"
+        }
+      },
+      "native_mask_count": 378286
+    },
+    {
+      "source_index": 906,
+      "image_timestamp_ns": 1793919275442950287,
+      "time_s": 9.841056,
+      "original_time_s": 49.841056,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0906.pcd2.gz",
+          "count": 391992,
+          "bytes": 1450669,
+          "sha256": "be87e078330129bbcd63b1d139cede9d22df0d42a00e9a92a1fb9a8c39ed3172"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0906.pcd2.gz",
+          "count": 97953,
+          "bytes": 402629,
+          "sha256": "e0ec60557496da5a5d26350d1e7aa1e16a920b7ed1276efd67157863eeb777e0"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0906.pcd2.gz",
+          "count": 24519,
+          "bytes": 110638,
+          "sha256": "4cf27cde6e303c0fe4909f91ef1f4b5d00c3ea907d472f6ba6c5f41327b8e61f"
+        }
+      },
+      "native_mask_count": 391992
+    },
+    {
+      "source_index": 907,
+      "image_timestamp_ns": 1793919275476455287,
+      "time_s": 9.874561,
+      "original_time_s": 49.874561,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0907.pcd2.gz",
+          "count": 406173,
+          "bytes": 1495023,
+          "sha256": "017ad7903b22fe253d977238f6c363d7acc92974fed9ecc16c3752cce251f0bf"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0907.pcd2.gz",
+          "count": 101416,
+          "bytes": 414545,
+          "sha256": "bc9fe3f17fc684dbf3891b7bc6c871341a55e6f6e61eaa4559f13253b05f202e"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0907.pcd2.gz",
+          "count": 25380,
+          "bytes": 113644,
+          "sha256": "44878cafb3f8cd1c61cbb2dad1a6d689c8db35bc58623532060dcae1a97ce0d9"
+        }
+      },
+      "native_mask_count": 406173
+    },
+    {
+      "source_index": 908,
+      "image_timestamp_ns": 1793919275509831287,
+      "time_s": 9.907937,
+      "original_time_s": 49.907937,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0908.pcd2.gz",
+          "count": 389420,
+          "bytes": 1438202,
+          "sha256": "020e626dbd0586218f54299cccb8770f9b01a4ee4f3260331223f5ee0ed7d955"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0908.pcd2.gz",
+          "count": 97268,
+          "bytes": 398904,
+          "sha256": "03fb79d97e161c7f2e3aad23625a41cedc45f50eeb77b8e65ad10704cb7d42b5"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0908.pcd2.gz",
+          "count": 24332,
+          "bytes": 109727,
+          "sha256": "c8d89b7b8f7ee2352c52dc8a0b40319dbd9f267bdf1a9d7ae638643467dd74c2"
+        }
+      },
+      "native_mask_count": 389420
+    },
+    {
+      "source_index": 909,
+      "image_timestamp_ns": 1793919275543330287,
+      "time_s": 9.941436,
+      "original_time_s": 49.941436,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0909.pcd2.gz",
+          "count": 400295,
+          "bytes": 1472594,
+          "sha256": "548c0ee60fa644f19eec47f3e2c479a74ef7a58c5f58e1a1a0afff6ee724d53d"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0909.pcd2.gz",
+          "count": 99965,
+          "bytes": 408867,
+          "sha256": "12ea993128b2362dd451fce2c3a742e578d60ec469415bc5b1857f7e1b6dda8c"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0909.pcd2.gz",
+          "count": 25062,
+          "bytes": 112453,
+          "sha256": "5ac7514e314affbb2961a9b7e296d24cbc32e8589a0789e2f073ec0595ebd78b"
+        }
+      },
+      "native_mask_count": 400295
+    },
+    {
+      "source_index": 910,
+      "image_timestamp_ns": 1793919275576839287,
+      "time_s": 9.974945,
+      "original_time_s": 49.974945,
+      "levels": {
+        "1": {
+          "path": "../pointclouds/sdk/frames/s1/0910.pcd2.gz",
+          "count": 398250,
+          "bytes": 1470959,
+          "sha256": "10ba4410428623931ca38f346be74c72b404d7fbae3d13e99b431325d1226158"
+        },
+        "2": {
+          "path": "../pointclouds/sdk/frames/s2/0910.pcd2.gz",
+          "count": 99639,
+          "bytes": 408095,
+          "sha256": "3ff630588343ba5f5edac5996560cd967e3b208359265b8139954228cb50fd3a"
+        },
+        "4": {
+          "path": "../pointclouds/sdk/frames/s4/0910.pcd2.gz",
+          "count": 24908,
+          "bytes": 112098,
+          "sha256": "65e0726a9f58d14d0fb21c4bcf7b0c3b2389a7a0441ebb26fb32dd9adc8d4d03"
+        }
+      },
+      "native_mask_count": 398250
+    }
+  ],
+  "raw_source": "rope-manipulation-40-50"
+}
