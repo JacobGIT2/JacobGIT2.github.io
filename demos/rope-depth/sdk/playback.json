@@ -1,6 +1,6 @@
 {
   "schema": "rgbd-pcd-playback-presentation.v1",
   "default_stride": 4,
-  "final_hold_s": 0.025055000000001826,
-  "total_duration_s": 10.0
+  "final_hold_s": 0.035738000000002046,
+  "total_duration_s": 7.0
 }

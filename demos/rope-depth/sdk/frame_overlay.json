@@ -3,7 +3,7 @@
   "scene_frame": "zed_left_optical",
   "units": "m",
   "axis_length_m": 0.15,
-  "source_trial": "rope-manipulation-40-50",
+  "source_trial": "rope-manipulation-40-47",
   "frames": [
     {
       "id": "Cz",

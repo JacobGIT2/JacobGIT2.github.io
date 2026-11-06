@@ -2,14 +2,14 @@
   "schema": "public-stereo-manipulation-demo.v1",
   "status": "complete",
   "source_display_interval_s": [
-    40,
-    50
+    40.0,
+    47.0
   ],
-  "duration_s": 10,
-  "frame_count": 200,
+  "duration_s": 7.0,
+  "frame_count": 141,
   "source_index_range": [
     711,
-    910
+    851
   ],
   "camera": "ZED 2i",
   "SDK_depth_resolution_hw": [
@@ -39,18 +39,31 @@
   "RGB_videos": "Display copies from original rectified PNGs; not stereo inference inputs",
   "depth_accuracy_accepted": false,
   "dataset_contains_robot_controls_or_credentials": false,
-  "pointcloud_payload_bytes": 818002413,
-  "validation": {
-    "lossless_python_roundtrip_assets": 1200,
-    "independent_JavaScript_byte_exact_assets": 1200,
-    "all_point_densities": [
-      1,
-      2,
-      4
+  "pointcloud_payload_bytes": 605602258,
+  "content_quality_review": {
+    "scope": "Severe transient stereo-wrap signature; not absolute depth accuracy.",
+    "raw_recording_frames": 1229,
+    "confirmed_raw_wrap_indices": [
+      102,
+      106,
+      355,
+      489,
+      624,
+      888,
+      895,
+      1023,
+      1179
     ],
-    "frames_per_depth_source": 200,
-    "public_bundle_paths_and_hashes": "passed",
-    "local_browser_full_density_and_last_frame": "passed"
-  },
-  "public_path": "/demos/rope-depth/"
+    "previous_10s_demo_bad_indices": [
+      888,
+      895
+    ],
+    "previous_demo_bad_times_s": [
+      8.971037,
+      9.305548
+    ],
+    "current_selection_contains_known_bad_frames": false,
+    "current_display_only_trim": true,
+    "original_recording_and_previous_10s_outputs_preserved": true
+  }
 }
